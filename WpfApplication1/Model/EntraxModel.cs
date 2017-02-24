@@ -2384,6 +2384,84 @@ namespace WpfApplication1.Model
 
         #region UNOWN
 
+        public int Grade4_Carbonized_Matter
+        {
+            get { return _grade4CarbonizedMatter; }
+            set
+            {
+                if (value == _grade4CarbonizedMatter) return;
+                _grade4CarbonizedMatter = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Lightning_Cluster
+        {
+            get { return _lightningCluster; }
+            set
+            {
+                if (value == _lightningCluster) return;
+                _lightningCluster = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Fire_Cluster
+        {
+            get { return _fireCluster; }
+            set
+            {
+                if (value == _fireCluster) return;
+                _fireCluster = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Wind_Cluster
+        {
+            get { return _windCluster; }
+            set
+            {
+                if (value == _windCluster) return;
+                _windCluster = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Water_Cluster
+        {
+            get { return _waterCluster; }
+            set
+            {
+                if (value == _waterCluster) return;
+                _waterCluster = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Ice_Cluster
+        {
+            get { return _iceCluster; }
+            set
+            {
+                if (value == _iceCluster) return;
+                _iceCluster = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Earth_Cluster
+
+        {
+            get { return _earthCluster; }
+            set
+            {
+                if (value == _earthCluster) return;
+                _earthCluster = value;
+                OnPropertyChanged();
+            }
+        }
+
         public string GatherIncrease_50_60
         {
             get { return _gatherIncrease5060; }
@@ -4193,6 +4271,13 @@ namespace WpfApplication1.Model
         private bool _disableRotationOverride1Star;
         private bool _disableRotationOverride1StarPlus;
         private bool _disableRotationOverride3Star;
+        private int _grade4CarbonizedMatter;
+        private int _lightningCluster;
+        private int _fireCluster;
+        private int _windCluster;
+        private int _waterCluster;
+        private int _iceCluster;
+        private int _earthCluster;
 
         public bool LoadCurrentFile()
         {
@@ -4486,6 +4571,21 @@ namespace WpfApplication1.Model
                 DisableRotationOverride_1StarPlus = GetBooleanValue(value);
             else if (property.Equals("DisableRotationOverride_3Star"))
                 DisableRotationOverride_3Star = GetBooleanValue(value);
+
+            else if (property.Equals("Grade4_Carbonized_Matter"))
+                Grade4_Carbonized_Matter = GetIntValue(value);
+            else if (property.Equals("Lightning_Cluster"))
+                Lightning_Cluster = GetIntValue(value);
+            else if (property.Equals("Fire_Cluster"))
+                Fire_Cluster = GetIntValue(value);
+            else if (property.Equals("Wind_Cluster"))
+                Wind_Cluster = GetIntValue(value);
+            else if (property.Equals("Water_Cluster"))
+                Water_Cluster = GetIntValue(value);
+            else if (property.Equals("Ice_Cluster"))
+                Ice_Cluster = GetIntValue(value);
+            else if (property.Equals("Earth_Cluster"))
+                Earth_Cluster = GetIntValue(value);
 
             else if (property.Equals("Cluster_1AM"))
                 Cluster_1AM = GetBooleanValue(value);

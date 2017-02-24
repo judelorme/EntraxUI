@@ -36,6 +36,7 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Généralités</TextBlock>
@@ -48,6 +49,12 @@
 
                 <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Rotation :</TextBlock>
                 <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_Snorlax}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300"/>
+
+                <StackPanel Grid.Column="0" Grid.Row="3">
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Mode symbiose :</TextBlock>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Coûte 68 310 gils)</TextBlock>
+                </StackPanel>
+                <CheckBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=SpiritBond_Snorlax}"/>
             </Grid>
 
             <!-- Sélection -->

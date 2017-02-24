@@ -105,11 +105,53 @@
                     <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Rotation (3 étoiles) :</TextBlock>
                     <ComboBox Grid.Column="1" Grid.Row="3" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_3Star}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300"/>
                 </Grid>
+            </Grid>
+
+            <!-- Paramètres des clusters -->
+            <Grid Grid.Column="0" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Réglage des noeux à agrégats</TextBlock>
+
+                <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Matière carbonique grade IV :</TextBlock>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="1" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Grade4_Carbonized_Matter}" Increment="0" Minimum="1" Maximum="9999" Width="60" Margin="5,0,0,0"/>
                 
+                <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de foudre :</TextBlock>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="2" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Lightning_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de feu :</TextBlock>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="3" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Fire_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de vent :</TextBlock>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="4" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Wind_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat d'eau :</TextBlock>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="5" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Water_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de glace :</TextBlock>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="6" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Ice_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de terre :</TextBlock>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="7" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Earth_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+
             </Grid>
 
             <!-- Sélection -->
-            <Grid Grid.Column="0" Grid.Row="1">
+            <Grid Grid.Column="0" Grid.Row="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
