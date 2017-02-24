@@ -1,0 +1,201 @@
+﻿<UserControl x:Class="WpfApplication1.Panels.PsyduckPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:model="clr-namespace:WpfApplication1.Model"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <ScrollViewer>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Généralités -->
+            <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Général</TextBlock>
+
+            <StackPanel Grid.Column="0" Grid.Row="1">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Continuer la pêche tant que les conditions le permettent :</TextBlock>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Ceci peut interférer avec une récolte sur noeux éphémère)</TextBlock>
+            </StackPanel>
+            <CheckBox Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=KeepFishing_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Utiliser "Patience I" ou "Patience II" :</TextBlock>
+            <ComboBox Grid.Column="1" Grid.Row="2" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Patience_Psyduck}" ItemsSource="{Binding Patience}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="150"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Utiliser un breuvage :</TextBlock>
+            <ComboBox Grid.Column="1" Grid.Row="3" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=CordialType_Psyduck}" ItemsSource="{Binding Cordial}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="150"/>
+
+            <!-- Poissons à pêcher -->
+            <TextBlock Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Choix des poissons</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Poissons rares de la 3.4</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Larme de Hraesvelgr</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=HraesvelgrsTear_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Poissons rares de la 3.3</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Arrachécaille</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Scaleripper_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Tisseur-des-rêves</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TheDreamweaver_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Tortue météore</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Meteortoise_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Vidofnir</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Vidofnir_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Âme-de-Ratatosk</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TheSoulOfTheMartyr_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Poisson-encre</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Inkfish_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Tornade Blanche</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="14" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TheSecondOne_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Pirarucu aphotique</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=AphoticPirarucu_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="16" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Poissons rares de la 3.2</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="17" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Salamandre ambrée</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="17" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=AmberSalamander_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="18" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Raie des nuages</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="18" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=FleeceStingray_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="19" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Escargot lavique</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="19" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=LavaSnail_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="20" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Trompe d'olifant</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="20" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=OliphantsTrunk_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="21" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Poisson-chat cuirassé</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="21" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=ArmoredCatfish_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="22" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Quête : 'Une Légende De La Pêche'</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="23" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Dragon de Nepto</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="23" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=NeptoDragon_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="24" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Kuno le tueur</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="24" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=KunotheKiller_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="25" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Shonisaurus</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="25" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Shonisaurus_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="26" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Hélicoprion</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="26" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Helicoprion_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="27" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Namitaro</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="27" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Namitaro_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="28" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Endoceras</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="28" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Endoceras_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="29" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Quête : 'Des Poissons De Légende'</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="30" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Poisson-scie titan</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="30" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TitanicSawfish_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="31" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Sabre de Llymlaen</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="31" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=NavigatorsBrand_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="32" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Gros poissons</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="33" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Requin frangé</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="33" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=FrilledShark_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="34" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Betta ninja</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="34" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=NinjaBetta_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="35" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Tapis volant</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="35" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=MagicCarpet_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="36" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Brème de Bianaq grandissime</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="36" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TheGreatestBreamInTheWorld_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="37" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Poissons d'assignats rouges</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="38" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Anguille foudroyante</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="38" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=ThunderboltEel_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="39" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Poissons éphémères</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="40" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Bar dravanien</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="40" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=DravanianBass_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="41" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Ptéranodon</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="41" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Pteranodon_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="42" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Caïman de Thaliak</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="42" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=ThaliakCaiman_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="43" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Tupuxuara</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="43" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Tupuxuara_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="44" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Caïman</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="44" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Caiman_Psyduck}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="45" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Autres poissons</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="46" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Pipira pira</TextBlock>
+            <RadioButton GroupName="FishToFish" Grid.Column="1" Grid.Row="46" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=PipiraPira_Psyduck}"/>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

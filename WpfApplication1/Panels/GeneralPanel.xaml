@@ -1,0 +1,98 @@
+﻿<UserControl x:Class="WpfApplication1.Panels.GeneralPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:model="clr-namespace:WpfApplication1.Model"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Ethérites et points d'attente</TextBlock>
+        
+        <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Attendre à un point d'attente :</TextBlock>
+        <CheckBox Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=WaitAtWaitingLocation}"/>
+
+        <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Point d'attente :</TextBlock>
+        <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Etherites}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Waiting_AetheryteId}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="150"/>
+
+        <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Sortie d'Idyllée par l'éthérite activée :</TextBlock>
+        <CheckBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Use_Aetheryte_Idyllshire}"/>
+
+        <TextBlock Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Modules activés</TextBlock>
+
+        <StackPanel Grid.Column="0" Grid.Row="5">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Tangela :</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Noeux éphémères : Ethérolyse)</TextBlock>
+        </StackPanel>
+        <CheckBox Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Tangela}"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="6">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Onix :</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Noeux éphémères : Ethérolyse)</TextBlock>
+        </StackPanel>
+        <CheckBox Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" IsEnabled="False" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Onix}"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="7">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Ditto :</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Noeux normaux : Assignats bleus et rouges)</TextBlock>
+        </StackPanel>
+        <CheckBox Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" IsEnabled="False" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Ditto}"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="8">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Magikarp :</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Pêche : Assignats bleus)</TextBlock>
+        </StackPanel>
+        <CheckBox Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" IsEnabled="False" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Magikarp}"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="9">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Psyduck :</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Pêche : Poissons rares)</TextBlock>
+        </StackPanel>
+        <CheckBox Grid.Column="1" Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Psyduck}"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="10">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Slowpoke :</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Pêche : Poissons normaux)</TextBlock>
+        </StackPanel>
+        <CheckBox Grid.Column="1" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Center" IsEnabled="False" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Slowpoke}"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="11">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Umbreon :</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Housing)</TextBlock>
+        </StackPanel>
+        <CheckBox Grid.Column="1" Grid.Row="11" VerticalAlignment="Center" HorizontalAlignment="Center" IsEnabled="False" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Umbreon}"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="12">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Snorlax :</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Récolte classique)</TextBlock>
+        </StackPanel>
+        <CheckBox Grid.Column="1" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Snorlax}"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="13">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Unown :</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Récolte éphémère)</TextBlock>
+        </StackPanel>
+        <CheckBox Grid.Column="1" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Unown}"/>
+    </Grid>
+</UserControl>

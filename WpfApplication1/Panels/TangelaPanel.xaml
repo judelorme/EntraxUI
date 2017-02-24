@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="WpfApplication1.Panels.TangelaPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:model="clr-namespace:WpfApplication1.Model"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <ScrollViewer>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Assignation des points de récoltes</TextBlock>
+
+            <!-- Horaires & métiers -->
+            <TextBlock Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">Minuit => 4h</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Botanist}">Botaniste (élément des crystaux = Vent)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=BTN_0_4_Tangela}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">4h => 8h</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Botanist}">Botaniste (élément des crystaux = Foudre)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=BTN_4_8_Tangela}"/>
+            <TextBlock Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Miner}">Mineur (élément des crystaux = Feu)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=MIN_4_8_Tangela}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">8h => 12h</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Botanist}">Botaniste (élément des crystaux = Foudre)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=BTN_8_12_Tangela}"/>
+            <TextBlock Grid.Column="0" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Miner}">Mineur (élément des crystaux = Feu)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=MIN_8_12_Tangela}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">12h => 16h</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Miner}">Mineur (élément des crystaux = Feu)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=MIN_12_16_Tangela}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">6h => 20h</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Botanist}">Botaniste (élément des crystaux = Foudre)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=BTN_16_20_Tangela}"/>
+            <TextBlock Grid.Column="0" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Miner}">Mineur (élément des crystaux = Foudre)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="13" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=MIN_16_20_Tangela}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="14" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}">20h => Minuit</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Botanist}">Botaniste (élément des crystaux = Vent)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="15" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=BTN_20_24_Tangela}"/>
+            <TextBlock Grid.Column="0" Grid.Row="16" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Miner}">Mineur (élément des crystaux = Foudre)</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="16" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=MIN_20_24_Tangela}"/>
+
+            <!-- Paramètre 56 à 60 -->
+            <TextBlock Grid.Column="0" Grid.Row="17" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Paramètres 56 à 60</TextBlock>
+            <StackPanel Grid.Column="0" Grid.Row="18">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Niveau de rareté :</TextBlock>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">346 : Cristaux et agrégats</TextBlock>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">402 : Sable éthéréen de l'aube</TextBlock>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">460 : Sable éthéréen de l'aurore</TextBlock>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">550 : Sables éthéréens telluriques ou végétaux</TextBlock>
+            </StackPanel>
+            <ComboBox Grid.Column="1" Grid.Row="18" ItemsSource="{Binding StarRotations}" SelectedItem="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Sand_Collect_Rate_Tangela}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="60"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="19" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Collecter l'Origan :</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="19" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Gather_HighlandOregano_Tangela}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="20" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Collecter la Menthe douce :</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="20" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Gather_Furymint_Tangela}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="21" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Collecter le Terreau noir :</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="21" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Gather_BlackSoil_Tangela}"/>
+
+            <!-- Paramètre 56 à 60 -->
+            <TextBlock Grid.Column="0" Grid.Row="22" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Paramètres 1 étoile et plus</TextBlock>
+            <StackPanel Grid.Column="0" Grid.Row="23">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Niveau de rareté :</TextBlock>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">346 : Cristaux et agrégats</TextBlock>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">402 : Sable éthéréen de l'aube</TextBlock>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">460 : Sable éthéréen de l'aurore</TextBlock>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">550 : Sables éthéréens telluriques, végétaux ou de lumière</TextBlock>
+            </StackPanel>
+            <ComboBox Grid.Column="1" Grid.Row="23" ItemsSource="{Binding Rotations}" SelectedItem="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Sand_Collect_Rate_1Star_Tangela}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="60"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="24" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Collecter le Granulat astral rayonnant :</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="24" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Collect_RadiantAstralMoraine_Tangela}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="25" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Collecter la Feuille de laurier de Menphina :</TextBlock>
+            <CheckBox Grid.Column="1" Grid.Row="25" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Collect_LoversLaurel_Tangela}"/>
+        </Grid>
+    </ScrollViewer>
+</UserControl>
