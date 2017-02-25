@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Globalization;
 using System.Runtime.CompilerServices;
 using WpfApplication1.Annotations;
 
@@ -32,6 +33,11 @@ namespace WpfApplication1.Model
                 OnPropertyChanged();
             }
         }
+
+        public CultureInfo PreviousCurrentCulture { get; set; }
+        public CultureInfo PreviousCurrentUICulture { get; set; }
+        public CultureInfo CurrentCulture { get; set; }
+        public CultureInfo CurrentUICulture { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 

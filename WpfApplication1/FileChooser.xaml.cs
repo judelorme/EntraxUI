@@ -45,10 +45,10 @@ namespace WpfApplication1
                 Settings.Default["FilePath"] = GlobalDataManager.Instance.FilePath;
                 Settings.Default.Save();
             }
-            
-            this.Hide();
+
             var mainWindow = new MainWindow();
             mainWindow.Show();
+            this.Close();
         }
     }
 }

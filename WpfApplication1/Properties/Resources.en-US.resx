@@ -118,132 +118,132 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Aleport" xml:space="preserve">
-    <value>Port-aux-Ales</value>
+    <value>Aleport</value>
   </data>
   <data name="AnyxTrine" xml:space="preserve">
-    <value>Annexe Trine</value>
+    <value>Anyx Trine</value>
   </data>
   <data name="BentbranchMeadows" xml:space="preserve">
-    <value>Ranch De Brancharquée</value>
+    <value>Bentbranch Meadows</value>
   </data>
   <data name="BlackBrushStation" xml:space="preserve">
-    <value>Gare De Roncenoire</value>
+    <value>Black Brush Station</value>
   </data>
   <data name="CampBluefog" xml:space="preserve">
-    <value>Camp De Brumebleue</value>
+    <value>Camp Bluefog</value>
   </data>
   <data name="CampBronzeLake" xml:space="preserve">
-    <value>Camp Du Lac D'Airain</value>
+    <value>Camp Bronze Lake</value>
   </data>
   <data name="CampCloudtop" xml:space="preserve">
-    <value>Camp De Cime-des-nuages</value>
+    <value>Camp Cloudtop</value>
   </data>
   <data name="CampDragonhead" xml:space="preserve">
-    <value>Camp De La Tête Du Dragon</value>
+    <value>Camp Dragonhead</value>
   </data>
   <data name="CampDrybone" xml:space="preserve">
-    <value>Camp Des Os Desséchés</value>
+    <value>Camp Drybone</value>
   </data>
   <data name="CampOverlook" xml:space="preserve">
-    <value>Camp Du Guet</value>
+    <value>Camp Overlook</value>
   </data>
   <data name="CampTranquil" xml:space="preserve">
-    <value>Camp Des Sentes Tranquilles</value>
+    <value>Camp Tranquil</value>
   </data>
   <data name="CeruleumProcessingPlant" xml:space="preserve">
-    <value>Usine De Céruleum</value>
+    <value>Ceruleum Processing Plant</value>
   </data>
   <data name="CostadelSol" xml:space="preserve">
     <value>Costa Del Sol</value>
   </data>
   <data name="EstateHallFreeCompanyGridania" xml:space="preserve">
-    <value>Maison (compagnie Libre) - Gridania</value>
+    <value>Estate Hall (Free Company) - Gridania</value>
   </data>
   <data name="EstateHallFreeCompanyLimsa" xml:space="preserve">
-    <value>Maison (compagnie Libre) - Limsa</value>
+    <value>Estate Hall (Free Company) - Limsa</value>
   </data>
   <data name="EstateHallFreeCompanyUldah" xml:space="preserve">
-    <value>Maison (compagnie Libre) - Ul'dah</value>
+    <value>Estate Hall (Free Company) - Ul'dah</value>
   </data>
   <data name="EstateHallPrivateGridania" xml:space="preserve">
-    <value>Maison (individuelle) - Gridania</value>
+    <value>Estate Hall (Private) - Gridania</value>
   </data>
   <data name="EstateHallPrivateLimsa" xml:space="preserve">
-    <value>Maison (individuelle) - Limsa</value>
+    <value>Estate Hall (Private) - Limsa</value>
   </data>
   <data name="EstateHallPrivateUldah" xml:space="preserve">
-    <value>Maison (individuelle) - Ul'dah</value>
+    <value>Estate Hall (Private) - Ul'dah</value>
   </data>
   <data name="FalconsNest" xml:space="preserve">
-    <value>Nid Du Faucon</value>
+    <value>Falcon's Nest</value>
   </data>
   <data name="FallgourdFloat" xml:space="preserve">
-    <value>Radeau De La Calebasse</value>
+    <value>Fallgourd Float</value>
   </data>
   <data name="ForgottenSprings" xml:space="preserve">
-    <value>Oasis Oubliée</value>
+    <value>Forgotten Springs</value>
   </data>
   <data name="Foundation" xml:space="preserve">
-    <value>Ishgard - L'Assise</value>
+    <value>Foundation</value>
   </data>
   <data name="Helix" xml:space="preserve">
-    <value>Hélice</value>
+    <value>Helix</value>
   </data>
   <data name="Horizon" xml:space="preserve">
     <value>Horizon</value>
   </data>
   <data name="Idyllshire" xml:space="preserve">
-    <value>Idyllée</value>
+    <value>Idyllshire</value>
   </data>
   <data name="LimsaLominsaLowerDecks" xml:space="preserve">
-    <value>Limsa Lominsa - L'Entrepont</value>
+    <value>Limsa Lominsa Lower Decks</value>
   </data>
   <data name="LittleAlaMhigo" xml:space="preserve">
-    <value>Petite Ala Mhigo</value>
+    <value>Little Ala Mhigo</value>
   </data>
   <data name="Moghome" xml:space="preserve">
-    <value>Nid-Mog</value>
+    <value>Moghome</value>
   </data>
   <data name="MorabyDrydocks" xml:space="preserve">
-    <value>Chantier Naval De Moraby</value>
+    <value>Moraby Drydocks</value>
   </data>
   <data name="NewGridania" xml:space="preserve">
-    <value>Nouvelle Gridania</value>
+    <value>New Gridania</value>
   </data>
   <data name="OkZundu" xml:space="preserve">
     <value>Ok' Zundu</value>
   </data>
   <data name="Quarrymill" xml:space="preserve">
-    <value>Moulin De La Carrière</value>
+    <value>Quarrymill</value>
   </data>
   <data name="RevenantsToll" xml:space="preserve">
-    <value>Glas Des Revenants</value>
+    <value>Revenant's Toll</value>
   </data>
   <data name="SummerfordFarms" xml:space="preserve">
-    <value>Vergers D'Estival</value>
+    <value>Summerford Farms</value>
   </data>
   <data name="Swiftperch" xml:space="preserve">
-    <value>Le Martinet</value>
+    <value>Swiftperch</value>
   </data>
   <data name="Tailfeather" xml:space="preserve">
-    <value>La Penne</value>
+    <value>Tailfeather</value>
   </data>
   <data name="TheGoldSaucer" xml:space="preserve">
-    <value>Gold Saucer</value>
+    <value>The Gold Saucer</value>
   </data>
   <data name="TheHawthorneHut" xml:space="preserve">
-    <value>Hutte Des Hawthorne</value>
+    <value>The Hawthorne Hut</value>
   </data>
   <data name="UldahStepsofNald" xml:space="preserve">
-    <value>Ul'dah - Faubourg De Nald</value>
+    <value>Ul'dah - Steps of Nald</value>
   </data>
   <data name="Wineport" xml:space="preserve">
-    <value>Port-aux-Vins</value>
+    <value>Wineport</value>
   </data>
   <data name="WolvesDenPier" xml:space="preserve">
-    <value>Jetée De L'Antre Des Loups</value>
+    <value>Wolves' Den Pier</value>
   </data>
   <data name="Zenith" xml:space="preserve">
-    <value>Zénith</value>
+    <value>Zenith</value>
   </data>
 </root>

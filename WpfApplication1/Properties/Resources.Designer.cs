@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WpfApplication1.Properties
-{
-
-
+namespace WpfApplication1.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,49 +22,428 @@ namespace WpfApplication1.Properties
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    public class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        public static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WpfApplication1.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        public static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Port-aux-Ales.
+        /// </summary>
+        public static string Aleport {
+            get {
+                return ResourceManager.GetString("Aleport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Annexe Trine.
+        /// </summary>
+        public static string AnyxTrine {
+            get {
+                return ResourceManager.GetString("AnyxTrine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ranch De Brancharquée.
+        /// </summary>
+        public static string BentbranchMeadows {
+            get {
+                return ResourceManager.GetString("BentbranchMeadows", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gare De Roncenoire.
+        /// </summary>
+        public static string BlackBrushStation {
+            get {
+                return ResourceManager.GetString("BlackBrushStation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camp De Brumebleue.
+        /// </summary>
+        public static string CampBluefog {
+            get {
+                return ResourceManager.GetString("CampBluefog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camp Du Lac D&apos;Airain.
+        /// </summary>
+        public static string CampBronzeLake {
+            get {
+                return ResourceManager.GetString("CampBronzeLake", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camp De Cime-des-nuages.
+        /// </summary>
+        public static string CampCloudtop {
+            get {
+                return ResourceManager.GetString("CampCloudtop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camp De La Tête Du Dragon.
+        /// </summary>
+        public static string CampDragonhead {
+            get {
+                return ResourceManager.GetString("CampDragonhead", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camp Des Os Desséchés.
+        /// </summary>
+        public static string CampDrybone {
+            get {
+                return ResourceManager.GetString("CampDrybone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camp Du Guet.
+        /// </summary>
+        public static string CampOverlook {
+            get {
+                return ResourceManager.GetString("CampOverlook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camp Des Sentes Tranquilles.
+        /// </summary>
+        public static string CampTranquil {
+            get {
+                return ResourceManager.GetString("CampTranquil", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Usine De Céruleum.
+        /// </summary>
+        public static string CeruleumProcessingPlant {
+            get {
+                return ResourceManager.GetString("CeruleumProcessingPlant", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Costa Del Sol.
+        /// </summary>
+        public static string CostadelSol {
+            get {
+                return ResourceManager.GetString("CostadelSol", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maison (compagnie Libre) - Gridania.
+        /// </summary>
+        public static string EstateHallFreeCompanyGridania {
+            get {
+                return ResourceManager.GetString("EstateHallFreeCompanyGridania", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maison (compagnie Libre) - Limsa.
+        /// </summary>
+        public static string EstateHallFreeCompanyLimsa {
+            get {
+                return ResourceManager.GetString("EstateHallFreeCompanyLimsa", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maison (compagnie Libre) - Ul&apos;dah.
+        /// </summary>
+        public static string EstateHallFreeCompanyUldah {
+            get {
+                return ResourceManager.GetString("EstateHallFreeCompanyUldah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maison (individuelle) - Gridania.
+        /// </summary>
+        public static string EstateHallPrivateGridania {
+            get {
+                return ResourceManager.GetString("EstateHallPrivateGridania", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maison (individuelle) - Limsa.
+        /// </summary>
+        public static string EstateHallPrivateLimsa {
+            get {
+                return ResourceManager.GetString("EstateHallPrivateLimsa", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maison (individuelle) - Ul&apos;dah.
+        /// </summary>
+        public static string EstateHallPrivateUldah {
+            get {
+                return ResourceManager.GetString("EstateHallPrivateUldah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nid Du Faucon.
+        /// </summary>
+        public static string FalconsNest {
+            get {
+                return ResourceManager.GetString("FalconsNest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Radeau De La Calebasse.
+        /// </summary>
+        public static string FallgourdFloat {
+            get {
+                return ResourceManager.GetString("FallgourdFloat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Oasis Oubliée.
+        /// </summary>
+        public static string ForgottenSprings {
+            get {
+                return ResourceManager.GetString("ForgottenSprings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ishgard - L&apos;Assise.
+        /// </summary>
+        public static string Foundation {
+            get {
+                return ResourceManager.GetString("Foundation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hélice.
+        /// </summary>
+        public static string Helix {
+            get {
+                return ResourceManager.GetString("Helix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Horizon.
+        /// </summary>
+        public static string Horizon {
+            get {
+                return ResourceManager.GetString("Horizon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Idyllée.
+        /// </summary>
+        public static string Idyllshire {
+            get {
+                return ResourceManager.GetString("Idyllshire", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Limsa Lominsa - L&apos;Entrepont.
+        /// </summary>
+        public static string LimsaLominsaLowerDecks {
+            get {
+                return ResourceManager.GetString("LimsaLominsaLowerDecks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Petite Ala Mhigo.
+        /// </summary>
+        public static string LittleAlaMhigo {
+            get {
+                return ResourceManager.GetString("LittleAlaMhigo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nid-Mog.
+        /// </summary>
+        public static string Moghome {
+            get {
+                return ResourceManager.GetString("Moghome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chantier Naval De Moraby.
+        /// </summary>
+        public static string MorabyDrydocks {
+            get {
+                return ResourceManager.GetString("MorabyDrydocks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nouvelle Gridania.
+        /// </summary>
+        public static string NewGridania {
+            get {
+                return ResourceManager.GetString("NewGridania", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ok&apos; Zundu.
+        /// </summary>
+        public static string OkZundu {
+            get {
+                return ResourceManager.GetString("OkZundu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Moulin De La Carrière.
+        /// </summary>
+        public static string Quarrymill {
+            get {
+                return ResourceManager.GetString("Quarrymill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Glas Des Revenants.
+        /// </summary>
+        public static string RevenantsToll {
+            get {
+                return ResourceManager.GetString("RevenantsToll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vergers D&apos;Estival.
+        /// </summary>
+        public static string SummerfordFarms {
+            get {
+                return ResourceManager.GetString("SummerfordFarms", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Le Martinet.
+        /// </summary>
+        public static string Swiftperch {
+            get {
+                return ResourceManager.GetString("Swiftperch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to La Penne.
+        /// </summary>
+        public static string Tailfeather {
+            get {
+                return ResourceManager.GetString("Tailfeather", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gold Saucer.
+        /// </summary>
+        public static string TheGoldSaucer {
+            get {
+                return ResourceManager.GetString("TheGoldSaucer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hutte Des Hawthorne.
+        /// </summary>
+        public static string TheHawthorneHut {
+            get {
+                return ResourceManager.GetString("TheHawthorneHut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ul&apos;dah - Faubourg De Nald.
+        /// </summary>
+        public static string UldahStepsofNald {
+            get {
+                return ResourceManager.GetString("UldahStepsofNald", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Port-aux-Vins.
+        /// </summary>
+        public static string Wineport {
+            get {
+                return ResourceManager.GetString("Wineport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jetée De L&apos;Antre Des Loups.
+        /// </summary>
+        public static string WolvesDenPier {
+            get {
+                return ResourceManager.GetString("WolvesDenPier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zénith.
+        /// </summary>
+        public static string Zenith {
+            get {
+                return ResourceManager.GetString("Zenith", resourceCulture);
             }
         }
     }

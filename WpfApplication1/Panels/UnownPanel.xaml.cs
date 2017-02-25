@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using WpfApplication1.Model;
 using WpfApplication1.Snorlax_Models;
 
@@ -69,11 +61,6 @@ namespace WpfApplication1.Panels
         {
             foreach (var gatherableItem in GatherableItems)
             {
-                if (gatherableItem.PropertyName.Equals("Adamantite"))
-                {
-                    int i = 0;
-                }
-
                 var isActive = (bool)EntraxModel.Instance.GetType().GetProperty(gatherableItem.PropertyName).GetValue(EntraxModel.Instance);
                 if (!isActive) 
                     continue;
@@ -243,36 +230,12 @@ namespace WpfApplication1.Panels
             if (item == null)
                 return;
 
-            if (SelectedGatherableItems.Any(gatherableItem => gatherableItem.Name.Equals(item.Name) && gatherableItem.Job == item.Job))
+            if (SelectedGatherableItems.Any(gatherableItem => gatherableItem.Name.Equals(item.Name) && gatherableItem.Job == item.Job && gatherableItem.FirstStartTime == item.FirstStartTime))
             {
                 return;
             }
 
-            /*if (item.HasSecondStartTime)
-            {
-                SelectedGatherableItems.Add(new GatherableItem
-                {
-                    Name = item.Name,
-                    FirstStartTime = item.FirstStartTime,
-                    Job = item.Job,
-                    IsCollectable = item.IsCollectable,
-                    PropertyName = item.PropertyName,
-                    CollectablePropertyName = item.CollectablePropertyName
-                });
-                SelectedGatherableItems.Add(new GatherableItem
-                {
-                    Name = item.Name,
-                    FirstStartTime = item.SecondStartTime,
-                    Job = item.Job,
-                    IsCollectable = item.IsCollectable,
-                    PropertyName = item.PropertyName,
-                    CollectablePropertyName = item.CollectablePropertyName
-                });
-            }
-            else
-            {*/
             SelectedGatherableItems.Add(item);
-            //}
 
             EntraxModel.Instance.GetType().GetProperty(item.PropertyName).SetValue(EntraxModel.Instance, true);
 
