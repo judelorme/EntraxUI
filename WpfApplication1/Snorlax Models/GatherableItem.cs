@@ -1,4 +1,6 @@
-﻿using System.Windows.Media;
+﻿using System;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using WpfApplication1.Model;
 
 namespace WpfApplication1.Snorlax_Models
@@ -17,6 +19,7 @@ namespace WpfApplication1.Snorlax_Models
         private Job _job;
         private int _quantity;
         private bool _asCollectable;
+        private string _propertyName;
 
         public Job Job
         {
@@ -70,7 +73,18 @@ namespace WpfApplication1.Snorlax_Models
         public int SecondStartTime { get; set; }
         public bool HasSecondStartTime { get; set; }
 
-        public string PropertyName { get; set; }
+        public string PropertyName
+        {
+            get { return _propertyName; }
+            set
+            {
+                _propertyName = value;
+                ImagePath = new BitmapImage(new Uri("/Assets/Items/" + _propertyName + ".jpg", UriKind.Relative));
+            }
+        }
+
+        public BitmapImage ImagePath { get; set; }
+
         public string CollectablePropertyName { get; set; }
 
         public string GetTime

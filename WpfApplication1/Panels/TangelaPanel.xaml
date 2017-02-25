@@ -39,6 +39,8 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Assignation des points de récoltes</TextBlock>
@@ -112,6 +114,11 @@
 
             <TextBlock Grid.Column="0" Grid.Row="25" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Collecter la Feuille de laurier de Menphina :</TextBlock>
             <CheckBox Grid.Column="1" Grid.Row="25" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Collect_LoversLaurel_Tangela}"/>
+
+            <TextBlock Grid.Column="0" Grid.Row="26" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Généralités</TextBlock>
+
+            <TextBlock Grid.Column="0" Grid.Row="27" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Utiliser un breuvage :</TextBlock>
+            <ComboBox Grid.Column="1" Grid.Row="27" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=CordialType_Tangela}" ItemsSource="{Binding Cordial}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="150"/>
         </Grid>
     </ScrollViewer>
 </UserControl>
