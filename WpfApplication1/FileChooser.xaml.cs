@@ -4,6 +4,7 @@ using System.Windows;
 using Microsoft.Win32;
 using WpfApplication1.Model;
 using WpfApplication1.Properties;
+using MessageBox = Xceed.Wpf.Toolkit.MessageBox;
 
 namespace WpfApplication1
 {
@@ -33,22 +34,32 @@ namespace WpfApplication1
 
         private void ContinueButton_OnClick(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(GlobalDataManager.Instance.FilePath))
-                return;
-
-            var res = EntraxModel.Instance.LoadCurrentFile();
-            if (!res)
-                return;
-
-            if (!string.Equals(Settings.Default["FilePath"], GlobalDataManager.Instance.FilePath))
+            try
             {
-                Settings.Default["FilePath"] = GlobalDataManager.Instance.FilePath;
-                Settings.Default.Save();
-            }
+                if (string.IsNullOrWhiteSpace(GlobalDataManager.Instance.FilePath))
+                    return;
 
-            var mainWindow = new MainWindow();
-            mainWindow.Show();
-            this.Close();
+                var res = EntraxModel.Instance.LoadCurrentFile();
+                if (!res)
+                    return;
+
+                if (!string.Equals(Settings.Default["FilePath"], GlobalDataManager.Instance.FilePath))
+                {
+                    Settings.Default["FilePath"] = GlobalDataManager.Instance.FilePath;
+                    Settings.Default.Save();
+                }
+
+                var mainWindow = new MainWindow();
+                mainWindow.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox message = new MessageBox();
+                message.Text = ex.Message;
+                message.ShowDialog();
+            }
+            
         }
     }
 }

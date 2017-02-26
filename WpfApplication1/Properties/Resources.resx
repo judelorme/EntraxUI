@@ -117,17 +117,59 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AbalathianMistletoe" xml:space="preserve">
+    <value>Gui d'Abalathia</value>
+  </data>
+  <data name="AbalathianRockSalt" xml:space="preserve">
+    <value>Sel gemme d'Abalathia</value>
+  </data>
+  <data name="Adamantite" xml:space="preserve">
+    <value>Minerai d'adamant</value>
+  </data>
   <data name="Aleport" xml:space="preserve">
     <value>Port-aux-Ales</value>
   </data>
+  <data name="AmberSalamander_Psyduck" xml:space="preserve">
+    <value>Salamandre ambrée</value>
+  </data>
+  <data name="AntumbralRock" xml:space="preserve">
+    <value>Roche antéombrale</value>
+  </data>
   <data name="AnyxTrine" xml:space="preserve">
     <value>Annexe Trine</value>
+  </data>
+  <data name="AphoticPirarucu_Psyduck" xml:space="preserve">
+    <value>Pirarucu aphotique</value>
+  </data>
+  <data name="Apricot" xml:space="preserve">
+    <value>Abricot</value>
+  </data>
+  <data name="ArmoredCatfish_Psyduck" xml:space="preserve">
+    <value>Poisson-chat cuirassé</value>
+  </data>
+  <data name="AstralMoraine" xml:space="preserve">
+    <value>Granulat astral</value>
+  </data>
+  <data name="AurumRegisOre" xml:space="preserve">
+    <value>Minerai d'aurum regis</value>
   </data>
   <data name="BentbranchMeadows" xml:space="preserve">
     <value>Ranch De Brancharquée</value>
   </data>
   <data name="BlackBrushStation" xml:space="preserve">
     <value>Gare De Roncenoire</value>
+  </data>
+  <data name="BlackTruffle" xml:space="preserve">
+    <value>Truffe noire</value>
+  </data>
+  <data name="BlueQuartz" xml:space="preserve">
+    <value>Quartz bleu</value>
+  </data>
+  <data name="BrownMushroom" xml:space="preserve">
+    <value>Champignon brun</value>
+  </data>
+  <data name="Caiman_Psyduck" xml:space="preserve">
+    <value>Caïman</value>
   </data>
   <data name="CampBluefog" xml:space="preserve">
     <value>Camp De Brumebleue</value>
@@ -153,8 +195,77 @@
   <data name="CeruleumProcessingPlant" xml:space="preserve">
     <value>Usine De Céruleum</value>
   </data>
+  <data name="Chalcocite" xml:space="preserve">
+    <value>Minerai de chalcocite</value>
+  </data>
+  <data name="Chives" xml:space="preserve">
+    <value>Ciboulette</value>
+  </data>
+  <data name="Chysahl" xml:space="preserve">
+    <value>Légumes cabus</value>
+  </data>
+  <data name="CloudBanana" xml:space="preserve">
+    <value>Banane céleste</value>
+  </data>
+  <data name="Cluster_1AM" xml:space="preserve">
+    <value>Agrégat</value>
+  </data>
+  <data name="Cluster_1PM" xml:space="preserve">
+    <value>Agrégat</value>
+  </data>
+  <data name="Cluster_5AM" xml:space="preserve">
+    <value>Agrégat</value>
+  </data>
+  <data name="Cluster_5PM" xml:space="preserve">
+    <value>Agrégat</value>
+  </data>
+  <data name="Cluster_9AM" xml:space="preserve">
+    <value>Agrégat</value>
+  </data>
+  <data name="Cluster_9PM" xml:space="preserve">
+    <value>Agrégat</value>
+  </data>
+  <data name="CoerthanTeaLeaves" xml:space="preserve">
+    <value>Feuilles de thé du Coerthas</value>
+  </data>
+  <data name="CoerthanTeaSeeds" xml:space="preserve">
+    <value>Graines de théier du Coerthas</value>
+  </data>
   <data name="CostadelSol" xml:space="preserve">
     <value>Costa Del Sol</value>
+  </data>
+  <data name="CrystallizedSap" xml:space="preserve">
+    <value>Sève cristallisée</value>
+  </data>
+  <data name="Cuprite" xml:space="preserve">
+    <value>Minerai de cuprite</value>
+  </data>
+  <data name="CypressLog" xml:space="preserve">
+    <value>Rondin de cyprès</value>
+  </data>
+  <data name="DarksteelOre" xml:space="preserve">
+    <value>Minerai de sombracier</value>
+  </data>
+  <data name="DravanianBass_Psyduck" xml:space="preserve">
+    <value>Bar dravanien</value>
+  </data>
+  <data name="DravanianMistletoe" xml:space="preserve">
+    <value>Gui de Dravania</value>
+  </data>
+  <data name="DravanianPaprika" xml:space="preserve">
+    <value>Paprika dravanien</value>
+  </data>
+  <data name="DzemaelTomato" xml:space="preserve">
+    <value>Tomate Dzemael</value>
+  </data>
+  <data name="DzemaelTomatoSeeds" xml:space="preserve">
+    <value>Graines de tomate Dzemael</value>
+  </data>
+  <data name="EbonyLog" xml:space="preserve">
+    <value>Rondin d'ébène</value>
+  </data>
+  <data name="Endoceras_Psyduck" xml:space="preserve">
+    <value>Endoceras</value>
   </data>
   <data name="EstateHallFreeCompanyGridania" xml:space="preserve">
     <value>Maison (compagnie Libre) - Gridania</value>
@@ -180,20 +291,128 @@
   <data name="FallgourdFloat" xml:space="preserve">
     <value>Radeau De La Calebasse</value>
   </data>
+  <data name="Ferberite" xml:space="preserve">
+    <value>Minerai de ferbérite</value>
+  </data>
+  <data name="FleeceStingray_Psyduck" xml:space="preserve">
+    <value>Raie des nuages</value>
+  </data>
   <data name="ForgottenSprings" xml:space="preserve">
     <value>Oasis Oubliée</value>
   </data>
   <data name="Foundation" xml:space="preserve">
     <value>Ishgard - L'Assise</value>
   </data>
+  <data name="FragrantLog" xml:space="preserve">
+    <value>Rondin odorant</value>
+  </data>
+  <data name="FrilledShark_Psyduck" xml:space="preserve">
+    <value>Requin frangé</value>
+  </data>
+  <data name="FrostCottonBoll" xml:space="preserve">
+    <value>Fleur de coton des neiges</value>
+  </data>
+  <data name="General_ActivePlugins" xml:space="preserve">
+    <value>Modules activés</value>
+  </data>
+  <data name="General_Aetherial_Reduction" xml:space="preserve">
+    <value>(Noeux éphémères : Ethérolyse)</value>
+  </data>
+  <data name="General_BlueScriptFishing" xml:space="preserve">
+    <value>(Pêche : Assignats bleus)</value>
+  </data>
+  <data name="General_EtheriteWaitAtPoint" xml:space="preserve">
+    <value>Attendre à un point d'attente :</value>
+  </data>
+  <data name="General_EtheriteWaitingPoint" xml:space="preserve">
+    <value>Ethérites et points d'attente</value>
+  </data>
+  <data name="General_Housing" xml:space="preserve">
+    <value>(Housing)</value>
+  </data>
+  <data name="General_RareFishing" xml:space="preserve">
+    <value>(Pêche : Poissons rares)</value>
+  </data>
+  <data name="General_RegularFishing" xml:space="preserve">
+    <value>(Pêche : Poissons normaux)</value>
+  </data>
+  <data name="General_RegularGatehring" xml:space="preserve">
+    <value>(Récolte classique)</value>
+  </data>
+  <data name="General_RegularGatheringScripts" xml:space="preserve">
+    <value>(Noeux normaux : Assignats bleus et rouges)</value>
+  </data>
+  <data name="General_UnspoiledGatehring" xml:space="preserve">
+    <value>(Récolte éphémère)</value>
+  </data>
+  <data name="General_WaitingPoint" xml:space="preserve">
+    <value>Point d'attente :</value>
+  </data>
+  <data name="General_YdillShireEtheriteActive" xml:space="preserve">
+    <value>Sortie d'Idyllée par l'éthérite activée :</value>
+  </data>
+  <data name="GoldOre" xml:space="preserve">
+    <value>Minerai d'or</value>
+  </data>
+  <data name="GoldSand" xml:space="preserve">
+    <value>Sable d'or</value>
+  </data>
+  <data name="GreenQuartz" xml:space="preserve">
+    <value>Quartz vert</value>
+  </data>
+  <data name="HeavensLemon" xml:space="preserve">
+    <value>Citron céleste</value>
+  </data>
+  <data name="Helicoprion_Psyduck" xml:space="preserve">
+    <value>Hélicoprion</value>
+  </data>
   <data name="Helix" xml:space="preserve">
     <value>Hélice</value>
+  </data>
+  <data name="HoneydewAlmonds" xml:space="preserve">
+    <value>Amandes mielleuses</value>
+  </data>
+  <data name="HoneyLemon" xml:space="preserve">
+    <value>Citron miel</value>
   </data>
   <data name="Horizon" xml:space="preserve">
     <value>Horizon</value>
   </data>
+  <data name="HraesvelgrsTear_Psyduck" xml:space="preserve">
+    <value>Larme de Hraesvelgr</value>
+  </data>
   <data name="Idyllshire" xml:space="preserve">
     <value>Idyllée</value>
+  </data>
+  <data name="Inkfish_Psyduck" xml:space="preserve">
+    <value>Poisson-encre</value>
+  </data>
+  <data name="KeepFishing_Psyduck_Label" xml:space="preserve">
+    <value>Continuer la pêche tant que les conditions le permettent :</value>
+  </data>
+  <data name="KeepFishing_Psyduck_Tip" xml:space="preserve">
+    <value>(Ceci peut interférer avec une récolte sur noeux éphémère)</value>
+  </data>
+  <data name="Kidragora" xml:space="preserve">
+    <value>Mini-mini-mandragore</value>
+  </data>
+  <data name="KunotheKiller_Psyduck" xml:space="preserve">
+    <value>Kuno le tueur</value>
+  </data>
+  <data name="LaNosceanLeek" xml:space="preserve">
+    <value>Poireau noscéen</value>
+  </data>
+  <data name="LaNosceanTopsoil3" xml:space="preserve">
+    <value>Terreau noscéen III</value>
+  </data>
+  <data name="LavaSnail_Psyduck" xml:space="preserve">
+    <value>Escargot lavique</value>
+  </data>
+  <data name="LightKidneyOre" xml:space="preserve">
+    <value>Minerai d'hématite</value>
+  </data>
+  <data name="Limonite" xml:space="preserve">
+    <value>Minerai de limonite</value>
   </data>
   <data name="LimsaLominsaLowerDecks" xml:space="preserve">
     <value>Limsa Lominsa - L'Entrepont</value>
@@ -201,26 +420,194 @@
   <data name="LittleAlaMhigo" xml:space="preserve">
     <value>Petite Ala Mhigo</value>
   </data>
+  <data name="LuminiumOre" xml:space="preserve">
+    <value>Minerai de luminium</value>
+  </data>
+  <data name="LumythriteOre" xml:space="preserve">
+    <value>Minerai de lumithrite</value>
+  </data>
+  <data name="MagicCarpet_Psyduck" xml:space="preserve">
+    <value>Tapis volant</value>
+  </data>
+  <data name="Meteorite" xml:space="preserve">
+    <value>Météorite</value>
+  </data>
+  <data name="Meteortoise_Psyduck" xml:space="preserve">
+    <value>Tortue météore</value>
+  </data>
   <data name="Moghome" xml:space="preserve">
     <value>Nid-Mog</value>
   </data>
   <data name="MorabyDrydocks" xml:space="preserve">
     <value>Chantier Naval De Moraby</value>
   </data>
+  <data name="Morel" xml:space="preserve">
+    <value>Morille</value>
+  </data>
+  <data name="Namitaro_Psyduck" xml:space="preserve">
+    <value>Namitaro</value>
+  </data>
+  <data name="NativeGold" xml:space="preserve">
+    <value>Pépite d'or natif</value>
+  </data>
+  <data name="NavigatorsBrand_Psyduck" xml:space="preserve">
+    <value>Sabre de Llymlaen</value>
+  </data>
+  <data name="NeptoDragon_Psyduck" xml:space="preserve">
+    <value>Dragon de Nepto</value>
+  </data>
   <data name="NewGridania" xml:space="preserve">
     <value>Nouvelle Gridania</value>
+  </data>
+  <data name="NinjaBetta_Psyduck" xml:space="preserve">
+    <value>Betta ninja</value>
+  </data>
+  <data name="NobleSage" xml:space="preserve">
+    <value>Sauge noble</value>
   </data>
   <data name="OkZundu" xml:space="preserve">
     <value>Ok' Zundu</value>
   </data>
+  <data name="OldGrowthCamphorwoodLog" xml:space="preserve">
+    <value>Vieux camphrier</value>
+  </data>
+  <data name="OldWorldFig" xml:space="preserve">
+    <value>Figue du vieux continent</value>
+  </data>
+  <data name="OldWorldFigSeeds" xml:space="preserve">
+    <value>Graines de figuier du vieux continent</value>
+  </data>
+  <data name="OliphantsTrunk_Psyduck" xml:space="preserve">
+    <value>Trompe d'olifant</value>
+  </data>
+  <data name="Patience_Psyduck_Label" xml:space="preserve">
+    <value>Utiliser "Patience I" ou "Patience II" :</value>
+  </data>
+  <data name="PearlSprouts" xml:space="preserve">
+    <value>Chou-bourgeon</value>
+  </data>
+  <data name="PearlSproutSeeds" xml:space="preserve">
+    <value>Graines de chou-bourgeon</value>
+  </data>
+  <data name="PipiraPira_Psyduck" xml:space="preserve">
+    <value>Pipira pira</value>
+  </data>
+  <data name="PlatinumOre" xml:space="preserve">
+    <value>Minerai de platine</value>
+  </data>
+  <data name="Porcini" xml:space="preserve">
+    <value>Bolet</value>
+  </data>
+  <data name="PricklyPineapple" xml:space="preserve">
+    <value>Ananas épineux</value>
+  </data>
+  <data name="PricklyPineappleSeeds" xml:space="preserve">
+    <value>Graines d'ananas épineux</value>
+  </data>
+  <data name="Psyduck_Big_fishes" xml:space="preserve">
+    <value>Gros poissons</value>
+  </data>
+  <data name="Psyduck_Ephemeral_fishes" xml:space="preserve">
+    <value>Poissons éphémères</value>
+  </data>
+  <data name="Psyduck_Feast_of_Famine" xml:space="preserve">
+    <value>Quête : 'Une Légende De La Pêche'</value>
+  </data>
+  <data name="Psyduck_Fishes_3_2_Title" xml:space="preserve">
+    <value>Poissons rares de la 3.2</value>
+  </data>
+  <data name="Psyduck_Fishes_3_3_Title" xml:space="preserve">
+    <value>Poissons rares de la 3.3</value>
+  </data>
+  <data name="Psyduck_Fishes_3_4_Title" xml:space="preserve">
+    <value>Poissons rares de la 3.4</value>
+  </data>
+  <data name="Psyduck_Fishes_Title" xml:space="preserve">
+    <value>Choix des poissons</value>
+  </data>
+  <data name="Psyduck_Other_fishes" xml:space="preserve">
+    <value>Autres poissons</value>
+  </data>
+  <data name="Psyduck_Red_script_fishes" xml:space="preserve">
+    <value>Poissons d'assignats rouges</value>
+  </data>
+  <data name="Psyduck_The_Beast_of_Brewers_Beacon" xml:space="preserve">
+    <value>Quête : 'Des Poissons De Légende'</value>
+  </data>
+  <data name="Pteranodon_Psyduck" xml:space="preserve">
+    <value>Ptéranodon</value>
+  </data>
+  <data name="Pyrite" xml:space="preserve">
+    <value>Minerai de pyrite</value>
+  </data>
   <data name="Quarrymill" xml:space="preserve">
     <value>Moulin De La Carrière</value>
+  </data>
+  <data name="RawDiamond" xml:space="preserve">
+    <value>Diamant brut</value>
+  </data>
+  <data name="RawEmerald" xml:space="preserve">
+    <value>Émeraude brute</value>
+  </data>
+  <data name="RawIolite" xml:space="preserve">
+    <value>Cordiérite brute</value>
+  </data>
+  <data name="RawRuby" xml:space="preserve">
+    <value>Rubis brut</value>
+  </data>
+  <data name="RawSapphire" xml:space="preserve">
+    <value>Saphir brut</value>
+  </data>
+  <data name="RawTopaz" xml:space="preserve">
+    <value>Topaze brute</value>
+  </data>
+  <data name="RedAlumen" xml:space="preserve">
+    <value>Alun rouge</value>
+  </data>
+  <data name="RedolentLog" xml:space="preserve">
+    <value>Rondin fragrant</value>
+  </data>
+  <data name="RedQuartz" xml:space="preserve">
+    <value>Quartz rouge</value>
   </data>
   <data name="RevenantsToll" xml:space="preserve">
     <value>Glas Des Revenants</value>
   </data>
+  <data name="Rosemary" xml:space="preserve">
+    <value>Romarin</value>
+  </data>
+  <data name="Scaleripper_Psyduck" xml:space="preserve">
+    <value>Arrachécaille</value>
+  </data>
+  <data name="SeventhHeaven" xml:space="preserve">
+    <value>Fleur astrale</value>
+  </data>
+  <data name="Shonisaurus_Psyduck" xml:space="preserve">
+    <value>Shonisaurus</value>
+  </data>
+  <data name="ShroudTopsoil3" xml:space="preserve">
+    <value>Terreau sombrelinçois III</value>
+  </data>
+  <data name="SilkwormCocoon" xml:space="preserve">
+    <value>Cocon de vers à soie</value>
+  </data>
+  <data name="SmithsoniteOre" xml:space="preserve">
+    <value>Minerai de smithsonite</value>
+  </data>
+  <data name="Snurbleberry" xml:space="preserve">
+    <value>Lainuchairelle</value>
+  </data>
+  <data name="SpruceLog" xml:space="preserve">
+    <value>Rondin d'épicéa</value>
+  </data>
+  <data name="StarCottonBoll" xml:space="preserve">
+    <value>Fleur de coton des étoiles</value>
+  </data>
   <data name="SummerfordFarms" xml:space="preserve">
     <value>Vergers D'Estival</value>
+  </data>
+  <data name="SunMica" xml:space="preserve">
+    <value>Mica doré</value>
   </data>
   <data name="Swiftperch" xml:space="preserve">
     <value>Le Martinet</value>
@@ -228,14 +615,134 @@
   <data name="Tailfeather" xml:space="preserve">
     <value>La Penne</value>
   </data>
+  <data name="Teaklog" xml:space="preserve">
+    <value>Rondin de teck</value>
+  </data>
+  <data name="ThaliakCaiman_Psyduck" xml:space="preserve">
+    <value>Caïman de Thaliak</value>
+  </data>
+  <data name="ThanalanTopsoil3" xml:space="preserve">
+    <value>Terreau thanalanais III</value>
+  </data>
+  <data name="ThavnairianMistletoe_5" xml:space="preserve">
+    <value>Gui de Thavnair</value>
+  </data>
+  <data name="ThavnairianMistletoe_7" xml:space="preserve">
+    <value>Gui de Thavnair</value>
+  </data>
+  <data name="TheDreamweaver_Psyduck" xml:space="preserve">
+    <value>The Dreamweaver</value>
+  </data>
   <data name="TheGoldSaucer" xml:space="preserve">
     <value>Gold Saucer</value>
+  </data>
+  <data name="TheGreatestBreamInTheWorld_Psyduck" xml:space="preserve">
+    <value>Brème de Bianaq grandissime</value>
   </data>
   <data name="TheHawthorneHut" xml:space="preserve">
     <value>Hutte Des Hawthorne</value>
   </data>
+  <data name="TheSecondOne_Psyduck" xml:space="preserve">
+    <value>Tornade Blanche</value>
+  </data>
+  <data name="TheSoulOfTheMartyr_Psyduck" xml:space="preserve">
+    <value>Âme-de-Ratatosk</value>
+  </data>
+  <data name="ThunderboltEel_Psyduck" xml:space="preserve">
+    <value>Anguille foudroyante</value>
+  </data>
+  <data name="TitanicSawfish_Psyduck" xml:space="preserve">
+    <value>Poisson-scie titan</value>
+  </data>
+  <data name="Trillium" xml:space="preserve">
+    <value>Trille</value>
+  </data>
+  <data name="TrilliumBulb" xml:space="preserve">
+    <value>Bulbe de trille</value>
+  </data>
+  <data name="Tungstite" xml:space="preserve">
+    <value>Minerai de tungstite</value>
+  </data>
+  <data name="Tupuxuara_Psyduck" xml:space="preserve">
+    <value>Tupuxuara</value>
+  </data>
+  <data name="Ui_CordialType_Label" xml:space="preserve">
+    <value>Utiliser un breuvage :</value>
+  </data>
+  <data name="Ui_Cordial_Automatic" xml:space="preserve">
+    <value>Automatique</value>
+  </data>
+  <data name="Ui_Cordial_Cordial" xml:space="preserve">
+    <value>Breuvage cordial</value>
+  </data>
+  <data name="Ui_Cordial_HiCordial" xml:space="preserve">
+    <value>Breuvage cordial supérieur</value>
+  </data>
+  <data name="Ui_Cordial_None" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="Ui_General" xml:space="preserve">
+    <value>Généralités</value>
+  </data>
+  <data name="Ui_ItemsSelection" xml:space="preserve">
+    <value>Sélection des ressources</value>
+  </data>
+  <data name="Ui_NoRTUsed" xml:space="preserve">
+    <value>(Permet de ne pas utiliser de Points de récolte)</value>
+  </data>
+  <data name="Ui_Remove" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Ui_Rotation" xml:space="preserve">
+    <value>Rotation :</value>
+  </data>
+  <data name="Ui_SelectedItems" xml:space="preserve">
+    <value>Ressources sélectionnées</value>
+  </data>
+  <data name="Ui_SwitchLanguage" xml:space="preserve">
+    <value>Changer de langue</value>
+  </data>
+  <data name="Ui_Symbiose" xml:space="preserve">
+    <value>Mode symbiose :</value>
+  </data>
+  <data name="Ui_SymbioseCost" xml:space="preserve">
+    <value>(Coûte 68 310 gils)</value>
+  </data>
+  <data name="Ui_UnableRotation" xml:space="preserve">
+    <value>Désactiver la rotation :</value>
+  </data>
   <data name="UldahStepsofNald" xml:space="preserve">
     <value>Ul'dah - Faubourg De Nald</value>
+  </data>
+  <data name="UmbralRock" xml:space="preserve">
+    <value>Roche ombrale</value>
+  </data>
+  <data name="VampirePlant" xml:space="preserve">
+    <value>Baie vampire</value>
+  </data>
+  <data name="VanillaBeans" xml:space="preserve">
+    <value>Gousse de vanille</value>
+  </data>
+  <data name="Vidofnir_Psyduck" xml:space="preserve">
+    <value>Vidofnir</value>
+  </data>
+  <data name="VioletQuartz" xml:space="preserve">
+    <value>Quartz violet</value>
+  </data>
+  <data name="VirginBasiliskEgg" xml:space="preserve">
+    <value>Premier œuf de basilic</value>
+  </data>
+  <data name="VolcanicRockSalt_5" xml:space="preserve">
+    <value>Sel gemme noscéen</value>
+  </data>
+  <data name="VolcanicRockSalt_7" xml:space="preserve">
+    <value>Sel gemme noscéen</value>
+  </data>
+  <data name="WaterfowlFeather" xml:space="preserve">
+    <value>Plume de sauvagine</value>
+  </data>
+  <data name="WattleBark" xml:space="preserve">
+    <value>Écorce d'acacia</value>
   </data>
   <data name="Wineport" xml:space="preserve">
     <value>Port-aux-Vins</value>
@@ -243,7 +750,16 @@
   <data name="WolvesDenPier" xml:space="preserve">
     <value>Jetée De L'Antre Des Loups</value>
   </data>
+  <data name="YellowQuartz" xml:space="preserve">
+    <value>Quartz jaune</value>
+  </data>
+  <data name="YoungCieldalaesSpinach" xml:space="preserve">
+    <value>Jeunes épinards des Cieldalaes</value>
+  </data>
   <data name="Zenith" xml:space="preserve">
     <value>Zénith</value>
+  </data>
+  <data name="ZeoliteOre" xml:space="preserve">
+    <value>Minerai de zéolite</value>
   </data>
 </root>

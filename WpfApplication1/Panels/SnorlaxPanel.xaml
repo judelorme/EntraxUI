@@ -2,6 +2,7 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:model="clr-namespace:WpfApplication1.Model"
+        xmlns:resx="clr-namespace:WpfApplication1.Properties"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
@@ -39,20 +40,20 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Généralités</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Text="{x:Static resx:Resources.Ui_General}"/>
 
                 <StackPanel Grid.Column="0" Grid.Row="1">
-                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Désactiver la rotation :</TextBlock>
-                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Permet de ne pas utiliser de Points de récolte)</TextBlock>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.Ui_UnableRotation}"/>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}" Text="{x:Static resx:Resources.Ui_NoRTUsed}"/>
                 </StackPanel>
                 <CheckBox Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=DisableRotationOverride_Snorlax}"/>
 
-                <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Rotation :</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.Ui_Rotation}"/>
                 <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_Snorlax}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300"/>
 
                 <StackPanel Grid.Column="0" Grid.Row="3">
-                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Mode symbiose :</TextBlock>
-                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Coûte 68 310 gils)</TextBlock>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.Ui_Symbiose}"/>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}" Text="{x:Static resx:Resources.Ui_SymbioseCost}"/>
                 </StackPanel>
                 <CheckBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=SpiritBond_Snorlax}"/>
             </Grid>
@@ -71,7 +72,7 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Sélection des ressources</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Text="{x:Static resx:Resources.Ui_ItemsSelection}"/>
 
                 <Button Grid.Column="1" Grid.Row="1" Content="{Binding ShowHideButtonText}" x:Name="ShowHideButton" Click="ShowHideButton_OnClick"/>
                 <ListBox x:Name="ItemSelectionList" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" ItemsSource="{Binding GatherableItems, Mode=OneWay}" Height="400" MouseDoubleClick="EventSetter_OnHandler" Margin="20,0,20,0">
@@ -97,7 +98,7 @@
                     </ListBox.ItemTemplate>
                 </ListBox>
 
-                <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Ressources sélectionnées</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Text="{x:Static resx:Resources.Ui_SelectedItems}"/>
 
                 <ListBox x:Name="SelectedItemList" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" ItemsSource="{Binding SelectedGatherableItems, Mode=OneWay}" MinHeight="50" MaxHeight="400" VerticalAlignment="Stretch" Margin="20,0,20,0">
                     <ListBox.ItemTemplate>
@@ -132,10 +133,10 @@
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="Quantité voulue :" FontWeight="Bold" VerticalAlignment="Center"/>
-                                    <xctk:IntegerUpDown Grid.Column="1" Value="{Binding Quantity}" Increment="1" Minimum="1" Maximum="999" Width="60" Margin="5,0,0,0"/>
+                                    <xctk:IntegerUpDown Grid.Column="1" Value="{Binding Quantity}" Increment="1" Minimum="1" Maximum="9999" Width="60" Margin="5,0,0,0"/>
                                 </Grid>
 
-                                <Button x:Name="RemoveGatherableItem" Click="RemoveGatherableItem_OnClick" Grid.Column="2" Grid.Row="0" Content="Supprimer" Margin="0,0,5,0" Width="100"/>
+                                <Button x:Name="RemoveGatherableItem" Click="RemoveGatherableItem_OnClick" Grid.Column="2" Grid.Row="0" Content="{x:Static resx:Resources.Ui_Remove}" Margin="0,0,5,0" Width="100"/>
                             </Grid>
                         </DataTemplate>
                     </ListBox.ItemTemplate>

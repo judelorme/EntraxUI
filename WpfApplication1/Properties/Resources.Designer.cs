@@ -61,6 +61,33 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Gui d&apos;Abalathia.
+        /// </summary>
+        public static string AbalathianMistletoe {
+            get {
+                return ResourceManager.GetString("AbalathianMistletoe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sel gemme d&apos;Abalathia.
+        /// </summary>
+        public static string AbalathianRockSalt {
+            get {
+                return ResourceManager.GetString("AbalathianRockSalt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai d&apos;adamant.
+        /// </summary>
+        public static string Adamantite {
+            get {
+                return ResourceManager.GetString("Adamantite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Port-aux-Ales.
         /// </summary>
         public static string Aleport {
@@ -70,11 +97,74 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Salamandre ambrée.
+        /// </summary>
+        public static string AmberSalamander_Psyduck {
+            get {
+                return ResourceManager.GetString("AmberSalamander_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Roche antéombrale.
+        /// </summary>
+        public static string AntumbralRock {
+            get {
+                return ResourceManager.GetString("AntumbralRock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Annexe Trine.
         /// </summary>
         public static string AnyxTrine {
             get {
                 return ResourceManager.GetString("AnyxTrine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pirarucu aphotique.
+        /// </summary>
+        public static string AphoticPirarucu_Psyduck {
+            get {
+                return ResourceManager.GetString("AphoticPirarucu_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Abricot.
+        /// </summary>
+        public static string Apricot {
+            get {
+                return ResourceManager.GetString("Apricot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poisson-chat cuirassé.
+        /// </summary>
+        public static string ArmoredCatfish_Psyduck {
+            get {
+                return ResourceManager.GetString("ArmoredCatfish_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Granulat astral.
+        /// </summary>
+        public static string AstralMoraine {
+            get {
+                return ResourceManager.GetString("AstralMoraine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai d&apos;aurum regis.
+        /// </summary>
+        public static string AurumRegisOre {
+            get {
+                return ResourceManager.GetString("AurumRegisOre", resourceCulture);
             }
         }
         
@@ -93,6 +183,42 @@ namespace WpfApplication1.Properties {
         public static string BlackBrushStation {
             get {
                 return ResourceManager.GetString("BlackBrushStation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Truffe noire.
+        /// </summary>
+        public static string BlackTruffle {
+            get {
+                return ResourceManager.GetString("BlackTruffle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quartz bleu.
+        /// </summary>
+        public static string BlueQuartz {
+            get {
+                return ResourceManager.GetString("BlueQuartz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Champignon brun.
+        /// </summary>
+        public static string BrownMushroom {
+            get {
+                return ResourceManager.GetString("BrownMushroom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Caïman.
+        /// </summary>
+        public static string Caiman_Psyduck {
+            get {
+                return ResourceManager.GetString("Caiman_Psyduck", resourceCulture);
             }
         }
         
@@ -169,11 +295,218 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Minerai de chalcocite.
+        /// </summary>
+        public static string Chalcocite {
+            get {
+                return ResourceManager.GetString("Chalcocite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ciboulette.
+        /// </summary>
+        public static string Chives {
+            get {
+                return ResourceManager.GetString("Chives", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Légumes cabus.
+        /// </summary>
+        public static string Chysahl {
+            get {
+                return ResourceManager.GetString("Chysahl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Banane céleste.
+        /// </summary>
+        public static string CloudBanana {
+            get {
+                return ResourceManager.GetString("CloudBanana", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Agrégat.
+        /// </summary>
+        public static string Cluster_1AM {
+            get {
+                return ResourceManager.GetString("Cluster_1AM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Agrégat.
+        /// </summary>
+        public static string Cluster_1PM {
+            get {
+                return ResourceManager.GetString("Cluster_1PM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Agrégat.
+        /// </summary>
+        public static string Cluster_5AM {
+            get {
+                return ResourceManager.GetString("Cluster_5AM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Agrégat.
+        /// </summary>
+        public static string Cluster_5PM {
+            get {
+                return ResourceManager.GetString("Cluster_5PM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Agrégat.
+        /// </summary>
+        public static string Cluster_9AM {
+            get {
+                return ResourceManager.GetString("Cluster_9AM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Agrégat.
+        /// </summary>
+        public static string Cluster_9PM {
+            get {
+                return ResourceManager.GetString("Cluster_9PM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Feuilles de thé du Coerthas.
+        /// </summary>
+        public static string CoerthanTeaLeaves {
+            get {
+                return ResourceManager.GetString("CoerthanTeaLeaves", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Graines de théier du Coerthas.
+        /// </summary>
+        public static string CoerthanTeaSeeds {
+            get {
+                return ResourceManager.GetString("CoerthanTeaSeeds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Costa Del Sol.
         /// </summary>
         public static string CostadelSol {
             get {
                 return ResourceManager.GetString("CostadelSol", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sève cristallisée.
+        /// </summary>
+        public static string CrystallizedSap {
+            get {
+                return ResourceManager.GetString("CrystallizedSap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de cuprite.
+        /// </summary>
+        public static string Cuprite {
+            get {
+                return ResourceManager.GetString("Cuprite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rondin de cyprès.
+        /// </summary>
+        public static string CypressLog {
+            get {
+                return ResourceManager.GetString("CypressLog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de sombracier.
+        /// </summary>
+        public static string DarksteelOre {
+            get {
+                return ResourceManager.GetString("DarksteelOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bar dravanien.
+        /// </summary>
+        public static string DravanianBass_Psyduck {
+            get {
+                return ResourceManager.GetString("DravanianBass_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gui de Dravania.
+        /// </summary>
+        public static string DravanianMistletoe {
+            get {
+                return ResourceManager.GetString("DravanianMistletoe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paprika dravanien.
+        /// </summary>
+        public static string DravanianPaprika {
+            get {
+                return ResourceManager.GetString("DravanianPaprika", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tomate Dzemael.
+        /// </summary>
+        public static string DzemaelTomato {
+            get {
+                return ResourceManager.GetString("DzemaelTomato", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Graines de tomate Dzemael.
+        /// </summary>
+        public static string DzemaelTomatoSeeds {
+            get {
+                return ResourceManager.GetString("DzemaelTomatoSeeds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rondin d&apos;ébène.
+        /// </summary>
+        public static string EbonyLog {
+            get {
+                return ResourceManager.GetString("EbonyLog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Endoceras.
+        /// </summary>
+        public static string Endoceras_Psyduck {
+            get {
+                return ResourceManager.GetString("Endoceras_Psyduck", resourceCulture);
             }
         }
         
@@ -250,6 +583,24 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Minerai de ferbérite.
+        /// </summary>
+        public static string Ferberite {
+            get {
+                return ResourceManager.GetString("Ferberite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Raie des nuages.
+        /// </summary>
+        public static string FleeceStingray_Psyduck {
+            get {
+                return ResourceManager.GetString("FleeceStingray_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Oasis Oubliée.
         /// </summary>
         public static string ForgottenSprings {
@@ -268,11 +619,218 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rondin odorant.
+        /// </summary>
+        public static string FragrantLog {
+            get {
+                return ResourceManager.GetString("FragrantLog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Requin frangé.
+        /// </summary>
+        public static string FrilledShark_Psyduck {
+            get {
+                return ResourceManager.GetString("FrilledShark_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fleur de coton des neiges.
+        /// </summary>
+        public static string FrostCottonBoll {
+            get {
+                return ResourceManager.GetString("FrostCottonBoll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modules activés.
+        /// </summary>
+        public static string General_ActivePlugins {
+            get {
+                return ResourceManager.GetString("General_ActivePlugins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Noeux éphémères : Ethérolyse).
+        /// </summary>
+        public static string General_Aetherial_Reduction {
+            get {
+                return ResourceManager.GetString("General_Aetherial_Reduction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Pêche : Assignats bleus).
+        /// </summary>
+        public static string General_BlueScriptFishing {
+            get {
+                return ResourceManager.GetString("General_BlueScriptFishing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Attendre à un point d&apos;attente :.
+        /// </summary>
+        public static string General_EtheriteWaitAtPoint {
+            get {
+                return ResourceManager.GetString("General_EtheriteWaitAtPoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ethérites et points d&apos;attente.
+        /// </summary>
+        public static string General_EtheriteWaitingPoint {
+            get {
+                return ResourceManager.GetString("General_EtheriteWaitingPoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Housing).
+        /// </summary>
+        public static string General_Housing {
+            get {
+                return ResourceManager.GetString("General_Housing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Pêche : Poissons rares).
+        /// </summary>
+        public static string General_RareFishing {
+            get {
+                return ResourceManager.GetString("General_RareFishing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Pêche : Poissons normaux).
+        /// </summary>
+        public static string General_RegularFishing {
+            get {
+                return ResourceManager.GetString("General_RegularFishing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Récolte classique).
+        /// </summary>
+        public static string General_RegularGatehring {
+            get {
+                return ResourceManager.GetString("General_RegularGatehring", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Noeux normaux : Assignats bleus et rouges).
+        /// </summary>
+        public static string General_RegularGatheringScripts {
+            get {
+                return ResourceManager.GetString("General_RegularGatheringScripts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Récolte éphémère).
+        /// </summary>
+        public static string General_UnspoiledGatehring {
+            get {
+                return ResourceManager.GetString("General_UnspoiledGatehring", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Point d&apos;attente :.
+        /// </summary>
+        public static string General_WaitingPoint {
+            get {
+                return ResourceManager.GetString("General_WaitingPoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sortie d&apos;Idyllée par l&apos;éthérite activée :.
+        /// </summary>
+        public static string General_YdillShireEtheriteActive {
+            get {
+                return ResourceManager.GetString("General_YdillShireEtheriteActive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai d&apos;or.
+        /// </summary>
+        public static string GoldOre {
+            get {
+                return ResourceManager.GetString("GoldOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sable d&apos;or.
+        /// </summary>
+        public static string GoldSand {
+            get {
+                return ResourceManager.GetString("GoldSand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quartz vert.
+        /// </summary>
+        public static string GreenQuartz {
+            get {
+                return ResourceManager.GetString("GreenQuartz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Citron céleste.
+        /// </summary>
+        public static string HeavensLemon {
+            get {
+                return ResourceManager.GetString("HeavensLemon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hélicoprion.
+        /// </summary>
+        public static string Helicoprion_Psyduck {
+            get {
+                return ResourceManager.GetString("Helicoprion_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hélice.
         /// </summary>
         public static string Helix {
             get {
                 return ResourceManager.GetString("Helix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Amandes mielleuses.
+        /// </summary>
+        public static string HoneydewAlmonds {
+            get {
+                return ResourceManager.GetString("HoneydewAlmonds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Citron miel.
+        /// </summary>
+        public static string HoneyLemon {
+            get {
+                return ResourceManager.GetString("HoneyLemon", resourceCulture);
             }
         }
         
@@ -286,11 +844,110 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Larme de Hraesvelgr.
+        /// </summary>
+        public static string HraesvelgrsTear_Psyduck {
+            get {
+                return ResourceManager.GetString("HraesvelgrsTear_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Idyllée.
         /// </summary>
         public static string Idyllshire {
             get {
                 return ResourceManager.GetString("Idyllshire", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poisson-encre.
+        /// </summary>
+        public static string Inkfish_Psyduck {
+            get {
+                return ResourceManager.GetString("Inkfish_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Continuer la pêche tant que les conditions le permettent :.
+        /// </summary>
+        public static string KeepFishing_Psyduck_Label {
+            get {
+                return ResourceManager.GetString("KeepFishing_Psyduck_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Ceci peut interférer avec une récolte sur noeux éphémère).
+        /// </summary>
+        public static string KeepFishing_Psyduck_Tip {
+            get {
+                return ResourceManager.GetString("KeepFishing_Psyduck_Tip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mini-mini-mandragore.
+        /// </summary>
+        public static string Kidragora {
+            get {
+                return ResourceManager.GetString("Kidragora", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kuno le tueur.
+        /// </summary>
+        public static string KunotheKiller_Psyduck {
+            get {
+                return ResourceManager.GetString("KunotheKiller_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poireau noscéen.
+        /// </summary>
+        public static string LaNosceanLeek {
+            get {
+                return ResourceManager.GetString("LaNosceanLeek", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Terreau noscéen III.
+        /// </summary>
+        public static string LaNosceanTopsoil3 {
+            get {
+                return ResourceManager.GetString("LaNosceanTopsoil3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Escargot lavique.
+        /// </summary>
+        public static string LavaSnail_Psyduck {
+            get {
+                return ResourceManager.GetString("LavaSnail_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai d&apos;hématite.
+        /// </summary>
+        public static string LightKidneyOre {
+            get {
+                return ResourceManager.GetString("LightKidneyOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de limonite.
+        /// </summary>
+        public static string Limonite {
+            get {
+                return ResourceManager.GetString("Limonite", resourceCulture);
             }
         }
         
@@ -313,6 +970,51 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Minerai de luminium.
+        /// </summary>
+        public static string LuminiumOre {
+            get {
+                return ResourceManager.GetString("LuminiumOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de lumithrite.
+        /// </summary>
+        public static string LumythriteOre {
+            get {
+                return ResourceManager.GetString("LumythriteOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tapis volant.
+        /// </summary>
+        public static string MagicCarpet_Psyduck {
+            get {
+                return ResourceManager.GetString("MagicCarpet_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Météorite.
+        /// </summary>
+        public static string Meteorite {
+            get {
+                return ResourceManager.GetString("Meteorite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tortue météore.
+        /// </summary>
+        public static string Meteortoise_Psyduck {
+            get {
+                return ResourceManager.GetString("Meteortoise_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Nid-Mog.
         /// </summary>
         public static string Moghome {
@@ -331,11 +1033,74 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Morille.
+        /// </summary>
+        public static string Morel {
+            get {
+                return ResourceManager.GetString("Morel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Namitaro.
+        /// </summary>
+        public static string Namitaro_Psyduck {
+            get {
+                return ResourceManager.GetString("Namitaro_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pépite d&apos;or natif.
+        /// </summary>
+        public static string NativeGold {
+            get {
+                return ResourceManager.GetString("NativeGold", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sabre de Llymlaen.
+        /// </summary>
+        public static string NavigatorsBrand_Psyduck {
+            get {
+                return ResourceManager.GetString("NavigatorsBrand_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dragon de Nepto.
+        /// </summary>
+        public static string NeptoDragon_Psyduck {
+            get {
+                return ResourceManager.GetString("NeptoDragon_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Nouvelle Gridania.
         /// </summary>
         public static string NewGridania {
             get {
                 return ResourceManager.GetString("NewGridania", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Betta ninja.
+        /// </summary>
+        public static string NinjaBetta_Psyduck {
+            get {
+                return ResourceManager.GetString("NinjaBetta_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sauge noble.
+        /// </summary>
+        public static string NobleSage {
+            get {
+                return ResourceManager.GetString("NobleSage", resourceCulture);
             }
         }
         
@@ -349,11 +1114,308 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Vieux camphrier.
+        /// </summary>
+        public static string OldGrowthCamphorwoodLog {
+            get {
+                return ResourceManager.GetString("OldGrowthCamphorwoodLog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Figue du vieux continent.
+        /// </summary>
+        public static string OldWorldFig {
+            get {
+                return ResourceManager.GetString("OldWorldFig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Graines de figuier du vieux continent.
+        /// </summary>
+        public static string OldWorldFigSeeds {
+            get {
+                return ResourceManager.GetString("OldWorldFigSeeds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trompe d&apos;olifant.
+        /// </summary>
+        public static string OliphantsTrunk_Psyduck {
+            get {
+                return ResourceManager.GetString("OliphantsTrunk_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Utiliser &quot;Patience I&quot; ou &quot;Patience II&quot; :.
+        /// </summary>
+        public static string Patience_Psyduck_Label {
+            get {
+                return ResourceManager.GetString("Patience_Psyduck_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chou-bourgeon.
+        /// </summary>
+        public static string PearlSprouts {
+            get {
+                return ResourceManager.GetString("PearlSprouts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Graines de chou-bourgeon.
+        /// </summary>
+        public static string PearlSproutSeeds {
+            get {
+                return ResourceManager.GetString("PearlSproutSeeds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pipira pira.
+        /// </summary>
+        public static string PipiraPira_Psyduck {
+            get {
+                return ResourceManager.GetString("PipiraPira_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de platine.
+        /// </summary>
+        public static string PlatinumOre {
+            get {
+                return ResourceManager.GetString("PlatinumOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bolet.
+        /// </summary>
+        public static string Porcini {
+            get {
+                return ResourceManager.GetString("Porcini", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ananas épineux.
+        /// </summary>
+        public static string PricklyPineapple {
+            get {
+                return ResourceManager.GetString("PricklyPineapple", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Graines d&apos;ananas épineux.
+        /// </summary>
+        public static string PricklyPineappleSeeds {
+            get {
+                return ResourceManager.GetString("PricklyPineappleSeeds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gros poissons.
+        /// </summary>
+        public static string Psyduck_Big_fishes {
+            get {
+                return ResourceManager.GetString("Psyduck_Big_fishes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poissons éphémères.
+        /// </summary>
+        public static string Psyduck_Ephemeral_fishes {
+            get {
+                return ResourceManager.GetString("Psyduck_Ephemeral_fishes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quête : &apos;Une Légende De La Pêche&apos;.
+        /// </summary>
+        public static string Psyduck_Feast_of_Famine {
+            get {
+                return ResourceManager.GetString("Psyduck_Feast_of_Famine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poissons rares de la 3.2.
+        /// </summary>
+        public static string Psyduck_Fishes_3_2_Title {
+            get {
+                return ResourceManager.GetString("Psyduck_Fishes_3_2_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poissons rares de la 3.3.
+        /// </summary>
+        public static string Psyduck_Fishes_3_3_Title {
+            get {
+                return ResourceManager.GetString("Psyduck_Fishes_3_3_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poissons rares de la 3.4.
+        /// </summary>
+        public static string Psyduck_Fishes_3_4_Title {
+            get {
+                return ResourceManager.GetString("Psyduck_Fishes_3_4_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choix des poissons.
+        /// </summary>
+        public static string Psyduck_Fishes_Title {
+            get {
+                return ResourceManager.GetString("Psyduck_Fishes_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Autres poissons.
+        /// </summary>
+        public static string Psyduck_Other_fishes {
+            get {
+                return ResourceManager.GetString("Psyduck_Other_fishes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poissons d&apos;assignats rouges.
+        /// </summary>
+        public static string Psyduck_Red_script_fishes {
+            get {
+                return ResourceManager.GetString("Psyduck_Red_script_fishes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quête : &apos;Des Poissons De Légende&apos;.
+        /// </summary>
+        public static string Psyduck_The_Beast_of_Brewers_Beacon {
+            get {
+                return ResourceManager.GetString("Psyduck_The_Beast_of_Brewers_Beacon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ptéranodon.
+        /// </summary>
+        public static string Pteranodon_Psyduck {
+            get {
+                return ResourceManager.GetString("Pteranodon_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de pyrite.
+        /// </summary>
+        public static string Pyrite {
+            get {
+                return ResourceManager.GetString("Pyrite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Moulin De La Carrière.
         /// </summary>
         public static string Quarrymill {
             get {
                 return ResourceManager.GetString("Quarrymill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Diamant brut.
+        /// </summary>
+        public static string RawDiamond {
+            get {
+                return ResourceManager.GetString("RawDiamond", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Émeraude brute.
+        /// </summary>
+        public static string RawEmerald {
+            get {
+                return ResourceManager.GetString("RawEmerald", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cordiérite brute.
+        /// </summary>
+        public static string RawIolite {
+            get {
+                return ResourceManager.GetString("RawIolite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rubis brut.
+        /// </summary>
+        public static string RawRuby {
+            get {
+                return ResourceManager.GetString("RawRuby", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saphir brut.
+        /// </summary>
+        public static string RawSapphire {
+            get {
+                return ResourceManager.GetString("RawSapphire", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Topaze brute.
+        /// </summary>
+        public static string RawTopaz {
+            get {
+                return ResourceManager.GetString("RawTopaz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alun rouge.
+        /// </summary>
+        public static string RedAlumen {
+            get {
+                return ResourceManager.GetString("RedAlumen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rondin fragrant.
+        /// </summary>
+        public static string RedolentLog {
+            get {
+                return ResourceManager.GetString("RedolentLog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quartz rouge.
+        /// </summary>
+        public static string RedQuartz {
+            get {
+                return ResourceManager.GetString("RedQuartz", resourceCulture);
             }
         }
         
@@ -367,11 +1429,110 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Romarin.
+        /// </summary>
+        public static string Rosemary {
+            get {
+                return ResourceManager.GetString("Rosemary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Arrachécaille.
+        /// </summary>
+        public static string Scaleripper_Psyduck {
+            get {
+                return ResourceManager.GetString("Scaleripper_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fleur astrale.
+        /// </summary>
+        public static string SeventhHeaven {
+            get {
+                return ResourceManager.GetString("SeventhHeaven", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shonisaurus.
+        /// </summary>
+        public static string Shonisaurus_Psyduck {
+            get {
+                return ResourceManager.GetString("Shonisaurus_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Terreau sombrelinçois III.
+        /// </summary>
+        public static string ShroudTopsoil3 {
+            get {
+                return ResourceManager.GetString("ShroudTopsoil3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cocon de vers à soie.
+        /// </summary>
+        public static string SilkwormCocoon {
+            get {
+                return ResourceManager.GetString("SilkwormCocoon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de smithsonite.
+        /// </summary>
+        public static string SmithsoniteOre {
+            get {
+                return ResourceManager.GetString("SmithsoniteOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lainuchairelle.
+        /// </summary>
+        public static string Snurbleberry {
+            get {
+                return ResourceManager.GetString("Snurbleberry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rondin d&apos;épicéa.
+        /// </summary>
+        public static string SpruceLog {
+            get {
+                return ResourceManager.GetString("SpruceLog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fleur de coton des étoiles.
+        /// </summary>
+        public static string StarCottonBoll {
+            get {
+                return ResourceManager.GetString("StarCottonBoll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Vergers D&apos;Estival.
         /// </summary>
         public static string SummerfordFarms {
             get {
                 return ResourceManager.GetString("SummerfordFarms", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mica doré.
+        /// </summary>
+        public static string SunMica {
+            get {
+                return ResourceManager.GetString("SunMica", resourceCulture);
             }
         }
         
@@ -394,11 +1555,74 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rondin de teck.
+        /// </summary>
+        public static string Teaklog {
+            get {
+                return ResourceManager.GetString("Teaklog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Caïman de Thaliak.
+        /// </summary>
+        public static string ThaliakCaiman_Psyduck {
+            get {
+                return ResourceManager.GetString("ThaliakCaiman_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Terreau thanalanais III.
+        /// </summary>
+        public static string ThanalanTopsoil3 {
+            get {
+                return ResourceManager.GetString("ThanalanTopsoil3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gui de Thavnair.
+        /// </summary>
+        public static string ThavnairianMistletoe_5 {
+            get {
+                return ResourceManager.GetString("ThavnairianMistletoe_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gui de Thavnair.
+        /// </summary>
+        public static string ThavnairianMistletoe_7 {
+            get {
+                return ResourceManager.GetString("ThavnairianMistletoe_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Dreamweaver.
+        /// </summary>
+        public static string TheDreamweaver_Psyduck {
+            get {
+                return ResourceManager.GetString("TheDreamweaver_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Gold Saucer.
         /// </summary>
         public static string TheGoldSaucer {
             get {
                 return ResourceManager.GetString("TheGoldSaucer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Brème de Bianaq grandissime.
+        /// </summary>
+        public static string TheGreatestBreamInTheWorld_Psyduck {
+            get {
+                return ResourceManager.GetString("TheGreatestBreamInTheWorld_Psyduck", resourceCulture);
             }
         }
         
@@ -412,11 +1636,308 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tornade Blanche.
+        /// </summary>
+        public static string TheSecondOne_Psyduck {
+            get {
+                return ResourceManager.GetString("TheSecondOne_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Âme-de-Ratatosk.
+        /// </summary>
+        public static string TheSoulOfTheMartyr_Psyduck {
+            get {
+                return ResourceManager.GetString("TheSoulOfTheMartyr_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Anguille foudroyante.
+        /// </summary>
+        public static string ThunderboltEel_Psyduck {
+            get {
+                return ResourceManager.GetString("ThunderboltEel_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Poisson-scie titan.
+        /// </summary>
+        public static string TitanicSawfish_Psyduck {
+            get {
+                return ResourceManager.GetString("TitanicSawfish_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trille.
+        /// </summary>
+        public static string Trillium {
+            get {
+                return ResourceManager.GetString("Trillium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bulbe de trille.
+        /// </summary>
+        public static string TrilliumBulb {
+            get {
+                return ResourceManager.GetString("TrilliumBulb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de tungstite.
+        /// </summary>
+        public static string Tungstite {
+            get {
+                return ResourceManager.GetString("Tungstite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tupuxuara.
+        /// </summary>
+        public static string Tupuxuara_Psyduck {
+            get {
+                return ResourceManager.GetString("Tupuxuara_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Automatique.
+        /// </summary>
+        public static string Ui_Cordial_Automatic {
+            get {
+                return ResourceManager.GetString("Ui_Cordial_Automatic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Breuvage cordial.
+        /// </summary>
+        public static string Ui_Cordial_Cordial {
+            get {
+                return ResourceManager.GetString("Ui_Cordial_Cordial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Breuvage cordial supérieur.
+        /// </summary>
+        public static string Ui_Cordial_HiCordial {
+            get {
+                return ResourceManager.GetString("Ui_Cordial_HiCordial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aucun.
+        /// </summary>
+        public static string Ui_Cordial_None {
+            get {
+                return ResourceManager.GetString("Ui_Cordial_None", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Utiliser un breuvage :.
+        /// </summary>
+        public static string Ui_CordialType_Label {
+            get {
+                return ResourceManager.GetString("Ui_CordialType_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Généralités.
+        /// </summary>
+        public static string Ui_General {
+            get {
+                return ResourceManager.GetString("Ui_General", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sélection des ressources.
+        /// </summary>
+        public static string Ui_ItemsSelection {
+            get {
+                return ResourceManager.GetString("Ui_ItemsSelection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Permet de ne pas utiliser de Points de récolte).
+        /// </summary>
+        public static string Ui_NoRTUsed {
+            get {
+                return ResourceManager.GetString("Ui_NoRTUsed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Supprimer.
+        /// </summary>
+        public static string Ui_Remove {
+            get {
+                return ResourceManager.GetString("Ui_Remove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rotation :.
+        /// </summary>
+        public static string Ui_Rotation {
+            get {
+                return ResourceManager.GetString("Ui_Rotation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ressources sélectionnées.
+        /// </summary>
+        public static string Ui_SelectedItems {
+            get {
+                return ResourceManager.GetString("Ui_SelectedItems", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Changer de langue.
+        /// </summary>
+        public static string Ui_SwitchLanguage {
+            get {
+                return ResourceManager.GetString("Ui_SwitchLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mode symbiose :.
+        /// </summary>
+        public static string Ui_Symbiose {
+            get {
+                return ResourceManager.GetString("Ui_Symbiose", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (Coûte 68 310 gils).
+        /// </summary>
+        public static string Ui_SymbioseCost {
+            get {
+                return ResourceManager.GetString("Ui_SymbioseCost", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Désactiver la rotation :.
+        /// </summary>
+        public static string Ui_UnableRotation {
+            get {
+                return ResourceManager.GetString("Ui_UnableRotation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ul&apos;dah - Faubourg De Nald.
         /// </summary>
         public static string UldahStepsofNald {
             get {
                 return ResourceManager.GetString("UldahStepsofNald", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Roche ombrale.
+        /// </summary>
+        public static string UmbralRock {
+            get {
+                return ResourceManager.GetString("UmbralRock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baie vampire.
+        /// </summary>
+        public static string VampirePlant {
+            get {
+                return ResourceManager.GetString("VampirePlant", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gousse de vanille.
+        /// </summary>
+        public static string VanillaBeans {
+            get {
+                return ResourceManager.GetString("VanillaBeans", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vidofnir.
+        /// </summary>
+        public static string Vidofnir_Psyduck {
+            get {
+                return ResourceManager.GetString("Vidofnir_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quartz violet.
+        /// </summary>
+        public static string VioletQuartz {
+            get {
+                return ResourceManager.GetString("VioletQuartz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Premier œuf de basilic.
+        /// </summary>
+        public static string VirginBasiliskEgg {
+            get {
+                return ResourceManager.GetString("VirginBasiliskEgg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sel gemme noscéen.
+        /// </summary>
+        public static string VolcanicRockSalt_5 {
+            get {
+                return ResourceManager.GetString("VolcanicRockSalt_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sel gemme noscéen.
+        /// </summary>
+        public static string VolcanicRockSalt_7 {
+            get {
+                return ResourceManager.GetString("VolcanicRockSalt_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Plume de sauvagine.
+        /// </summary>
+        public static string WaterfowlFeather {
+            get {
+                return ResourceManager.GetString("WaterfowlFeather", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Écorce d&apos;acacia.
+        /// </summary>
+        public static string WattleBark {
+            get {
+                return ResourceManager.GetString("WattleBark", resourceCulture);
             }
         }
         
@@ -439,11 +1960,38 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Quartz jaune.
+        /// </summary>
+        public static string YellowQuartz {
+            get {
+                return ResourceManager.GetString("YellowQuartz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jeunes épinards des Cieldalaes.
+        /// </summary>
+        public static string YoungCieldalaesSpinach {
+            get {
+                return ResourceManager.GetString("YoungCieldalaesSpinach", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Zénith.
         /// </summary>
         public static string Zenith {
             get {
                 return ResourceManager.GetString("Zenith", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de zéolite.
+        /// </summary>
+        public static string ZeoliteOre {
+            get {
+                return ResourceManager.GetString("ZeoliteOre", resourceCulture);
             }
         }
     }

@@ -79,6 +79,7 @@ namespace WpfApplication1.Snorlax_Models
             set
             {
                 _propertyName = value;
+                Name = Properties.Resources.ResourceManager.GetString(_propertyName);
                 ImagePath = new BitmapImage(new Uri("/Assets/Items/" + _propertyName + ".jpg", UriKind.Relative));
             }
         }

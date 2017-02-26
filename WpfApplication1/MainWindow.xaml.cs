@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Globalization;
-using System.Reflection;
-using System.Resources;
 using System.Threading;
 using System.Windows;
 using System.Windows.Threading;
@@ -59,7 +57,7 @@ namespace WpfApplication1
 
     public static class ExtensionMethods
     {
-        private static Action EmptyDelegate = delegate() { };
+        private static readonly Action EmptyDelegate = delegate() { };
 
         public static void Refresh(this UIElement uiElement)
         {

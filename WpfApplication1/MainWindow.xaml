@@ -33,11 +33,10 @@
             </TabItem>
         </TabControl>
         <Grid Grid.Row="1" VerticalAlignment="Bottom">
-            <Button Content="Refresh" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,5,0,5" x:Name="ChangeLanguageButton" Click="ChangeLanguageButton_OnClick"/>
+            <Button Content="{x:Static resx:Resources.Ui_SwitchLanguage}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,5,0,5" x:Name="ChangeLanguageButton" Click="ChangeLanguageButton_OnClick"/>
             <TextBlock Text="Copyright 2017 - Khralala" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <Image Source="Assets/Picto/check.png" Margin="0,5,5,5" HorizontalAlignment="Right" Height="25" Width="25" Visibility="{Binding Source={x:Static model:EntraxModel.Instance}, Path=IsCheck, Converter={StaticResource BooleanToVisibilityConverter}}" />
             <Image Source="Assets/Picto/uncheck.png" Margin="0,5,5,5" HorizontalAlignment="Right" Height="25" Width="25" Visibility="{Binding Source={x:Static model:EntraxModel.Instance}, Path=IsCheck, Converter={StaticResource BooleanNegationToVisibilityConverter}}" />
-            <!--<TextBlock Text="{x:Static resx:Resources.toto}" HorizontalAlignment="Right" />-->
         </Grid>
     </Grid>
 </Window>

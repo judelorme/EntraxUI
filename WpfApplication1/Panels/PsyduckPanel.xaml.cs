@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Collections.ObjectModel;
+using System.Reflection;
+using System.Resources;
 using System.Windows.Controls;
 
 namespace WpfApplication1.Panels
@@ -16,6 +17,9 @@ namespace WpfApplication1.Panels
         {
             InitializeComponent();
             DataContext = this;
+
+            ResourceManager rm = new ResourceManager("WpfApplication1.Properties.Resources",
+               Assembly.GetExecutingAssembly());
 
             Patience = new Dictionary<string, string>
             {

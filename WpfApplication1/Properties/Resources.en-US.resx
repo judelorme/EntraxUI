@@ -117,17 +117,59 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AbalathianMistletoe" xml:space="preserve">
+    <value>Abalathian Mistletoe</value>
+  </data>
+  <data name="AbalathianRockSalt" xml:space="preserve">
+    <value>Abalathian Rock Salt</value>
+  </data>
+  <data name="Adamantite" xml:space="preserve">
+    <value>Adamantite Ore</value>
+  </data>
   <data name="Aleport" xml:space="preserve">
     <value>Aleport</value>
   </data>
+  <data name="AmberSalamander_Psyduck" xml:space="preserve">
+    <value>Amber Salamander</value>
+  </data>
+  <data name="AntumbralRock" xml:space="preserve">
+    <value>Antumbral Rock</value>
+  </data>
   <data name="AnyxTrine" xml:space="preserve">
     <value>Anyx Trine</value>
+  </data>
+  <data name="AphoticPirarucu_Psyduck" xml:space="preserve">
+    <value>Aphotic Pirarucu</value>
+  </data>
+  <data name="Apricot" xml:space="preserve">
+    <value>Apricot</value>
+  </data>
+  <data name="ArmoredCatfish_Psyduck" xml:space="preserve">
+    <value>Armored Catfish</value>
+  </data>
+  <data name="AstralMoraine" xml:space="preserve">
+    <value>Astral Moraine</value>
+  </data>
+  <data name="AurumRegisOre" xml:space="preserve">
+    <value>Aurum Regis Ore</value>
   </data>
   <data name="BentbranchMeadows" xml:space="preserve">
     <value>Bentbranch Meadows</value>
   </data>
   <data name="BlackBrushStation" xml:space="preserve">
     <value>Black Brush Station</value>
+  </data>
+  <data name="BlackTruffle" xml:space="preserve">
+    <value>Black Truffle</value>
+  </data>
+  <data name="BlueQuartz" xml:space="preserve">
+    <value>Blue Quartz</value>
+  </data>
+  <data name="BrownMushroom" xml:space="preserve">
+    <value>Brown Mushroom</value>
+  </data>
+  <data name="Caiman_Psyduck" xml:space="preserve">
+    <value>Caiman</value>
   </data>
   <data name="CampBluefog" xml:space="preserve">
     <value>Camp Bluefog</value>
@@ -153,8 +195,77 @@
   <data name="CeruleumProcessingPlant" xml:space="preserve">
     <value>Ceruleum Processing Plant</value>
   </data>
+  <data name="Chalcocite" xml:space="preserve">
+    <value>Chalcocite</value>
+  </data>
+  <data name="Chives" xml:space="preserve">
+    <value>Chives</value>
+  </data>
+  <data name="Chysahl" xml:space="preserve">
+    <value>Chysahl Greens</value>
+  </data>
+  <data name="CloudBanana" xml:space="preserve">
+    <value>Cloud Banana</value>
+  </data>
+  <data name="Cluster_1AM" xml:space="preserve">
+    <value>Cluster</value>
+  </data>
+  <data name="Cluster_1PM" xml:space="preserve">
+    <value>Cluster</value>
+  </data>
+  <data name="Cluster_5AM" xml:space="preserve">
+    <value>Cluster</value>
+  </data>
+  <data name="Cluster_5PM" xml:space="preserve">
+    <value>Cluster</value>
+  </data>
+  <data name="Cluster_9AM" xml:space="preserve">
+    <value>Cluster</value>
+  </data>
+  <data name="Cluster_9PM" xml:space="preserve">
+    <value>Cluster</value>
+  </data>
+  <data name="CoerthanTeaLeaves" xml:space="preserve">
+    <value>Coerthan Tea Leaves</value>
+  </data>
+  <data name="CoerthanTeaSeeds" xml:space="preserve">
+    <value>Coerthan Tea Seeds</value>
+  </data>
   <data name="CostadelSol" xml:space="preserve">
     <value>Costa Del Sol</value>
+  </data>
+  <data name="CrystallizedSap" xml:space="preserve">
+    <value>Crystallized Sap</value>
+  </data>
+  <data name="Cuprite" xml:space="preserve">
+    <value>Cuprite</value>
+  </data>
+  <data name="CypressLog" xml:space="preserve">
+    <value>Cypress Log</value>
+  </data>
+  <data name="DarksteelOre" xml:space="preserve">
+    <value>Darksteel Ore</value>
+  </data>
+  <data name="DravanianBass_Psyduck" xml:space="preserve">
+    <value>Dravanian Bass</value>
+  </data>
+  <data name="DravanianMistletoe" xml:space="preserve">
+    <value>Dravanian Mistletoe</value>
+  </data>
+  <data name="DravanianPaprika" xml:space="preserve">
+    <value>Dravanian Paprika</value>
+  </data>
+  <data name="DzemaelTomato" xml:space="preserve">
+    <value>Dzemael Tomato</value>
+  </data>
+  <data name="DzemaelTomatoSeeds" xml:space="preserve">
+    <value>Dzemael Tomato Seeds</value>
+  </data>
+  <data name="EbonyLog" xml:space="preserve">
+    <value>Ebony Log</value>
+  </data>
+  <data name="Endoceras_Psyduck" xml:space="preserve">
+    <value>Endoceras</value>
   </data>
   <data name="EstateHallFreeCompanyGridania" xml:space="preserve">
     <value>Estate Hall (Free Company) - Gridania</value>
@@ -180,20 +291,128 @@
   <data name="FallgourdFloat" xml:space="preserve">
     <value>Fallgourd Float</value>
   </data>
+  <data name="Ferberite" xml:space="preserve">
+    <value>Ferberite</value>
+  </data>
+  <data name="FleeceStingray_Psyduck" xml:space="preserve">
+    <value>Fleece Stingray</value>
+  </data>
   <data name="ForgottenSprings" xml:space="preserve">
     <value>Forgotten Springs</value>
   </data>
   <data name="Foundation" xml:space="preserve">
     <value>Foundation</value>
   </data>
+  <data name="FragrantLog" xml:space="preserve">
+    <value>Fragrant Log</value>
+  </data>
+  <data name="FrilledShark_Psyduck" xml:space="preserve">
+    <value>Frilled Shark</value>
+  </data>
+  <data name="FrostCottonBoll" xml:space="preserve">
+    <value>Frost Cotton Boll</value>
+  </data>
+  <data name="General_ActivePlugins" xml:space="preserve">
+    <value>Active plugins</value>
+  </data>
+  <data name="General_Aetherial_Reduction" xml:space="preserve">
+    <value>(Unspoiled nodes : Aetherial reduction)</value>
+  </data>
+  <data name="General_BlueScriptFishing" xml:space="preserve">
+    <value>(Fishing : Blue scripts)</value>
+  </data>
+  <data name="General_EtheriteWaitAtPoint" xml:space="preserve">
+    <value>Wait at the waiting point :</value>
+  </data>
+  <data name="General_EtheriteWaitingPoint" xml:space="preserve">
+    <value>Etherites and waiting points</value>
+  </data>
+  <data name="General_Housing" xml:space="preserve">
+    <value>(Housing)</value>
+  </data>
+  <data name="General_RareFishing" xml:space="preserve">
+    <value>(Fishing  : rare fishes)</value>
+  </data>
+  <data name="General_RegularFishing" xml:space="preserve">
+    <value>(Fishing : regular fishes)</value>
+  </data>
+  <data name="General_RegularGatehring" xml:space="preserve">
+    <value>(Regular gathering)</value>
+  </data>
+  <data name="General_RegularGatheringScripts" xml:space="preserve">
+    <value>(Regular nodes : Blue and red scripts)</value>
+  </data>
+  <data name="General_UnspoiledGatehring" xml:space="preserve">
+    <value>(Unspoiled nodes gathering)</value>
+  </data>
+  <data name="General_WaitingPoint" xml:space="preserve">
+    <value>Waiting point :</value>
+  </data>
+  <data name="General_YdillShireEtheriteActive" xml:space="preserve">
+    <value>Use etherite to get out of Ydillshire :</value>
+  </data>
+  <data name="GoldOre" xml:space="preserve">
+    <value>Gold Ore</value>
+  </data>
+  <data name="GoldSand" xml:space="preserve">
+    <value>Gold Sand</value>
+  </data>
+  <data name="GreenQuartz" xml:space="preserve">
+    <value>Green Quartz</value>
+  </data>
+  <data name="HeavensLemon" xml:space="preserve">
+    <value>Heavens Lemon</value>
+  </data>
+  <data name="Helicoprion_Psyduck" xml:space="preserve">
+    <value>Helicoprion</value>
+  </data>
   <data name="Helix" xml:space="preserve">
     <value>Helix</value>
+  </data>
+  <data name="HoneydewAlmonds" xml:space="preserve">
+    <value>Honeydew Almonds</value>
+  </data>
+  <data name="HoneyLemon" xml:space="preserve">
+    <value>Honey Lemon</value>
   </data>
   <data name="Horizon" xml:space="preserve">
     <value>Horizon</value>
   </data>
+  <data name="HraesvelgrsTear_Psyduck" xml:space="preserve">
+    <value>Hraesvelgr's Tear</value>
+  </data>
   <data name="Idyllshire" xml:space="preserve">
     <value>Idyllshire</value>
+  </data>
+  <data name="Inkfish_Psyduck" xml:space="preserve">
+    <value>Inkfish</value>
+  </data>
+  <data name="KeepFishing_Psyduck_Label" xml:space="preserve">
+    <value>Keep fishing if all conditions are ok :</value>
+  </data>
+  <data name="KeepFishing_Psyduck_Tip" xml:space="preserve">
+    <value>(May interfere with ephemeral gathering)</value>
+  </data>
+  <data name="Kidragora" xml:space="preserve">
+    <value>Kidragora</value>
+  </data>
+  <data name="KunotheKiller_Psyduck" xml:space="preserve">
+    <value>Kuno the Killer</value>
+  </data>
+  <data name="LaNosceanLeek" xml:space="preserve">
+    <value>La Noscean Leek</value>
+  </data>
+  <data name="LaNosceanTopsoil3" xml:space="preserve">
+    <value>Grade 3 La Noscean Topsoil</value>
+  </data>
+  <data name="LavaSnail_Psyduck" xml:space="preserve">
+    <value>Lava Snail</value>
+  </data>
+  <data name="LightKidneyOre" xml:space="preserve">
+    <value>Light Kidney Ore</value>
+  </data>
+  <data name="Limonite" xml:space="preserve">
+    <value>Limonite</value>
   </data>
   <data name="LimsaLominsaLowerDecks" xml:space="preserve">
     <value>Limsa Lominsa Lower Decks</value>
@@ -201,26 +420,194 @@
   <data name="LittleAlaMhigo" xml:space="preserve">
     <value>Little Ala Mhigo</value>
   </data>
+  <data name="LuminiumOre" xml:space="preserve">
+    <value>Luminium Ore</value>
+  </data>
+  <data name="LumythriteOre" xml:space="preserve">
+    <value>Lumythrite Ore</value>
+  </data>
+  <data name="MagicCarpet_Psyduck" xml:space="preserve">
+    <value>Magic Carpet</value>
+  </data>
+  <data name="Meteorite" xml:space="preserve">
+    <value>Meteorite</value>
+  </data>
+  <data name="Meteortoise_Psyduck" xml:space="preserve">
+    <value>Meteortoise</value>
+  </data>
   <data name="Moghome" xml:space="preserve">
     <value>Moghome</value>
   </data>
   <data name="MorabyDrydocks" xml:space="preserve">
     <value>Moraby Drydocks</value>
   </data>
+  <data name="Morel" xml:space="preserve">
+    <value>Morel</value>
+  </data>
+  <data name="Namitaro_Psyduck" xml:space="preserve">
+    <value>Namitaro</value>
+  </data>
+  <data name="NativeGold" xml:space="preserve">
+    <value>Native Gold</value>
+  </data>
+  <data name="NavigatorsBrand_Psyduck" xml:space="preserve">
+    <value>Navigator's Brand</value>
+  </data>
+  <data name="NeptoDragon_Psyduck" xml:space="preserve">
+    <value>Nepto Dragon</value>
+  </data>
   <data name="NewGridania" xml:space="preserve">
     <value>New Gridania</value>
+  </data>
+  <data name="NinjaBetta_Psyduck" xml:space="preserve">
+    <value>Ninja Betta</value>
+  </data>
+  <data name="NobleSage" xml:space="preserve">
+    <value>Noble Sage</value>
   </data>
   <data name="OkZundu" xml:space="preserve">
     <value>Ok' Zundu</value>
   </data>
+  <data name="OldGrowthCamphorwoodLog" xml:space="preserve">
+    <value>Old-Growth Camphorwood Log</value>
+  </data>
+  <data name="OldWorldFig" xml:space="preserve">
+    <value>Old World Fig</value>
+  </data>
+  <data name="OldWorldFigSeeds" xml:space="preserve">
+    <value>Old World Fig Seeds</value>
+  </data>
+  <data name="OliphantsTrunk_Psyduck" xml:space="preserve">
+    <value>Oliphant's Trunk</value>
+  </data>
+  <data name="Patience_Psyduck_Label" xml:space="preserve">
+    <value>Using "Patience" or "Patience II" :</value>
+  </data>
+  <data name="PearlSprouts" xml:space="preserve">
+    <value>Pearl Sprouts</value>
+  </data>
+  <data name="PearlSproutSeeds" xml:space="preserve">
+    <value>Pearl Sprout Seeds</value>
+  </data>
+  <data name="PipiraPira_Psyduck" xml:space="preserve">
+    <value>Pipira pira</value>
+  </data>
+  <data name="PlatinumOre" xml:space="preserve">
+    <value>Platinum Ore</value>
+  </data>
+  <data name="Porcini" xml:space="preserve">
+    <value>Porcini</value>
+  </data>
+  <data name="PricklyPineapple" xml:space="preserve">
+    <value>Prickly Pineapple</value>
+  </data>
+  <data name="PricklyPineappleSeeds" xml:space="preserve">
+    <value>Prickly Pineapple Seeds</value>
+  </data>
+  <data name="Psyduck_Big_fishes" xml:space="preserve">
+    <value>Big fishes</value>
+  </data>
+  <data name="Psyduck_Ephemeral_fishes" xml:space="preserve">
+    <value>Ephemeral fishes</value>
+  </data>
+  <data name="Psyduck_Feast_of_Famine" xml:space="preserve">
+    <value>Quest : 'Feast of Famine'</value>
+  </data>
+  <data name="Psyduck_Fishes_3_2_Title" xml:space="preserve">
+    <value>3.2 rare fishes</value>
+  </data>
+  <data name="Psyduck_Fishes_3_3_Title" xml:space="preserve">
+    <value>3.3 rare fishes</value>
+  </data>
+  <data name="Psyduck_Fishes_3_4_Title" xml:space="preserve">
+    <value>3.4 rare fishes</value>
+  </data>
+  <data name="Psyduck_Fishes_Title" xml:space="preserve">
+    <value>Fishes</value>
+  </data>
+  <data name="Psyduck_Other_fishes" xml:space="preserve">
+    <value>Other fishes</value>
+  </data>
+  <data name="Psyduck_Red_script_fishes" xml:space="preserve">
+    <value>Red script fishes</value>
+  </data>
+  <data name="Psyduck_The_Beast_of_Brewers_Beacon" xml:space="preserve">
+    <value>Quest : 'The Beast of Brewer's Beacon'</value>
+  </data>
+  <data name="Pteranodon_Psyduck" xml:space="preserve">
+    <value>Pteranodon</value>
+  </data>
+  <data name="Pyrite" xml:space="preserve">
+    <value>Pyrite</value>
+  </data>
   <data name="Quarrymill" xml:space="preserve">
     <value>Quarrymill</value>
+  </data>
+  <data name="RawDiamond" xml:space="preserve">
+    <value>Raw Diamond</value>
+  </data>
+  <data name="RawEmerald" xml:space="preserve">
+    <value>Raw Emerald</value>
+  </data>
+  <data name="RawIolite" xml:space="preserve">
+    <value>Raw Iolite</value>
+  </data>
+  <data name="RawRuby" xml:space="preserve">
+    <value>Raw Ruby</value>
+  </data>
+  <data name="RawSapphire" xml:space="preserve">
+    <value>Raw Sapphire</value>
+  </data>
+  <data name="RawTopaz" xml:space="preserve">
+    <value>Raw Topaz</value>
+  </data>
+  <data name="RedAlumen" xml:space="preserve">
+    <value>Red Alumen</value>
+  </data>
+  <data name="RedolentLog" xml:space="preserve">
+    <value>Redolent Log</value>
+  </data>
+  <data name="RedQuartz" xml:space="preserve">
+    <value>Red Quartz</value>
   </data>
   <data name="RevenantsToll" xml:space="preserve">
     <value>Revenant's Toll</value>
   </data>
+  <data name="Rosemary" xml:space="preserve">
+    <value>Rosemary</value>
+  </data>
+  <data name="Scaleripper_Psyduck" xml:space="preserve">
+    <value>Scaleripper</value>
+  </data>
+  <data name="SeventhHeaven" xml:space="preserve">
+    <value>Seventh Heaven</value>
+  </data>
+  <data name="Shonisaurus_Psyduck" xml:space="preserve">
+    <value>Shonisaurus</value>
+  </data>
+  <data name="ShroudTopsoil3" xml:space="preserve">
+    <value>Grade 3 Shroud Topsoil</value>
+  </data>
+  <data name="SilkwormCocoon" xml:space="preserve">
+    <value>Silkworm Cocoon</value>
+  </data>
+  <data name="SmithsoniteOre" xml:space="preserve">
+    <value>Smithsonite Ore</value>
+  </data>
+  <data name="Snurbleberry" xml:space="preserve">
+    <value>Snurbleberry</value>
+  </data>
+  <data name="SpruceLog" xml:space="preserve">
+    <value>Spruce Log</value>
+  </data>
+  <data name="StarCottonBoll" xml:space="preserve">
+    <value>Star Cotton Boll</value>
+  </data>
   <data name="SummerfordFarms" xml:space="preserve">
     <value>Summerford Farms</value>
+  </data>
+  <data name="SunMica" xml:space="preserve">
+    <value>Sun Mica</value>
   </data>
   <data name="Swiftperch" xml:space="preserve">
     <value>Swiftperch</value>
@@ -228,14 +615,131 @@
   <data name="Tailfeather" xml:space="preserve">
     <value>Tailfeather</value>
   </data>
+  <data name="Teaklog" xml:space="preserve">
+    <value>Teak Log</value>
+  </data>
+  <data name="ThaliakCaiman_Psyduck" xml:space="preserve">
+    <value>Thaliak Caiman</value>
+  </data>
+  <data name="ThanalanTopsoil3" xml:space="preserve">
+    <value>Grade 3 Thanalan Topsoil</value>
+  </data>
+  <data name="ThavnairianMistletoe_5" xml:space="preserve">
+    <value>Thavnairian Mistletoe</value>
+  </data>
+  <data name="ThavnairianMistletoe_7" xml:space="preserve">
+    <value>Thavnairian Mistletoe</value>
+  </data>
+  <data name="TheDreamweaver_Psyduck" xml:space="preserve">
+    <value>Tisseur-des-rêves</value>
+  </data>
   <data name="TheGoldSaucer" xml:space="preserve">
     <value>The Gold Saucer</value>
+  </data>
+  <data name="TheGreatestBreamInTheWorld_Psyduck" xml:space="preserve">
+    <value>The Greatest Bream in the World</value>
   </data>
   <data name="TheHawthorneHut" xml:space="preserve">
     <value>The Hawthorne Hut</value>
   </data>
+  <data name="TheSecondOne_Psyduck" xml:space="preserve">
+    <value>The Second One</value>
+  </data>
+  <data name="TheSoulOfTheMartyr_Psyduck" xml:space="preserve">
+    <value>The Soul of the Martyr</value>
+  </data>
+  <data name="ThunderboltEel_Psyduck" xml:space="preserve">
+    <value>Thunderbolt Eel</value>
+  </data>
+  <data name="TitanicSawfish_Psyduck" xml:space="preserve">
+    <value>Titanic Sawfish</value>
+  </data>
+  <data name="Trillium" xml:space="preserve">
+    <value>Trillium</value>
+  </data>
+  <data name="TrilliumBulb" xml:space="preserve">
+    <value>Trillium Bulb</value>
+  </data>
+  <data name="Tungstite" xml:space="preserve">
+    <value>Tungstite</value>
+  </data>
+  <data name="Tupuxuara_Psyduck" xml:space="preserve">
+    <value>Tupuxuara</value>
+  </data>
+  <data name="Ui_CordialType_Label" xml:space="preserve">
+    <value>Use cordials :</value>
+  </data>
+  <data name="Ui_Cordial_Automatic" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Ui_Cordial_Cordial" xml:space="preserve">
+    <value>Cordial</value>
+  </data>
+  <data name="Ui_Cordial_HiCordial" xml:space="preserve">
+    <value>Hi-Cordial</value>
+  </data>
+  <data name="Ui_Cordial_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Ui_General" xml:space="preserve">
+    <value>General settings</value>
+  </data>
+  <data name="Ui_ItemsSelection" xml:space="preserve">
+    <value>Items selection</value>
+  </data>
+  <data name="Ui_NoRTUsed" xml:space="preserve">
+    <value>(Don't use gathering point anymore)</value>
+  </data>
+  <data name="Ui_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Ui_SelectedItems" xml:space="preserve">
+    <value>Selected items</value>
+  </data>
+  <data name="Ui_SwitchLanguage" xml:space="preserve">
+    <value>Change language</value>
+  </data>
+  <data name="Ui_Symbiose" xml:space="preserve">
+    <value>Symbiosis mode :</value>
+  </data>
+  <data name="Ui_SymbioseCost" xml:space="preserve">
+    <value>(Cost 68.310 gils)</value>
+  </data>
+  <data name="Ui_UnableRotation" xml:space="preserve">
+    <value>Unable rotation :</value>
+  </data>
   <data name="UldahStepsofNald" xml:space="preserve">
     <value>Ul'dah - Steps of Nald</value>
+  </data>
+  <data name="UmbralRock" xml:space="preserve">
+    <value>Umbral Rock</value>
+  </data>
+  <data name="VampirePlant" xml:space="preserve">
+    <value>Vampire Plant</value>
+  </data>
+  <data name="VanillaBeans" xml:space="preserve">
+    <value>Vanilla Beans</value>
+  </data>
+  <data name="Vidofnir_Psyduck" xml:space="preserve">
+    <value>Vidofnir</value>
+  </data>
+  <data name="VioletQuartz" xml:space="preserve">
+    <value>Violet Quartz</value>
+  </data>
+  <data name="VirginBasiliskEgg" xml:space="preserve">
+    <value>Virgin Basilisk Egg</value>
+  </data>
+  <data name="VolcanicRockSalt_5" xml:space="preserve">
+    <value>Volcanic Rock Salt</value>
+  </data>
+  <data name="VolcanicRockSalt_7" xml:space="preserve">
+    <value>Volcanic Rock Salt</value>
+  </data>
+  <data name="WaterfowlFeather" xml:space="preserve">
+    <value>Waterfowl Feather</value>
+  </data>
+  <data name="WattleBark" xml:space="preserve">
+    <value>Wattle Bark</value>
   </data>
   <data name="Wineport" xml:space="preserve">
     <value>Wineport</value>
@@ -243,7 +747,16 @@
   <data name="WolvesDenPier" xml:space="preserve">
     <value>Wolves' Den Pier</value>
   </data>
+  <data name="YellowQuartz" xml:space="preserve">
+    <value>Yellow Quartz</value>
+  </data>
+  <data name="YoungCieldalaesSpinach" xml:space="preserve">
+    <value>Young Cieldalaes Spinach</value>
+  </data>
   <data name="Zenith" xml:space="preserve">
     <value>Zenith</value>
+  </data>
+  <data name="ZeoliteOre" xml:space="preserve">
+    <value>Zeolite Ore</value>
   </data>
 </root>

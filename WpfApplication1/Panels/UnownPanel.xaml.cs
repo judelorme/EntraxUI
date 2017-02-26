@@ -248,7 +248,7 @@ namespace WpfApplication1.Panels
 
             foreach (var selectedGatherableItem in SelectedGatherableItems.ToList())
             {
-                if (selectedGatherableItem.Name.Equals(item.Name) && selectedGatherableItem.Job == item.Job)
+                if (selectedGatherableItem.Name.Equals(item.Name) && selectedGatherableItem.Job == item.Job && selectedGatherableItem.FirstStartTime == item.FirstStartTime)
                 {
                     SelectedGatherableItems.Remove(selectedGatherableItem);
                     selectedGatherableItem.AsCollectable = false;
