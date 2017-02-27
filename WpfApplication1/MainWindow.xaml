@@ -31,6 +31,9 @@
             <TabItem Header="Unown">
                 <panels:UnownPanel />
             </TabItem>
+            <TabItem Header="Unown (Blue/red scripts)">
+                <panels:UnownScriptsPanel />
+            </TabItem>
         </TabControl>
         <Grid Grid.Row="1" VerticalAlignment="Bottom">
             <Button Content="{x:Static resx:Resources.Ui_SwitchLanguage}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,5,0,5" x:Name="ChangeLanguageButton" Click="ChangeLanguageButton_OnClick"/>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
 using System.Windows.Input;
 using WpfApplication1.Model;
 using WpfApplication1.Snorlax_Models;
@@ -17,6 +18,18 @@ namespace WpfApplication1.Panels
     public partial class SnorlaxPanel : UserControl, INotifyPropertyChanged
     {
         public Dictionary<string, string> Rotations { get; set; }
+
+        private string _searchText;
+        public string SearchText
+        {
+            get { return _searchText; }
+            set
+            {
+                _searchText = value;
+                OnPropertyChanged("SearchText");
+                UpdateSearchCriteria();
+            }
+        }
 
         private ObservableCollection<GatherableItem> _gatherableItems;
         public ObservableCollection<GatherableItem> GatherableItems
@@ -54,6 +67,19 @@ namespace WpfApplication1.Panels
 
             GenerateGatherableItemsList();
             GenerateSelectedGatherableItemsList();
+        }
+
+        public void UpdateSearchCriteria()
+        {
+            var view = CollectionViewSource.GetDefaultView(GatherableItems);
+            if (!string.IsNullOrWhiteSpace(_searchText))
+            {
+                view.Filter = (o) => (o as GatherableItem).Name.ToLower().Contains(_searchText.ToLower());
+            }
+            else
+            {
+                view.Filter = null;
+            }
         }
 
         private void GenerateSelectedGatherableItemsList()
@@ -187,13 +213,6 @@ namespace WpfApplication1.Panels
                 SelectedGatherableItems.Add(new GatherableItem { Name = "Pissenlit", Job = Job.Botanist, Localisation = "The Churning Mists", Quantity = EntraxModel.Instance.Dandelion, PropertyName = "Dandelion" });
             if (EntraxModel.Instance.EarthCrystal_FourArms > 0)
                 SelectedGatherableItems.Add(new GatherableItem { Name = "Cristal de terre", Job = Job.Botanist, Localisation = "The Churning Mists", Quantity = EntraxModel.Instance.EarthCrystal_FourArms, PropertyName = "EarthCrystal_FourArms" });
-
-            if (EntraxModel.Instance.CowBitter > 0)
-                SelectedGatherableItems.Add(new GatherableItem { Name = "Tanaisie", Job = Job.Botanist, Localisation = "The Dravanian Hinterlands", Quantity = EntraxModel.Instance.CowBitter, PropertyName = "CowBitter" });
-            if (EntraxModel.Instance.Gaelicatnip > 0)
-                SelectedGatherableItems.Add(new GatherableItem { Name = "Cataire", Job = Job.Botanist, Localisation = "The Dravanian Hinterlands", Quantity = EntraxModel.Instance.Gaelicatnip, PropertyName = "Gaelicatnip" });
-            if (EntraxModel.Instance.WindCrystal_TheAnsweringQuarter > 0)
-                SelectedGatherableItems.Add(new GatherableItem { Name = "Cristal de vent", Job = Job.Botanist, Localisation = "The Dravanian Hinterlands", Quantity = EntraxModel.Instance.WindCrystal_TheAnsweringQuarter, PropertyName = "WindCrystal_TheAnsweringQuarter" });
 
             if (EntraxModel.Instance.CowBitter > 0)
                 SelectedGatherableItems.Add(new GatherableItem { Name = "Tanaisie", Job = Job.Botanist, Localisation = "The Dravanian Hinterlands", Quantity = EntraxModel.Instance.CowBitter, PropertyName = "CowBitter" });

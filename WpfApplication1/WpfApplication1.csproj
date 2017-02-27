@@ -90,6 +90,9 @@
     <Compile Include="Panels\UnownPanel.xaml.cs">
       <DependentUpon>UnownPanel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Panels\UnownScriptsPanel.xaml.cs">
+      <DependentUpon>UnownScriptsPanel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Annotations2.cs" />
     <Compile Include="Snorlax Models\GatherableItem.cs" />
     <Compile Include="Properties\Resources.en-US.Designer.cs">
@@ -135,6 +138,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Panels\UnownPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panels\UnownScriptsPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

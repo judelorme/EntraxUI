@@ -10,11 +10,11 @@ none
 false
 TRACE
 D:\Travail\GitHub\EntraxUI\WpfApplication1\App.xaml
-71524006188
+81516655230
 
-22-846060485
+231565186405
 181988123205
-FileChooser.xaml;MainWindow.xaml;Panels\GeneralPanel.xaml;Panels\PsyduckPanel.xaml;Panels\SnorlaxPanel.xaml;Panels\TangelaPanel.xaml;Panels\UnownPanel.xaml;
+FileChooser.xaml;MainWindow.xaml;Panels\GeneralPanel.xaml;Panels\PsyduckPanel.xaml;Panels\SnorlaxPanel.xaml;Panels\TangelaPanel.xaml;Panels\UnownPanel.xaml;Panels\UnownScriptsPanel.xaml;
 
-False
+True
 

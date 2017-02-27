@@ -3926,7 +3926,23 @@ namespace WpfApplication1.Model
         }
 
         #endregion UNOWN
-        
+
+        #region UNOWN SCRIP
+
+        public bool TurnInAfterLoop { get; set; }
+        public string TurnIn_City { get; set; }
+        public int TurnInAfterLoop_free_bag_slots { get; set; }
+        public bool Trade_Counterfoil { get; set; }
+        public int Cap_Amount { get; set; }
+        public int RedGatherToken_Count { get; set; }
+        public int GoblinDice_Count { get; set; }
+        public int BlueGatherToken_Count { get; set; }
+        public int HiCordial_Count { get; set; }
+        public int BruteLeech_Count { get; set; }
+        public int CraneFly_Count { get; set; }
+
+        #endregion UNOWN SCRIP
+
         private int _waitingAetheryteId;
         private bool _useHouseCodechunck;
         private bool _useAetheryteIdyllshire;
@@ -4854,6 +4870,32 @@ namespace WpfApplication1.Model
                 RedQuartz = GetBooleanValue(value);
             else if (property.Equals("Collect_RedQuartz"))
                 Collect_RedQuartz = GetBooleanValue(value);
+
+            // Unown Scrips
+
+            else if (property.Equals("TurnInAfterLoop"))
+                TurnInAfterLoop = GetBooleanValue(value);
+            else if (property.Equals("TurnIn_City"))
+                TurnIn_City = value;
+            else if (property.Equals("TurnInAfterLoop_free_bag_slots"))
+                TurnInAfterLoop_free_bag_slots = GetIntValue(value);
+            else if (property.Equals("Trade_Counterfoil"))
+                Trade_Counterfoil = GetBooleanValue(value);
+            else if (property.Equals("Cap_Amount"))
+                Cap_Amount = GetIntValue(value);
+
+            else if (property.Equals("RedGatherToken_Count"))
+                RedGatherToken_Count = GetIntValue(value);
+            else if (property.Equals("GoblinDice_Count"))
+                GoblinDice_Count = GetIntValue(value);
+            else if (property.Equals("BlueGatherToken_Count"))
+                BlueGatherToken_Count = GetIntValue(value);
+            else if (property.Equals("HiCordial_Count"))
+                HiCordial_Count = GetIntValue(value);
+            else if (property.Equals("BruteLeech_Count"))
+                BruteLeech_Count = GetIntValue(value);
+            else if (property.Equals("CraneFly_Count"))
+                CraneFly_Count = GetIntValue(value);
 
             // Snorlax
             else if (property.Equals("DisableRotationOverride_Snorlax"))

@@ -1,0 +1,93 @@
+﻿<UserControl x:Class="WpfApplication1.Panels.UnownScriptsPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:resx="clr-namespace:WpfApplication1.Properties"
+             xmlns:model="clr-namespace:WpfApplication1.Model"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <ScrollViewer>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Text="{x:Static resx:Resources.Ui_General}"/>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.TurnInAfterLoop}"/>
+                <CheckBox Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TurnInAfterLoop}"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.TurnIn_City}"/>
+                <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding TurnInCity}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TurnIn_City}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.TurnInAfterLoop_free_bag_slots}"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="2" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TurnInAfterLoop_free_bag_slots}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.Trade_Counterfoil}"/>
+                <CheckBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Trade_Counterfoil}"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.Cap_Amount}"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="4" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Cap_Amount}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+            </Grid>
+
+            <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Text="{x:Static resx:Resources.Ui_Shop}"/>
+
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}" Text="{x:Static resx:Resources.Ui_RedScrips}"/>
+                
+                <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.RedGatherToken_Count}"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="1" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=RedGatherToken_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.GoblinDice_Count}"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="2" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GoblinDice_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}" Text="{x:Static resx:Resources.Ui_BlueScrips}"/>
+                
+                <TextBlock Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.BlueGatherToken_Count}"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="4" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=BlueGatherToken_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.HiCordial_Count}"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="5" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=HiCordial_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.BruteLeech_Count}"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="6" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=BruteLeech_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.CraneFly_Count}"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="7" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=CraneFly_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

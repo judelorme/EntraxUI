@@ -123,11 +123,17 @@
   <data name="AbalathianRockSalt" xml:space="preserve">
     <value>Abalathian Rock Salt</value>
   </data>
+  <data name="AbalathianSpringWater" xml:space="preserve">
+    <value>Abalathian Spring Water</value>
+  </data>
   <data name="Adamantite" xml:space="preserve">
     <value>Adamantite Ore</value>
   </data>
   <data name="Aleport" xml:space="preserve">
     <value>Aleport</value>
+  </data>
+  <data name="Aloe" xml:space="preserve">
+    <value>Aloe</value>
   </data>
   <data name="AmberSalamander_Psyduck" xml:space="preserve">
     <value>Amber Salamander</value>
@@ -153,14 +159,35 @@
   <data name="AurumRegisOre" xml:space="preserve">
     <value>Aurum Regis Ore</value>
   </data>
+  <data name="AurumRegisSand" xml:space="preserve">
+    <value>Aurum Regis Sand</value>
+  </data>
+  <data name="BasiliskEgg" xml:space="preserve">
+    <value>Basilisk Egg</value>
+  </data>
+  <data name="BeastkinHorn" xml:space="preserve">
+    <value>Beastkin Horn</value>
+  </data>
   <data name="BentbranchMeadows" xml:space="preserve">
     <value>Bentbranch Meadows</value>
+  </data>
+  <data name="BirchBranch" xml:space="preserve">
+    <value>Birch Branch</value>
+  </data>
+  <data name="BirchLog" xml:space="preserve">
+    <value>Birch Log</value>
+  </data>
+  <data name="BirchSap" xml:space="preserve">
+    <value>Birch Sap</value>
   </data>
   <data name="BlackBrushStation" xml:space="preserve">
     <value>Black Brush Station</value>
   </data>
   <data name="BlackTruffle" xml:space="preserve">
     <value>Black Truffle</value>
+  </data>
+  <data name="BloodCurrants" xml:space="preserve">
+    <value>Blood Currants</value>
   </data>
   <data name="BlueQuartz" xml:space="preserve">
     <value>Blue Quartz</value>
@@ -186,11 +213,23 @@
   <data name="CampDrybone" xml:space="preserve">
     <value>Camp Drybone</value>
   </data>
+  <data name="CamphorwoodBranch" xml:space="preserve">
+    <value>Camphorwood Branch</value>
+  </data>
+  <data name="CamphorwoodLog" xml:space="preserve">
+    <value>Camphorwood Log</value>
+  </data>
   <data name="CampOverlook" xml:space="preserve">
     <value>Camp Overlook</value>
   </data>
   <data name="CampTranquil" xml:space="preserve">
     <value>Camp Tranquil</value>
+  </data>
+  <data name="CedarBranch" xml:space="preserve">
+    <value>Cedar Branch</value>
+  </data>
+  <data name="CedarLog" xml:space="preserve">
+    <value>Cedar Log</value>
   </data>
   <data name="CeruleumProcessingPlant" xml:space="preserve">
     <value>Ceruleum Processing Plant</value>
@@ -206,6 +245,9 @@
   </data>
   <data name="CloudBanana" xml:space="preserve">
     <value>Cloud Banana</value>
+  </data>
+  <data name="CloudMica" xml:space="preserve">
+    <value>Cloud Mica</value>
   </data>
   <data name="Cluster_1AM" xml:space="preserve">
     <value>Cluster</value>
@@ -225,14 +267,26 @@
   <data name="Cluster_9PM" xml:space="preserve">
     <value>Cluster</value>
   </data>
+  <data name="CobaltOre" xml:space="preserve">
+    <value>Cobalt Ore</value>
+  </data>
   <data name="CoerthanTeaLeaves" xml:space="preserve">
     <value>Coerthan Tea Leaves</value>
   </data>
   <data name="CoerthanTeaSeeds" xml:space="preserve">
     <value>Coerthan Tea Seeds</value>
   </data>
+  <data name="Coneflower" xml:space="preserve">
+    <value>Coneflower</value>
+  </data>
+  <data name="Coriander" xml:space="preserve">
+    <value>Coriander</value>
+  </data>
   <data name="CostadelSol" xml:space="preserve">
     <value>Costa Del Sol</value>
+  </data>
+  <data name="CowBitter" xml:space="preserve">
+    <value>Cow Bitter</value>
   </data>
   <data name="CrystallizedSap" xml:space="preserve">
     <value>Crystallized Sap</value>
@@ -240,11 +294,29 @@
   <data name="Cuprite" xml:space="preserve">
     <value>Cuprite</value>
   </data>
+  <data name="CyclopsOnion" xml:space="preserve">
+    <value>Cyclops Onion</value>
+  </data>
   <data name="CypressLog" xml:space="preserve">
     <value>Cypress Log</value>
   </data>
+  <data name="Dandelion" xml:space="preserve">
+    <value>Dandelion</value>
+  </data>
+  <data name="DarkChestnut" xml:space="preserve">
+    <value>Dark Chestnut</value>
+  </data>
+  <data name="DarkChestnutBranch" xml:space="preserve">
+    <value>Dark Chestnut Branch</value>
+  </data>
+  <data name="DarkChestnutLog" xml:space="preserve">
+    <value>Dark Chestnut Log</value>
+  </data>
   <data name="DarksteelOre" xml:space="preserve">
     <value>Darksteel Ore</value>
+  </data>
+  <data name="DragonObsidian" xml:space="preserve">
+    <value>Dragon Obsidian</value>
   </data>
   <data name="DravanianBass_Psyduck" xml:space="preserve">
     <value>Dravanian Bass</value>
@@ -255,14 +327,41 @@
   <data name="DravanianPaprika" xml:space="preserve">
     <value>Dravanian Paprika</value>
   </data>
+  <data name="DravanianSpringWater" xml:space="preserve">
+    <value>Dravanian Spring Water</value>
+  </data>
   <data name="DzemaelTomato" xml:space="preserve">
     <value>Dzemael Tomato</value>
   </data>
   <data name="DzemaelTomatoSeeds" xml:space="preserve">
     <value>Dzemael Tomato Seeds</value>
   </data>
+  <data name="EarthCrystal_FourArms" xml:space="preserve">
+    <value>Earth Crystal</value>
+  </data>
+  <data name="EarthCrystal_LandlordColony_BTN" xml:space="preserve">
+    <value>Earth Crystal</value>
+  </data>
+  <data name="EarthCrystal_LandlordColony_MIN" xml:space="preserve">
+    <value>Earth Crystal</value>
+  </data>
+  <data name="EarthShard_BTN" xml:space="preserve">
+    <value>Earth Shard</value>
+  </data>
+  <data name="EarthShard_MIN" xml:space="preserve">
+    <value>Earth Shard</value>
+  </data>
   <data name="EbonyLog" xml:space="preserve">
     <value>Ebony Log</value>
+  </data>
+  <data name="EffervescentWater" xml:space="preserve">
+    <value>Effervescent Water</value>
+  </data>
+  <data name="ElectrumOre" xml:space="preserve">
+    <value>Electrum Ore</value>
+  </data>
+  <data name="EmeraldBeans" xml:space="preserve">
+    <value>Emerald Beans</value>
   </data>
   <data name="Endoceras_Psyduck" xml:space="preserve">
     <value>Endoceras</value>
@@ -294,6 +393,33 @@
   <data name="Ferberite" xml:space="preserve">
     <value>Ferberite</value>
   </data>
+  <data name="FireCrystal_AvaloniaFallen_BTN" xml:space="preserve">
+    <value>Fire Crystal</value>
+  </data>
+  <data name="FireCrystal_AvaloniaFallen_MIN" xml:space="preserve">
+    <value>Fire Crystal</value>
+  </data>
+  <data name="FireCrystal_ChocoboForest_BTN" xml:space="preserve">
+    <value>Fire Crystal</value>
+  </data>
+  <data name="FireCrystal_ChocoboForest_MIN" xml:space="preserve">
+    <value>Fire Crystal</value>
+  </data>
+  <data name="FireCrystal_TheSmolderingWastes_BTN" xml:space="preserve">
+    <value>Fire Crystal</value>
+  </data>
+  <data name="FireCrystal_TheSmolderingWastes_MIN" xml:space="preserve">
+    <value>Fire Crystal</value>
+  </data>
+  <data name="FireShard_BTN" xml:space="preserve">
+    <value>Fire Shard</value>
+  </data>
+  <data name="FireShard_MIN" xml:space="preserve">
+    <value>Fire Shard</value>
+  </data>
+  <data name="Flax" xml:space="preserve">
+    <value>Flax</value>
+  </data>
   <data name="FleeceStingray_Psyduck" xml:space="preserve">
     <value>Fleece Stingray</value>
   </data>
@@ -311,6 +437,9 @@
   </data>
   <data name="FrostCottonBoll" xml:space="preserve">
     <value>Frost Cotton Boll</value>
+  </data>
+  <data name="Gaelicatnip" xml:space="preserve">
+    <value>Gaelicatnip</value>
   </data>
   <data name="General_ActivePlugins" xml:space="preserve">
     <value>Active plugins</value>
@@ -360,6 +489,12 @@
   <data name="GreenQuartz" xml:space="preserve">
     <value>Green Quartz</value>
   </data>
+  <data name="HardsilverOre" xml:space="preserve">
+    <value>Hardsilver Ore</value>
+  </data>
+  <data name="HardsilverSand" xml:space="preserve">
+    <value>Hardsilver Sand</value>
+  </data>
   <data name="HeavensLemon" xml:space="preserve">
     <value>Heavens Lemon</value>
   </data>
@@ -368,6 +503,12 @@
   </data>
   <data name="Helix" xml:space="preserve">
     <value>Helix</value>
+  </data>
+  <data name="HighlandParsley" xml:space="preserve">
+    <value>Highland Parsley</value>
+  </data>
+  <data name="HighlandWheat" xml:space="preserve">
+    <value>Highland Wheat</value>
   </data>
   <data name="HoneydewAlmonds" xml:space="preserve">
     <value>Honeydew Almonds</value>
@@ -380,6 +521,33 @@
   </data>
   <data name="HraesvelgrsTear_Psyduck" xml:space="preserve">
     <value>Hraesvelgr's Tear</value>
+  </data>
+  <data name="IceCrystal_GorganeHolding" xml:space="preserve">
+    <value>Ice Crystal</value>
+  </data>
+  <data name="IceCrystal_RedRime" xml:space="preserve">
+    <value>Ice Crystal</value>
+  </data>
+  <data name="IceCrystal_Riversmeet_BTN" xml:space="preserve">
+    <value>Ice Crystal</value>
+  </data>
+  <data name="IceCrystal_Riversmeet_MIN" xml:space="preserve">
+    <value>Ice Crystal</value>
+  </data>
+  <data name="IceCrystal_Twinpools_BTN51" xml:space="preserve">
+    <value>Ice Crystal</value>
+  </data>
+  <data name="IceCrystal_Twinpools_BTN56" xml:space="preserve">
+    <value>Ice Crystal</value>
+  </data>
+  <data name="IceCrystal_Twinpools_MIN51" xml:space="preserve">
+    <value>Ice Crystal</value>
+  </data>
+  <data name="IceShard_BTN" xml:space="preserve">
+    <value>Ice Shard</value>
+  </data>
+  <data name="IceShard_MIN" xml:space="preserve">
+    <value>Ice Shard</value>
   </data>
   <data name="Idyllshire" xml:space="preserve">
     <value>Idyllshire</value>
@@ -411,6 +579,15 @@
   <data name="LightKidneyOre" xml:space="preserve">
     <value>Light Kidney Ore</value>
   </data>
+  <data name="LightningCrystal_VoorSianSiran_MIN" xml:space="preserve">
+    <value>Lightning Crystal</value>
+  </data>
+  <data name="LightningShard_BTN" xml:space="preserve">
+    <value>Lightning Shard</value>
+  </data>
+  <data name="LightningShard_MIN" xml:space="preserve">
+    <value>Lightning Shard</value>
+  </data>
   <data name="Limonite" xml:space="preserve">
     <value>Limonite</value>
   </data>
@@ -426,8 +603,14 @@
   <data name="LumythriteOre" xml:space="preserve">
     <value>Lumythrite Ore</value>
   </data>
+  <data name="LumythriteSand" xml:space="preserve">
+    <value>Lumythrite Sand</value>
+  </data>
   <data name="MagicCarpet_Psyduck" xml:space="preserve">
     <value>Magic Carpet</value>
+  </data>
+  <data name="MagmaBeet" xml:space="preserve">
+    <value>Magma Beet</value>
   </data>
   <data name="Meteorite" xml:space="preserve">
     <value>Meteorite</value>
@@ -443,6 +626,15 @@
   </data>
   <data name="Morel" xml:space="preserve">
     <value>Morel</value>
+  </data>
+  <data name="MythrilOre" xml:space="preserve">
+    <value>Mythril Ore</value>
+  </data>
+  <data name="MythriteOre" xml:space="preserve">
+    <value>Mythrite Ore</value>
+  </data>
+  <data name="MythriteSand" xml:space="preserve">
+    <value>Mythrite Sand</value>
   </data>
   <data name="Namitaro_Psyduck" xml:space="preserve">
     <value>Namitaro</value>
@@ -543,6 +735,21 @@
   <data name="Quarrymill" xml:space="preserve">
     <value>Quarrymill</value>
   </data>
+  <data name="RainbowCottonBoll" xml:space="preserve">
+    <value>Rainbow Cotton Boll</value>
+  </data>
+  <data name="RawAgate" xml:space="preserve">
+    <value>Raw Agate</value>
+  </data>
+  <data name="RawCarnelian" xml:space="preserve">
+    <value>Raw Carnelian</value>
+  </data>
+  <data name="RawChrysolite" xml:space="preserve">
+    <value>Raw Chrysolite</value>
+  </data>
+  <data name="RawCitrine" xml:space="preserve">
+    <value>Raw Citrine</value>
+  </data>
   <data name="RawDiamond" xml:space="preserve">
     <value>Raw Diamond</value>
   </data>
@@ -552,11 +759,29 @@
   <data name="RawIolite" xml:space="preserve">
     <value>Raw Iolite</value>
   </data>
+  <data name="RawLarimar" xml:space="preserve">
+    <value>Raw Larimar</value>
+  </data>
+  <data name="RawMormorion" xml:space="preserve">
+    <value>Raw Mormorion</value>
+  </data>
+  <data name="RawOpal" xml:space="preserve">
+    <value>Raw Opal</value>
+  </data>
   <data name="RawRuby" xml:space="preserve">
     <value>Raw Ruby</value>
   </data>
   <data name="RawSapphire" xml:space="preserve">
     <value>Raw Sapphire</value>
+  </data>
+  <data name="RawStarRuby" xml:space="preserve">
+    <value>Raw Star Ruby</value>
+  </data>
+  <data name="RawStarSapphire" xml:space="preserve">
+    <value>Raw Star Sapphire</value>
+  </data>
+  <data name="RawTigersEye" xml:space="preserve">
+    <value>Raw Tiger's Eye</value>
   </data>
   <data name="RawTopaz" xml:space="preserve">
     <value>Raw Topaz</value>
@@ -576,6 +801,9 @@
   <data name="Rosemary" xml:space="preserve">
     <value>Rosemary</value>
   </data>
+  <data name="Rue" xml:space="preserve">
+    <value>Rue</value>
+  </data>
   <data name="Scaleripper_Psyduck" xml:space="preserve">
     <value>Scaleripper</value>
   </data>
@@ -591,14 +819,23 @@
   <data name="SilkwormCocoon" xml:space="preserve">
     <value>Silkworm Cocoon</value>
   </data>
+  <data name="SilverOre" xml:space="preserve">
+    <value>Silver Ore</value>
+  </data>
   <data name="SmithsoniteOre" xml:space="preserve">
     <value>Smithsonite Ore</value>
   </data>
   <data name="Snurbleberry" xml:space="preserve">
     <value>Snurbleberry</value>
   </data>
+  <data name="SprigOfMistDill" xml:space="preserve">
+    <value>Sprig Of Mist Dill</value>
+  </data>
   <data name="SpruceLog" xml:space="preserve">
     <value>Spruce Log</value>
+  </data>
+  <data name="StalkOfRamie" xml:space="preserve">
+    <value>Stalk Of Ramie</value>
   </data>
   <data name="StarCottonBoll" xml:space="preserve">
     <value>Star Cotton Boll</value>
@@ -653,6 +890,9 @@
   </data>
   <data name="TitanicSawfish_Psyduck" xml:space="preserve">
     <value>Titanic Sawfish</value>
+  </data>
+  <data name="TitaniumOre" xml:space="preserve">
+    <value>Titanium Ore</value>
   </data>
   <data name="Trillium" xml:space="preserve">
     <value>Trillium</value>
@@ -735,17 +975,50 @@
   <data name="VolcanicRockSalt_7" xml:space="preserve">
     <value>Volcanic Rock Salt</value>
   </data>
+  <data name="WaterCrystal_VoorSianSiran_BTN" xml:space="preserve">
+    <value>Water Crystal</value>
+  </data>
+  <data name="WaterCrystal_VoorSianSiran_MIN" xml:space="preserve">
+    <value>Water Crystal</value>
+  </data>
   <data name="WaterfowlFeather" xml:space="preserve">
     <value>Waterfowl Feather</value>
   </data>
+  <data name="WaterShard_BTN" xml:space="preserve">
+    <value>Water Shard</value>
+  </data>
+  <data name="WaterShard_MIN" xml:space="preserve">
+    <value>Water Shard</value>
+  </data>
   <data name="WattleBark" xml:space="preserve">
     <value>Wattle Bark</value>
+  </data>
+  <data name="WhitefrostCottonBoll" xml:space="preserve">
+    <value>Whitefrost Cotton Boll</value>
+  </data>
+  <data name="WhiteTruffle" xml:space="preserve">
+    <value>White Truffle</value>
+  </data>
+  <data name="WindCrystal_TheAnsweringQuarter" xml:space="preserve">
+    <value>Wind Crystal</value>
+  </data>
+  <data name="WindCrystal_TheMakersQuarter" xml:space="preserve">
+    <value>Wind Crystal</value>
+  </data>
+  <data name="WindShard_BTN" xml:space="preserve">
+    <value>Wind Shard</value>
+  </data>
+  <data name="WindShard_MIN" xml:space="preserve">
+    <value>Wind Shard</value>
   </data>
   <data name="Wineport" xml:space="preserve">
     <value>Wineport</value>
   </data>
   <data name="WolvesDenPier" xml:space="preserve">
     <value>Wolves' Den Pier</value>
+  </data>
+  <data name="WyrmObsidian" xml:space="preserve">
+    <value>Wyrm Obsidian</value>
   </data>
   <data name="YellowQuartz" xml:space="preserve">
     <value>Yellow Quartz</value>
@@ -758,5 +1031,53 @@
   </data>
   <data name="ZeoliteOre" xml:space="preserve">
     <value>Zeolite Ore</value>
+  </data>
+  <data name="BlueGatherToken_Count" xml:space="preserve">
+    <value>Rowena's Token (Blue Gatherers' Scrip) :</value>
+  </data>
+  <data name="BruteLeech_Count" xml:space="preserve">
+    <value>Brute Leech :</value>
+  </data>
+  <data name="Cap_Amount" xml:space="preserve">
+    <value>Max red scrips amount to trade :</value>
+  </data>
+  <data name="CraneFly_Count" xml:space="preserve">
+    <value>Giant Crane Fly :</value>
+  </data>
+  <data name="GoblinDice_Count" xml:space="preserve">
+    <value>Goblin Dice :</value>
+  </data>
+  <data name="HiCordial_Count" xml:space="preserve">
+    <value>Hi-Cordial :</value>
+  </data>
+  <data name="MorDhona" xml:space="preserve">
+    <value>Mor Dhona</value>
+  </data>
+  <data name="RedGatherToken_Count" xml:space="preserve">
+    <value>Rowena's Token (Red Gatherers' Scrip) :</value>
+  </data>
+  <data name="Trade_Counterfoil" xml:space="preserve">
+    <value>Trade scrips for counterfoils :</value>
+  </data>
+  <data name="TurnInAfterLoop" xml:space="preserve">
+    <value>Turn items in for scrips :</value>
+  </data>
+  <data name="TurnInAfterLoop_free_bag_slots" xml:space="preserve">
+    <value>Space left in the inventory before turning in :</value>
+  </data>
+  <data name="TurnIn_City" xml:space="preserve">
+    <value>Turn-in city :</value>
+  </data>
+  <data name="Ui_Shop" xml:space="preserve">
+    <value>Shop settings</value>
+  </data>
+  <data name="Ui_BlueScrips" xml:space="preserve">
+    <value>Blue scrips</value>
+  </data>
+  <data name="Ui_RedScrips" xml:space="preserve">
+    <value>Red scrips</value>
+  </data>
+  <data name="Ui_Search" xml:space="preserve">
+    <value>Search...</value>
   </data>
 </root>

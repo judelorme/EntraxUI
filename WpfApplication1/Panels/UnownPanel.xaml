@@ -167,7 +167,8 @@
 
                 <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Sélection des ressources</TextBlock>
 
-                <Button Grid.Column="1" Grid.Row="1" Content="{Binding ShowHideButtonText}" x:Name="ShowHideButton" Click="ShowHideButton_OnClick"/>
+                <xctk:WatermarkTextBox Grid.Column="0" Grid.Row="1" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Watermark="{x:Static resx:Resources.Ui_Search}" Margin="20,0,0,0" HorizontalAlignment="Left" Width="150"/>
+                <Button Grid.Column="1" Grid.Row="1" Content="{Binding ShowHideButtonText}" x:Name="ShowHideButton" Click="ShowHideButton_OnClick" Margin="0,0,20,0" HorizontalAlignment="Right" Width="50"/>
                 <ListBox x:Name="ItemSelectionList" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Height="400" MouseDoubleClick="EventSetter_OnHandler" Margin="20,0,20,0">
                     <ListBox.GroupStyle>
                         <GroupStyle>

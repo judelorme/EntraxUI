@@ -19,6 +19,18 @@ namespace WpfApplication1.Panels
     {
         public Dictionary<string, string> Rotations { get; set; }
 
+        private string _searchText;
+        public string SearchText
+        {
+            get { return _searchText; }
+            set
+            {
+                _searchText = value;
+                OnPropertyChanged("SearchText");
+                UpdateSearchCriteria();
+            }
+        }
+
         private ObservableCollection<GatherableItem> _gatherableItems;
         public ObservableCollection<GatherableItem> GatherableItems
         {
@@ -55,6 +67,19 @@ namespace WpfApplication1.Panels
 
             GenerateGatherableItemsList();
             GenerateSelectedGatherableItemsList();
+        }
+
+        public void UpdateSearchCriteria()
+        {
+            var view = CollectionViewSource.GetDefaultView(GatherableItems);
+            if (!string.IsNullOrWhiteSpace(_searchText))
+            {
+                view.Filter = (o) => (o as GatherableItem).Name.ToLower().Contains(_searchText.ToLower());
+            }
+            else
+            {
+                view.Filter = null;
+            }
         }
         
         private void GenerateSelectedGatherableItemsList()

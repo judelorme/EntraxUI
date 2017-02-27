@@ -123,11 +123,17 @@
   <data name="AbalathianRockSalt" xml:space="preserve">
     <value>Sel gemme d'Abalathia</value>
   </data>
+  <data name="AbalathianSpringWater" xml:space="preserve">
+    <value>Eau de source d'Abalathia</value>
+  </data>
   <data name="Adamantite" xml:space="preserve">
     <value>Minerai d'adamant</value>
   </data>
   <data name="Aleport" xml:space="preserve">
     <value>Port-aux-Ales</value>
+  </data>
+  <data name="Aloe" xml:space="preserve">
+    <value>Aloès</value>
   </data>
   <data name="AmberSalamander_Psyduck" xml:space="preserve">
     <value>Salamandre ambrée</value>
@@ -153,14 +159,35 @@
   <data name="AurumRegisOre" xml:space="preserve">
     <value>Minerai d'aurum regis</value>
   </data>
+  <data name="AurumRegisSand" xml:space="preserve">
+    <value>Sable d'aurum regis</value>
+  </data>
+  <data name="BasiliskEgg" xml:space="preserve">
+    <value>Oeuf de basilic</value>
+  </data>
+  <data name="BeastkinHorn" xml:space="preserve">
+    <value>Corne de bête</value>
+  </data>
   <data name="BentbranchMeadows" xml:space="preserve">
     <value>Ranch De Brancharquée</value>
+  </data>
+  <data name="BirchBranch" xml:space="preserve">
+    <value>Branche de bouleau</value>
+  </data>
+  <data name="BirchLog" xml:space="preserve">
+    <value>Rondin de bouleau</value>
+  </data>
+  <data name="BirchSap" xml:space="preserve">
+    <value>Sève de bouleau</value>
   </data>
   <data name="BlackBrushStation" xml:space="preserve">
     <value>Gare De Roncenoire</value>
   </data>
   <data name="BlackTruffle" xml:space="preserve">
     <value>Truffe noire</value>
+  </data>
+  <data name="BloodCurrants" xml:space="preserve">
+    <value>Groseille sanguine</value>
   </data>
   <data name="BlueQuartz" xml:space="preserve">
     <value>Quartz bleu</value>
@@ -186,11 +213,23 @@
   <data name="CampDrybone" xml:space="preserve">
     <value>Camp Des Os Desséchés</value>
   </data>
+  <data name="CamphorwoodBranch" xml:space="preserve">
+    <value>Branche de camphrier</value>
+  </data>
+  <data name="CamphorwoodLog" xml:space="preserve">
+    <value>Rondin de camphrier</value>
+  </data>
   <data name="CampOverlook" xml:space="preserve">
     <value>Camp Du Guet</value>
   </data>
   <data name="CampTranquil" xml:space="preserve">
     <value>Camp Des Sentes Tranquilles</value>
+  </data>
+  <data name="CedarBranch" xml:space="preserve">
+    <value>Branche de cèdre</value>
+  </data>
+  <data name="CedarLog" xml:space="preserve">
+    <value>Rondin de cèdre</value>
   </data>
   <data name="CeruleumProcessingPlant" xml:space="preserve">
     <value>Usine De Céruleum</value>
@@ -206,6 +245,9 @@
   </data>
   <data name="CloudBanana" xml:space="preserve">
     <value>Banane céleste</value>
+  </data>
+  <data name="CloudMica" xml:space="preserve">
+    <value>Mica blanc</value>
   </data>
   <data name="Cluster_1AM" xml:space="preserve">
     <value>Agrégat</value>
@@ -225,14 +267,26 @@
   <data name="Cluster_9PM" xml:space="preserve">
     <value>Agrégat</value>
   </data>
+  <data name="CobaltOre" xml:space="preserve">
+    <value>Minerai de cobalt</value>
+  </data>
   <data name="CoerthanTeaLeaves" xml:space="preserve">
     <value>Feuilles de thé du Coerthas</value>
   </data>
   <data name="CoerthanTeaSeeds" xml:space="preserve">
     <value>Graines de théier du Coerthas</value>
   </data>
+  <data name="Coneflower" xml:space="preserve">
+    <value>Échinacée</value>
+  </data>
+  <data name="Coriander" xml:space="preserve">
+    <value>Coriandre</value>
+  </data>
   <data name="CostadelSol" xml:space="preserve">
     <value>Costa Del Sol</value>
+  </data>
+  <data name="CowBitter" xml:space="preserve">
+    <value>Tanaisie</value>
   </data>
   <data name="CrystallizedSap" xml:space="preserve">
     <value>Sève cristallisée</value>
@@ -240,11 +294,29 @@
   <data name="Cuprite" xml:space="preserve">
     <value>Minerai de cuprite</value>
   </data>
+  <data name="CyclopsOnion" xml:space="preserve">
+    <value>Échalion cyclope</value>
+  </data>
   <data name="CypressLog" xml:space="preserve">
     <value>Rondin de cyprès</value>
   </data>
+  <data name="Dandelion" xml:space="preserve">
+    <value>Pissenlit</value>
+  </data>
+  <data name="DarkChestnut" xml:space="preserve">
+    <value>Marron sombre</value>
+  </data>
+  <data name="DarkChestnutBranch" xml:space="preserve">
+    <value>Branche de châtaignier sombre</value>
+  </data>
+  <data name="DarkChestnutLog" xml:space="preserve">
+    <value>Rondin de châtaignier sombre</value>
+  </data>
   <data name="DarksteelOre" xml:space="preserve">
     <value>Minerai de sombracier</value>
+  </data>
+  <data name="DragonObsidian" xml:space="preserve">
+    <value>Éclat d'obsidienne de dragon</value>
   </data>
   <data name="DravanianBass_Psyduck" xml:space="preserve">
     <value>Bar dravanien</value>
@@ -255,14 +327,41 @@
   <data name="DravanianPaprika" xml:space="preserve">
     <value>Paprika dravanien</value>
   </data>
+  <data name="DravanianSpringWater" xml:space="preserve">
+    <value>Eau de source de Dravania</value>
+  </data>
   <data name="DzemaelTomato" xml:space="preserve">
     <value>Tomate Dzemael</value>
   </data>
   <data name="DzemaelTomatoSeeds" xml:space="preserve">
     <value>Graines de tomate Dzemael</value>
   </data>
+  <data name="EarthCrystal_FourArms" xml:space="preserve">
+    <value>Cristal de terre</value>
+  </data>
+  <data name="EarthCrystal_LandlordColony_BTN" xml:space="preserve">
+    <value>Cristal de terre</value>
+  </data>
+  <data name="EarthCrystal_LandlordColony_MIN" xml:space="preserve">
+    <value>Cristal de terre</value>
+  </data>
+  <data name="EarthShard_BTN" xml:space="preserve">
+    <value>Éclat de terre</value>
+  </data>
+  <data name="EarthShard_MIN" xml:space="preserve">
+    <value>Éclat de terre</value>
+  </data>
   <data name="EbonyLog" xml:space="preserve">
     <value>Rondin d'ébène</value>
+  </data>
+  <data name="EffervescentWater" xml:space="preserve">
+    <value>Eau effervescente</value>
+  </data>
+  <data name="ElectrumOre" xml:space="preserve">
+    <value>Minerai d'électrum</value>
+  </data>
+  <data name="EmeraldBeans" xml:space="preserve">
+    <value>Haricots émeraude</value>
   </data>
   <data name="Endoceras_Psyduck" xml:space="preserve">
     <value>Endoceras</value>
@@ -294,6 +393,33 @@
   <data name="Ferberite" xml:space="preserve">
     <value>Minerai de ferbérite</value>
   </data>
+  <data name="FireCrystal_AvaloniaFallen_BTN" xml:space="preserve">
+    <value>Cristal de feu</value>
+  </data>
+  <data name="FireCrystal_AvaloniaFallen_MIN" xml:space="preserve">
+    <value>Cristal de feu</value>
+  </data>
+  <data name="FireCrystal_ChocoboForest_BTN" xml:space="preserve">
+    <value>Cristal de feu</value>
+  </data>
+  <data name="FireCrystal_ChocoboForest_MIN" xml:space="preserve">
+    <value>Cristal de feu</value>
+  </data>
+  <data name="FireCrystal_TheSmolderingWastes_BTN" xml:space="preserve">
+    <value>Cristal de feu</value>
+  </data>
+  <data name="FireCrystal_TheSmolderingWastes_MIN" xml:space="preserve">
+    <value>Cristal de feu</value>
+  </data>
+  <data name="FireShard_BTN" xml:space="preserve">
+    <value>Éclat de feu</value>
+  </data>
+  <data name="FireShard_MIN" xml:space="preserve">
+    <value>Éclat de feu</value>
+  </data>
+  <data name="Flax" xml:space="preserve">
+    <value>Fibres de lin</value>
+  </data>
   <data name="FleeceStingray_Psyduck" xml:space="preserve">
     <value>Raie des nuages</value>
   </data>
@@ -311,6 +437,9 @@
   </data>
   <data name="FrostCottonBoll" xml:space="preserve">
     <value>Fleur de coton des neiges</value>
+  </data>
+  <data name="Gaelicatnip" xml:space="preserve">
+    <value>Cataire</value>
   </data>
   <data name="General_ActivePlugins" xml:space="preserve">
     <value>Modules activés</value>
@@ -360,6 +489,12 @@
   <data name="GreenQuartz" xml:space="preserve">
     <value>Quartz vert</value>
   </data>
+  <data name="HardsilverOre" xml:space="preserve">
+    <value>Minerai de durargent</value>
+  </data>
+  <data name="HardsilverSand" xml:space="preserve">
+    <value>Sable de durargent</value>
+  </data>
   <data name="HeavensLemon" xml:space="preserve">
     <value>Citron céleste</value>
   </data>
@@ -368,6 +503,12 @@
   </data>
   <data name="Helix" xml:space="preserve">
     <value>Hélice</value>
+  </data>
+  <data name="HighlandParsley" xml:space="preserve">
+    <value>Persil hyurgoth</value>
+  </data>
+  <data name="HighlandWheat" xml:space="preserve">
+    <value>Blé des hautes terres</value>
   </data>
   <data name="HoneydewAlmonds" xml:space="preserve">
     <value>Amandes mielleuses</value>
@@ -380,6 +521,33 @@
   </data>
   <data name="HraesvelgrsTear_Psyduck" xml:space="preserve">
     <value>Larme de Hraesvelgr</value>
+  </data>
+  <data name="IceCrystal_GorganeHolding" xml:space="preserve">
+    <value>Cristal de glace</value>
+  </data>
+  <data name="IceCrystal_RedRime" xml:space="preserve">
+    <value>Cristal de glace</value>
+  </data>
+  <data name="IceCrystal_Riversmeet_BTN" xml:space="preserve">
+    <value>Cristal de glace</value>
+  </data>
+  <data name="IceCrystal_Riversmeet_MIN" xml:space="preserve">
+    <value>Cristal de glace</value>
+  </data>
+  <data name="IceCrystal_Twinpools_BTN51" xml:space="preserve">
+    <value>Cristal de glace</value>
+  </data>
+  <data name="IceCrystal_Twinpools_BTN56" xml:space="preserve">
+    <value>Cristal de glace</value>
+  </data>
+  <data name="IceCrystal_Twinpools_MIN51" xml:space="preserve">
+    <value>Cristal de glace</value>
+  </data>
+  <data name="IceShard_BTN" xml:space="preserve">
+    <value>Éclat de glace</value>
+  </data>
+  <data name="IceShard_MIN" xml:space="preserve">
+    <value>Éclat de glace</value>
   </data>
   <data name="Idyllshire" xml:space="preserve">
     <value>Idyllée</value>
@@ -411,6 +579,15 @@
   <data name="LightKidneyOre" xml:space="preserve">
     <value>Minerai d'hématite</value>
   </data>
+  <data name="LightningCrystal_VoorSianSiran_MIN" xml:space="preserve">
+    <value>Cristal de foudre</value>
+  </data>
+  <data name="LightningShard_BTN" xml:space="preserve">
+    <value>Éclat de foudre</value>
+  </data>
+  <data name="LightningShard_MIN" xml:space="preserve">
+    <value>Éclat de foudre</value>
+  </data>
   <data name="Limonite" xml:space="preserve">
     <value>Minerai de limonite</value>
   </data>
@@ -426,8 +603,14 @@
   <data name="LumythriteOre" xml:space="preserve">
     <value>Minerai de lumithrite</value>
   </data>
+  <data name="LumythriteSand" xml:space="preserve">
+    <value>Sable de lumithrite</value>
+  </data>
   <data name="MagicCarpet_Psyduck" xml:space="preserve">
     <value>Tapis volant</value>
+  </data>
+  <data name="MagmaBeet" xml:space="preserve">
+    <value>Betteraves de magma</value>
   </data>
   <data name="Meteorite" xml:space="preserve">
     <value>Météorite</value>
@@ -443,6 +626,15 @@
   </data>
   <data name="Morel" xml:space="preserve">
     <value>Morille</value>
+  </data>
+  <data name="MythrilOre" xml:space="preserve">
+    <value>Minerai de mithril</value>
+  </data>
+  <data name="MythriteOre" xml:space="preserve">
+    <value>Minerai de mithrite</value>
+  </data>
+  <data name="MythriteSand" xml:space="preserve">
+    <value>Sable de mithrite</value>
   </data>
   <data name="Namitaro_Psyduck" xml:space="preserve">
     <value>Namitaro</value>
@@ -543,6 +735,21 @@
   <data name="Quarrymill" xml:space="preserve">
     <value>Moulin De La Carrière</value>
   </data>
+  <data name="RainbowCottonBoll" xml:space="preserve">
+    <value>Fleur de coton arc-en-ciel</value>
+  </data>
+  <data name="RawAgate" xml:space="preserve">
+    <value>Agate brute</value>
+  </data>
+  <data name="RawCarnelian" xml:space="preserve">
+    <value>Cornaline brute</value>
+  </data>
+  <data name="RawChrysolite" xml:space="preserve">
+    <value>Chrysolite brute</value>
+  </data>
+  <data name="RawCitrine" xml:space="preserve">
+    <value>Citrine brute</value>
+  </data>
   <data name="RawDiamond" xml:space="preserve">
     <value>Diamant brut</value>
   </data>
@@ -552,11 +759,29 @@
   <data name="RawIolite" xml:space="preserve">
     <value>Cordiérite brute</value>
   </data>
+  <data name="RawLarimar" xml:space="preserve">
+    <value>Larimar brut</value>
+  </data>
+  <data name="RawMormorion" xml:space="preserve">
+    <value>Mormorion brut</value>
+  </data>
+  <data name="RawOpal" xml:space="preserve">
+    <value>Opale brute</value>
+  </data>
   <data name="RawRuby" xml:space="preserve">
     <value>Rubis brut</value>
   </data>
   <data name="RawSapphire" xml:space="preserve">
     <value>Saphir brut</value>
+  </data>
+  <data name="RawStarRuby" xml:space="preserve">
+    <value>Rubis étoilé brut</value>
+  </data>
+  <data name="RawStarSapphire" xml:space="preserve">
+    <value>Saphir étoilé brut</value>
+  </data>
+  <data name="RawTigersEye" xml:space="preserve">
+    <value>Oeil-de-tigre brut</value>
   </data>
   <data name="RawTopaz" xml:space="preserve">
     <value>Topaze brute</value>
@@ -576,6 +801,9 @@
   <data name="Rosemary" xml:space="preserve">
     <value>Romarin</value>
   </data>
+  <data name="Rue" xml:space="preserve">
+    <value>Rue des jardins</value>
+  </data>
   <data name="Scaleripper_Psyduck" xml:space="preserve">
     <value>Arrachécaille</value>
   </data>
@@ -591,14 +819,23 @@
   <data name="SilkwormCocoon" xml:space="preserve">
     <value>Cocon de vers à soie</value>
   </data>
+  <data name="SilverOre" xml:space="preserve">
+    <value>Minerai d'argent</value>
+  </data>
   <data name="SmithsoniteOre" xml:space="preserve">
     <value>Minerai de smithsonite</value>
   </data>
   <data name="Snurbleberry" xml:space="preserve">
     <value>Lainuchairelle</value>
   </data>
+  <data name="SprigOfMistDill" xml:space="preserve">
+    <value>Aneth</value>
+  </data>
   <data name="SpruceLog" xml:space="preserve">
     <value>Rondin d'épicéa</value>
+  </data>
+  <data name="StalkOfRamie" xml:space="preserve">
+    <value>Tige de ramie</value>
   </data>
   <data name="StarCottonBoll" xml:space="preserve">
     <value>Fleur de coton des étoiles</value>
@@ -653,6 +890,9 @@
   </data>
   <data name="TitanicSawfish_Psyduck" xml:space="preserve">
     <value>Poisson-scie titan</value>
+  </data>
+  <data name="TitaniumOre" xml:space="preserve">
+    <value>Minerai de titane</value>
   </data>
   <data name="Trillium" xml:space="preserve">
     <value>Trille</value>
@@ -738,17 +978,50 @@
   <data name="VolcanicRockSalt_7" xml:space="preserve">
     <value>Sel gemme noscéen</value>
   </data>
+  <data name="WaterCrystal_VoorSianSiran_BTN" xml:space="preserve">
+    <value>Cristal d'eau</value>
+  </data>
+  <data name="WaterCrystal_VoorSianSiran_MIN" xml:space="preserve">
+    <value>Cristal d'eau</value>
+  </data>
   <data name="WaterfowlFeather" xml:space="preserve">
     <value>Plume de sauvagine</value>
   </data>
+  <data name="WaterShard_BTN" xml:space="preserve">
+    <value>Éclat d'eau</value>
+  </data>
+  <data name="WaterShard_MIN" xml:space="preserve">
+    <value>Éclat d'eau</value>
+  </data>
   <data name="WattleBark" xml:space="preserve">
     <value>Écorce d'acacia</value>
+  </data>
+  <data name="WhitefrostCottonBoll" xml:space="preserve">
+    <value>Fleur de coton du givre</value>
+  </data>
+  <data name="WhiteTruffle" xml:space="preserve">
+    <value>Truffe blanche</value>
+  </data>
+  <data name="WindCrystal_TheAnsweringQuarter" xml:space="preserve">
+    <value>Cristal de vent</value>
+  </data>
+  <data name="WindCrystal_TheMakersQuarter" xml:space="preserve">
+    <value>Cristal de vent</value>
+  </data>
+  <data name="WindShard_BTN" xml:space="preserve">
+    <value>Éclat de vent</value>
+  </data>
+  <data name="WindShard_MIN" xml:space="preserve">
+    <value>Éclat de vent</value>
   </data>
   <data name="Wineport" xml:space="preserve">
     <value>Port-aux-Vins</value>
   </data>
   <data name="WolvesDenPier" xml:space="preserve">
     <value>Jetée De L'Antre Des Loups</value>
+  </data>
+  <data name="WyrmObsidian" xml:space="preserve">
+    <value>Éclat d'obsidienne de wyrm</value>
   </data>
   <data name="YellowQuartz" xml:space="preserve">
     <value>Quartz jaune</value>
@@ -761,5 +1034,53 @@
   </data>
   <data name="ZeoliteOre" xml:space="preserve">
     <value>Minerai de zéolite</value>
+  </data>
+  <data name="BlueGatherToken_Count" xml:space="preserve">
+    <value>Avoir de Rowena (récolteur/bleu) :</value>
+  </data>
+  <data name="BruteLeech_Count" xml:space="preserve">
+    <value>Sangsue bestiale :</value>
+  </data>
+  <data name="Cap_Amount" xml:space="preserve">
+    <value>Quantité max d'assignats rouges à échanger :</value>
+  </data>
+  <data name="CraneFly_Count" xml:space="preserve">
+    <value>Tipule géante :</value>
+  </data>
+  <data name="GoblinDice_Count" xml:space="preserve">
+    <value>Dé gobelin :</value>
+  </data>
+  <data name="HiCordial_Count" xml:space="preserve">
+    <value>Breuvage cordial supérieur :</value>
+  </data>
+  <data name="MorDhona" xml:space="preserve">
+    <value>Mor Dhona</value>
+  </data>
+  <data name="RedGatherToken_Count" xml:space="preserve">
+    <value>Avoir de Rowena (récolteur/rouge) :</value>
+  </data>
+  <data name="Trade_Counterfoil" xml:space="preserve">
+    <value>Echanger les assignats contre des Reçus de Livraison :</value>
+  </data>
+  <data name="TurnInAfterLoop" xml:space="preserve">
+    <value>Echange les ressources contre des assignats :</value>
+  </data>
+  <data name="TurnInAfterLoop_free_bag_slots" xml:space="preserve">
+    <value>Espace restant dans l'inventaire avant d'échanger les ressources :</value>
+  </data>
+  <data name="TurnIn_City" xml:space="preserve">
+    <value>Ville d'échange :</value>
+  </data>
+  <data name="Ui_Shop" xml:space="preserve">
+    <value>Paramètres du magasin</value>
+  </data>
+  <data name="Ui_BlueScrips" xml:space="preserve">
+    <value>Assignats bleus</value>
+  </data>
+  <data name="Ui_RedScrips" xml:space="preserve">
+    <value>Assignats rouges</value>
+  </data>
+  <data name="Ui_Search" xml:space="preserve">
+    <value>Rechercher...</value>
   </data>
 </root>

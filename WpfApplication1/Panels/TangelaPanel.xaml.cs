@@ -24,10 +24,10 @@ namespace WpfApplication1.Panels
             
             Cordial = new Dictionary<string, string>
             {
-                {"None", "Aucun"},
-                {"Cordial", "Breuvage cordial"},
-                {"HiCordial ", "Breuvage cordial supérieur"},
-                {"Auto", "Automatique"}
+                {"None", Properties.Resources.ResourceManager.GetString("Ui_Cordial_None")},
+                {"Cordial", Properties.Resources.ResourceManager.GetString("Ui_Cordial_Cordial")},
+                {"HiCordial ", Properties.Resources.ResourceManager.GetString("Ui_Cordial_HiCordial")},
+                {"Auto", Properties.Resources.ResourceManager.GetString("Ui_Cordial_Automatic")}
             };
         }
     }
