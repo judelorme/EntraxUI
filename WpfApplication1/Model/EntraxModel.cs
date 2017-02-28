@@ -5911,8 +5911,11 @@ namespace WpfApplication1.Model
             else
             {
                 var value = this.GetType().GetProperty(propertyTypeFullName).GetValue(this);
-                if (string.IsNullOrWhiteSpace((string) value))
+                if (value is string && string.IsNullOrWhiteSpace((string) value))
+                {
                     return;
+                }
+                    
                 var newText = "<!ENTITY " + propertyTypeFullName + " \"" + value + "\">";
                 text = text.Replace(match.Value, newText);
                 return;
