@@ -36,6 +36,9 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Assets\Picto\moggle.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -82,8 +85,11 @@
     </ApplicationDefinition>
     <Compile Include="Convertor\BooleanNegationToVisibilityConverter.cs" />
     <Compile Include="Convertor\BooleanToVisibilityConverter.cs" />
-    <Compile Include="FileChooser.xaml.cs">
-      <DependentUpon>FileChooser.xaml</DependentUpon>
+    <Compile Include="FileChooserPage.xaml.cs">
+      <DependentUpon>FileChooserPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\EntraxModel.cs" />
     <Compile Include="Model\GlobalDataManager.cs" />
@@ -105,7 +111,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Page Include="FileChooser.xaml">
+    <Page Include="FileChooserPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -170,10 +180,12 @@
     <EmbeddedResource Include="Properties\Resources.en-US.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.en-US.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -385,6 +397,65 @@
     <Resource Include="Assets\Items\WindShard_BTN.jpg" />
     <Resource Include="Assets\Items\WindShard_MIN.jpg" />
     <Resource Include="Assets\Items\WyrmObsidian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Picto\moggles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Picto\moggle.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Picto\moggle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Items\CraneFly.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Items\BlueGatherToken.jpg" />
+    <Resource Include="Assets\Items\BruteLeech.jpg" />
+    <Resource Include="Assets\Items\HiCordial.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Items\CloudCottonBoll.jpg" />
+    <Resource Include="Assets\Items\CloudCottonBollHQ.jpg" />
+    <Resource Include="Assets\Items\CommercialSurvivalManual.jpg" />
+    <Resource Include="Assets\Items\CrownTrout.jpg" />
+    <Resource Include="Assets\Items\CrownTroutHQ.jpg" />
+    <Resource Include="Assets\Items\DinosaurLeather.jpg" />
+    <Resource Include="Assets\Items\Eurhinosaur.jpg" />
+    <Resource Include="Assets\Items\EurhinosaurHQ.jpg" />
+    <Resource Include="Assets\Items\FiendWorm.jpg" />
+    <Resource Include="Assets\Items\GemMarimo.jpg" />
+    <Resource Include="Assets\Items\GemMarimoHQ.jpg" />
+    <Resource Include="Assets\Items\GoldsmithCrab.jpg" />
+    <Resource Include="Assets\Items\GoldsmithCrabHQ.jpg" />
+    <Resource Include="Assets\Items\MagmaWorm.jpg" />
+    <Resource Include="Assets\Items\Pterodactyl.jpg" />
+    <Resource Include="Assets\Items\PterodactylHQ.jpg" />
+    <Resource Include="Assets\Items\RedBalloon.jpg" />
+    <Resource Include="Assets\Items\RetributionStaff.jpg" />
+    <Resource Include="Assets\Items\RetributionStaffHQ.jpg" />
+    <Resource Include="Assets\Items\RoyalMistletoe.jpg" />
+    <Resource Include="Assets\Items\RoyalMistletoeHQ.jpg" />
+    <Resource Include="Assets\Items\Sphalerite.jpg" />
+    <Resource Include="Assets\Items\SphaleriteHQ.jpg" />
+    <Resource Include="Assets\Items\ThiefBetta.jpg" />
+    <Resource Include="Assets\Items\ThiefBettaHQ.jpg" />
+    <Resource Include="Assets\Items\TrailblazersScarf.jpg" />
+    <Resource Include="Assets\Items\TrailblazersShoes.jpg" />
+    <Resource Include="Assets\Items\TrailblazersSlops.jpg" />
+    <Resource Include="Assets\Items\TrailblazersVest.jpg" />
+    <Resource Include="Assets\Items\TrailblazersWristguards.jpg" />
+    <Resource Include="Assets\Items\WindSilk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Items\GraspIV.jpg" />
+    <Resource Include="Assets\Items\GuerdonIV.jpg" />
+    <Resource Include="Assets\Items\GuileIV.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Items\GoblinDice.jpg" />
+    <Resource Include="Assets\Items\RedGatherToken.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Reflection;
 using System.Resources;
 using System.Runtime.CompilerServices;
@@ -36,7 +37,8 @@ namespace WpfApplication1.Panels
             ResourceManager rm = new ResourceManager("WpfApplication1.Properties.Resources",
                Assembly.GetExecutingAssembly());
 
-            Etherites = new Dictionary<int, string>
+            Etherites = new Dictionary<int, string>();
+            var prevEtherites = new Dictionary<int, string>
             {
                 {2, rm.GetString("NewGridania")},
                 {3, rm.GetString("BentbranchMeadows")},
@@ -82,6 +84,11 @@ namespace WpfApplication1.Panels
                 {78, rm.GetString("Moghome")},
                 {79, rm.GetString("Zenith")}
             };
+            
+            foreach (var source in prevEtherites.OrderBy(e => e.Value))
+            {
+                Etherites.Add(source.Key, source.Value);
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

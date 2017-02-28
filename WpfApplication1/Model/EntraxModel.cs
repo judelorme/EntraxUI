@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
+using System.Windows;
 using System.Xml;
 using WpfApplication1.Annotations;
 
@@ -27,6 +28,50 @@ namespace WpfApplication1.Model
         #endregion SINGLETON
 
         #region GENERAL
+
+        public bool DiscoverUnknowns
+        {
+            get { return _discoverUnknowns; }
+            set
+            {
+                if (value == _discoverUnknowns) return;
+                _discoverUnknowns = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int MinerJob
+        {
+            get { return _minerJob; }
+            set
+            {
+                if (value == _minerJob) return;
+                _minerJob = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int BotanistJob
+        {
+            get { return _botanistJob; }
+            set
+            {
+                if (value == _botanistJob) return;
+                _botanistJob = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int FisherJob
+        {
+            get { return _fisherJob; }
+            set
+            {
+                if (value == _fisherJob) return;
+                _fisherJob = value;
+                OnPropertyChanged();
+            }
+        }
 
         public bool IsCheck
         {
@@ -2484,17 +2529,6 @@ namespace WpfApplication1.Model
             }
         }
 
-        public string GatherIncrease_1StarPlus
-        {
-            get { return _gatherIncrease1StarPlus; }
-            set
-            {
-                if (value == _gatherIncrease1StarPlus) return;
-                _gatherIncrease1StarPlus = value;
-                OnPropertyChanged();
-            }
-        }
-
         public string GatherIncrease_3Star
         {
             get { return _gatherIncrease3Star; }
@@ -2524,17 +2558,6 @@ namespace WpfApplication1.Model
             {
                 if (value == _disableRotationOverride1Star) return;
                 _disableRotationOverride1Star = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public bool DisableRotationOverride_1StarPlus
-        {
-            get { return _disableRotationOverride1StarPlus; }
-            set
-            {
-                if (value == _disableRotationOverride1StarPlus) return;
-                _disableRotationOverride1StarPlus = value;
                 OnPropertyChanged();
             }
         }
@@ -3221,13 +3244,13 @@ namespace WpfApplication1.Model
             }
         }
 
-        public bool Teaklog
+        public bool TeakLog
         {
-            get { return _teaklog; }
+            get { return _TeakLog; }
             set
             {
-                if (value == _teaklog) return;
-                _teaklog = value;
+                if (value == _TeakLog) return;
+                _TeakLog = value;
                 OnPropertyChanged();
             }
         }
@@ -3929,17 +3952,500 @@ namespace WpfApplication1.Model
 
         #region UNOWN SCRIP
 
-        public bool TurnInAfterLoop { get; set; }
-        public string TurnIn_City { get; set; }
-        public int TurnInAfterLoop_free_bag_slots { get; set; }
-        public bool Trade_Counterfoil { get; set; }
-        public int Cap_Amount { get; set; }
-        public int RedGatherToken_Count { get; set; }
-        public int GoblinDice_Count { get; set; }
-        public int BlueGatherToken_Count { get; set; }
-        public int HiCordial_Count { get; set; }
-        public int BruteLeech_Count { get; set; }
-        public int CraneFly_Count { get; set; }
+        public bool TurnInAfterLoop
+        {
+            get { return _turnInAfterLoop; }
+            set
+            {
+                if (value == _turnInAfterLoop) return;
+                _turnInAfterLoop = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string TurnIn_City
+        {
+            get { return _turnInCity; }
+            set
+            {
+                if (value == _turnInCity) return;
+                _turnInCity = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int MinimumFreeSlot_TurnIn
+        {
+            get { return _turnInAfterLoopFreeBagSlots; }
+            set
+            {
+                if (value == _turnInAfterLoopFreeBagSlots) return;
+                _turnInAfterLoopFreeBagSlots = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool TurnIn_Counterfoil
+        {
+            get { return _tradeCounterfoil; }
+            set
+            {
+                if (value == _tradeCounterfoil) return;
+                _tradeCounterfoil = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Cap_Amount
+        {
+            get { return _capAmount; }
+            set
+            {
+                if (value == _capAmount) return;
+                _capAmount = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int RedGatherToken
+        {
+            get { return _redGatherTokenCount; }
+            set
+            {
+                if (value == _redGatherTokenCount) return;
+                _redGatherTokenCount = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int GoblinDice
+        {
+            get { return _goblinDiceCount; }
+            set
+            {
+                if (value == _goblinDiceCount) return;
+                _goblinDiceCount = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int BlueGatherToken
+        {
+            get { return _blueGatherTokenCount; }
+            set
+            {
+                if (value == _blueGatherTokenCount) return;
+                _blueGatherTokenCount = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int HiCordial
+        {
+            get { return _hiCordialCount; }
+            set
+            {
+                if (value == _hiCordialCount) return;
+                _hiCordialCount = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int BruteLeech
+        {
+            get { return _bruteLeechCount; }
+            set
+            {
+                if (value == _bruteLeechCount) return;
+                _bruteLeechCount = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int CraneFly
+        {
+            get { return _craneFlyCount; }
+            set
+            {
+                if (value == _craneFlyCount) return;
+                _craneFlyCount = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int CommercialSurvivalManual
+        {
+            get { return _commercialSurvivalManual; }
+            set
+            {
+                if (value == _commercialSurvivalManual) return;
+                _commercialSurvivalManual = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int TrailblazersScarf
+        {
+            get { return _trailblazersScarf; }
+            set
+            {
+                if (value == _trailblazersScarf) return;
+                _trailblazersScarf = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int TrailblazersVest
+        {
+            get { return _trailblazersVest; }
+            set
+            {
+                if (value == _trailblazersVest) return;
+                _trailblazersVest = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int TrailblazersWristguards
+        {
+            get { return _trailblazersWristguards; }
+            set
+            {
+                if (value == _trailblazersWristguards) return;
+                _trailblazersWristguards = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int TrailblazersSlops
+        {
+            get { return _trailblazersSlops; }
+            set
+            {
+                if (value == _trailblazersSlops) return;
+                _trailblazersSlops = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int TrailblazersShoes
+        {
+            get { return _trailblazersShoes; }
+            set
+            {
+                if (value == _trailblazersShoes) return;
+                _trailblazersShoes = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int FiendWorm
+        {
+            get { return _fiendWorm; }
+            set
+            {
+                if (value == _fiendWorm) return;
+                _fiendWorm = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int MagmaWorm
+        {
+            get { return _magmaWorm; }
+            set
+            {
+                if (value == _magmaWorm) return;
+                _magmaWorm = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int RedBalloon
+        {
+            get { return _redBalloon; }
+            set
+            {
+                if (value == _redBalloon) return;
+                _redBalloon = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int CrownTrout
+        {
+            get { return _crownTrout; }
+            set
+            {
+                if (value == _crownTrout) return;
+                _crownTrout = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int CrownTroutHQ
+        {
+            get { return _crownTroutHq; }
+            set
+            {
+                if (value == _crownTroutHq) return;
+                _crownTroutHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int RetributionStaff
+        {
+            get { return _retributionStaff; }
+            set
+            {
+                if (value == _retributionStaff) return;
+                _retributionStaff = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int RetributionStaffHQ
+        {
+            get { return _retributionStaffHq; }
+            set
+            {
+                if (value == _retributionStaffHq) return;
+                _retributionStaffHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int ThiefBetta
+        {
+            get { return _thiefBetta; }
+            set
+            {
+                if (value == _thiefBetta) return;
+                _thiefBetta = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int ThiefBettaHQ
+        {
+            get { return _thiefBettaHq; }
+            set
+            {
+                if (value == _thiefBettaHq) return;
+                _thiefBettaHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int GoldsmithCrab
+        {
+            get { return _goldsmithCrab; }
+            set
+            {
+                if (value == _goldsmithCrab) return;
+                _goldsmithCrab = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int GoldsmithCrabHQ
+        {
+            get { return _goldsmithCrabHq; }
+            set
+            {
+                if (value == _goldsmithCrabHq) return;
+                _goldsmithCrabHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Pterodactyl
+        {
+            get { return _pterodactyl; }
+            set
+            {
+                if (value == _pterodactyl) return;
+                _pterodactyl = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int PterodactylHQ
+        {
+            get { return _pterodactylHq; }
+            set
+            {
+                if (value == _pterodactylHq) return;
+                _pterodactylHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Eurhinosaur
+        {
+            get { return _eurhinosaur; }
+            set
+            {
+                if (value == _eurhinosaur) return;
+                _eurhinosaur = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int EurhinosaurHQ
+        {
+            get { return _eurhinosaurHq; }
+            set
+            {
+                if (value == _eurhinosaurHq) return;
+                _eurhinosaurHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int GemMarimo
+        {
+            get { return _gemMarimo; }
+            set
+            {
+                if (value == _gemMarimo) return;
+                _gemMarimo = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int GemMarimoHQ
+        {
+            get { return _gemMarimoHq; }
+            set
+            {
+                if (value == _gemMarimoHq) return;
+                _gemMarimoHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int Sphalerite
+        {
+            get { return _sphalerite; }
+            set
+            {
+                if (value == _sphalerite) return;
+                _sphalerite = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int SphaleriteHQ
+        {
+            get { return _sphaleriteHq; }
+            set
+            {
+                if (value == _sphaleriteHq) return;
+                _sphaleriteHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int WindSilk
+        {
+            get { return _windSilk; }
+            set
+            {
+                if (value == _windSilk) return;
+                _windSilk = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int CloudCottonBoll
+        {
+            get { return _cloudCottonBoll; }
+            set
+            {
+                if (value == _cloudCottonBoll) return;
+                _cloudCottonBoll = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int CloudCottonBollHQ
+        {
+            get { return _cloudCottonBollHq; }
+            set
+            {
+                if (value == _cloudCottonBollHq) return;
+                _cloudCottonBollHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int DinosaurLeather
+        {
+            get { return _dinosaurLeather; }
+            set
+            {
+                if (value == _dinosaurLeather) return;
+                _dinosaurLeather = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int RoyalMistletoe
+        {
+            get { return _royalMistletoe; }
+            set
+            {
+                if (value == _royalMistletoe) return;
+                _royalMistletoe = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int RoyalMistletoeHQ
+        {
+            get { return _royalMistletoeHq; }
+            set
+            {
+                if (value == _royalMistletoeHq) return;
+                _royalMistletoeHq = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int GuerdonIV
+        {
+            get { return _guerdonIv; }
+            set
+            {
+                if (value == _guerdonIv) return;
+                _guerdonIv = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int GuileIV
+        {
+            get { return _guileIv; }
+            set
+            {
+                if (value == _guileIv) return;
+                _guileIv = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int GraspIV
+        {
+            get { return _graspIv; }
+            set
+            {
+                if (value == _graspIv) return;
+                _graspIv = value;
+                OnPropertyChanged();
+            }
+        }
 
         #endregion UNOWN SCRIP
 
@@ -4215,7 +4721,7 @@ namespace WpfApplication1.Model
         private bool _zeoliteOre;
         private bool _rawRuby;
         private bool _rawSapphire;
-        private bool _teaklog;
+        private bool _TeakLog;
         private bool _umbralRock;
         private bool _redolentLog;
         private bool _shroudTopsoil3;
@@ -4281,11 +4787,9 @@ namespace WpfApplication1.Model
         private bool _collectRedQuartz;
         private string _gatherIncrease5060;
         private string _gatherIncrease1Star;
-        private string _gatherIncrease1StarPlus;
         private string _gatherIncrease3Star;
         private bool _disableRotationOverride5060;
         private bool _disableRotationOverride1Star;
-        private bool _disableRotationOverride1StarPlus;
         private bool _disableRotationOverride3Star;
         private int _grade4CarbonizedMatter;
         private int _lightningCluster;
@@ -4294,14 +4798,68 @@ namespace WpfApplication1.Model
         private int _waterCluster;
         private int _iceCluster;
         private int _earthCluster;
+        private bool _turnInAfterLoop;
+        private string _turnInCity;
+        private int _turnInAfterLoopFreeBagSlots;
+        private bool _tradeCounterfoil;
+        private int _capAmount;
+        private int _redGatherTokenCount;
+        private int _goblinDiceCount;
+        private int _blueGatherTokenCount;
+        private int _hiCordialCount;
+        private int _bruteLeechCount;
+        private int _craneFlyCount;
+        private int _minerJob;
+        private int _botanistJob;
+        private int _fisherJob;
+        private bool _discoverUnknowns;
+        private int _commercialSurvivalManual;
+        private int _trailblazersScarf;
+        private int _trailblazersVest;
+        private int _trailblazersWristguards;
+        private int _trailblazersSlops;
+        private int _trailblazersShoes;
+        private int _fiendWorm;
+        private int _magmaWorm;
+        private int _redBalloon;
+        private int _crownTrout;
+        private int _crownTroutHq;
+        private int _retributionStaff;
+        private int _retributionStaffHq;
+        private int _thiefBetta;
+        private int _thiefBettaHq;
+        private int _goldsmithCrab;
+        private int _goldsmithCrabHq;
+        private int _pterodactyl;
+        private int _pterodactylHq;
+        private int _eurhinosaur;
+        private int _eurhinosaurHq;
+        private int _gemMarimo;
+        private int _gemMarimoHq;
+        private int _sphalerite;
+        private int _sphaleriteHq;
+        private int _windSilk;
+        private int _cloudCottonBoll;
+        private int _cloudCottonBollHq;
+        private int _dinosaurLeather;
+        private int _royalMistletoe;
+        private int _royalMistletoeHq;
+        private int _guerdonIv;
+        private int _guileIv;
+        private int _graspIv;
 
         public bool LoadCurrentFile()
         {
             string text = File.ReadAllText(GlobalDataManager.Instance.FilePath);
-            if (!text.Contains("<!ENTITY Version \"Umbreon\">"))
+            if (!text.Contains("<!ENTITY Version \"Firebird 1.1\">"))
+            {
+                MessageBox.Show("Entrax file required version : 'Firebird 1.1'");
                 return false;
-
+            }
+            
             IsCheck = false;
+
+            LoadJobSuit();
 
             XmlDocument doc = new XmlDocument();
             doc.Load(GlobalDataManager.Instance.FilePath);
@@ -4310,6 +4868,35 @@ namespace WpfApplication1.Model
             DisplayEntities(nMap);
             IsCheck = true;
             return true;
+        }
+
+        private void LoadJobSuit()
+        {
+            MinerJob = GetJobValue("MIN");
+            BotanistJob = GetJobValue("BTN");
+            FisherJob = GetJobValue("FSH");
+        }
+
+        public int GetJobValue(string job)
+        {
+            string[] arr = File.ReadAllLines(GlobalDataManager.Instance.FilePath);
+            string pattern = "<CodeChunk Name=\"" + job + "\">";
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                string line = arr[i];
+
+                if (line.Contains(pattern))
+                {
+                    string line2 = arr[++i];
+                    var match = Regex.Match(line2, @"/gs change \d+");
+                    var value = match.Value.Replace("/gs change ", "");
+                    int j;
+                    Int32.TryParse(value, out j);
+                    return j;
+                }
+            }
+            return 0;
         }
 
         public void DisplayEntities(XmlNamedNodeMap nMap)
@@ -4571,20 +5158,18 @@ namespace WpfApplication1.Model
             // TODO
 
             // Unown
+            else if (property.Equals("DiscoverUnknowns"))
+                DiscoverUnknowns = GetBooleanValue(value);
             else if (property.Equals("GatherIncrease_50_60"))
                 GatherIncrease_50_60 = value;
             else if (property.Equals("GatherIncrease_1Star"))
                 GatherIncrease_1Star = value;
-            else if (property.Equals("GatherIncrease_1StarPlus"))
-                GatherIncrease_1StarPlus = value;
             else if (property.Equals("GatherIncrease_3Star"))
                 GatherIncrease_3Star = value;
             else if (property.Equals("DisableRotationOverride_50_60"))
                 DisableRotationOverride_50_60 = GetBooleanValue(value);
             else if (property.Equals("DisableRotationOverride_1Star"))
                 DisableRotationOverride_1Star = GetBooleanValue(value);
-            else if (property.Equals("DisableRotationOverride_1StarPlus"))
-                DisableRotationOverride_1StarPlus = GetBooleanValue(value);
             else if (property.Equals("DisableRotationOverride_3Star"))
                 DisableRotationOverride_3Star = GetBooleanValue(value);
 
@@ -4731,8 +5316,8 @@ namespace WpfApplication1.Model
                 RawRuby = GetBooleanValue(value);
             else if (property.Equals("RawSapphire"))
                 RawSapphire = GetBooleanValue(value);
-            else if (property.Equals("Teaklog"))
-                Teaklog = GetBooleanValue(value);
+            else if (property.Equals("TeakLog"))
+                TeakLog = GetBooleanValue(value);
 
             else if (property.Equals("UmbralRock"))
                 UmbralRock = GetBooleanValue(value);
@@ -4877,25 +5462,95 @@ namespace WpfApplication1.Model
                 TurnInAfterLoop = GetBooleanValue(value);
             else if (property.Equals("TurnIn_City"))
                 TurnIn_City = value;
-            else if (property.Equals("TurnInAfterLoop_free_bag_slots"))
-                TurnInAfterLoop_free_bag_slots = GetIntValue(value);
-            else if (property.Equals("Trade_Counterfoil"))
-                Trade_Counterfoil = GetBooleanValue(value);
+            else if (property.Equals("MinimumFreeSlot_TurnIn"))
+                MinimumFreeSlot_TurnIn = GetIntValue(value);
+            else if (property.Equals("TurnIn_Counterfoil"))
+                TurnIn_Counterfoil = GetBooleanValue(value);
             else if (property.Equals("Cap_Amount"))
                 Cap_Amount = GetIntValue(value);
 
-            else if (property.Equals("RedGatherToken_Count"))
-                RedGatherToken_Count = GetIntValue(value);
-            else if (property.Equals("GoblinDice_Count"))
-                GoblinDice_Count = GetIntValue(value);
-            else if (property.Equals("BlueGatherToken_Count"))
-                BlueGatherToken_Count = GetIntValue(value);
-            else if (property.Equals("HiCordial_Count"))
-                HiCordial_Count = GetIntValue(value);
-            else if (property.Equals("BruteLeech_Count"))
-                BruteLeech_Count = GetIntValue(value);
-            else if (property.Equals("CraneFly_Count"))
-                CraneFly_Count = GetIntValue(value);
+            else if (property.Equals("RedGatherToken"))
+                RedGatherToken = GetIntValue(value);
+            else if (property.Equals("GoblinDice"))
+                GoblinDice = GetIntValue(value);
+            else if (property.Equals("BlueGatherToken"))
+                BlueGatherToken = GetIntValue(value);
+            else if (property.Equals("HiCordial"))
+                HiCordial = GetIntValue(value);
+            else if (property.Equals("BruteLeech"))
+                BruteLeech = GetIntValue(value);
+            else if (property.Equals("CraneFly"))
+                CraneFly = GetIntValue(value);
+
+            else if (property.Equals("CommercialSurvivalManual"))
+                CommercialSurvivalManual = GetIntValue(value);
+            else if (property.Equals("TrailblazersScarf"))
+                TrailblazersScarf = GetIntValue(value);
+            else if (property.Equals("TrailblazersVest"))
+                TrailblazersVest = GetIntValue(value);
+            else if (property.Equals("TrailblazersWristguards"))
+                TrailblazersWristguards = GetIntValue(value);
+            else if (property.Equals("TrailblazersSlops"))
+                TrailblazersSlops = GetIntValue(value);
+            else if (property.Equals("TrailblazersShoes"))
+                TrailblazersShoes = GetIntValue(value);
+            else if (property.Equals("FiendWorm"))
+                FiendWorm = GetIntValue(value);
+            else if (property.Equals("MagmaWorm"))
+                MagmaWorm = GetIntValue(value);
+            else if (property.Equals("RedBalloon"))
+                RedBalloon = GetIntValue(value);
+            else if (property.Equals("CrownTrout"))
+                CrownTrout = GetIntValue(value);
+            else if (property.Equals("CrownTroutHQ"))
+                CrownTroutHQ = GetIntValue(value);
+            else if (property.Equals("RetributionStaff"))
+                RetributionStaff = GetIntValue(value);
+            else if (property.Equals("RetributionStaffHQ"))
+                RetributionStaffHQ = GetIntValue(value);
+            else if (property.Equals("ThiefBetta"))
+                ThiefBetta = GetIntValue(value);
+            else if (property.Equals("ThiefBettaHQ"))
+                ThiefBettaHQ = GetIntValue(value);
+            else if (property.Equals("GoldsmithCrab"))
+                GoldsmithCrab = GetIntValue(value);
+            else if (property.Equals("GoldsmithCrabHQ"))
+                GoldsmithCrabHQ = GetIntValue(value);
+            else if (property.Equals("Pterodactyl"))
+                Pterodactyl = GetIntValue(value);
+            else if (property.Equals("PterodactylHQ"))
+                PterodactylHQ = GetIntValue(value);
+            else if (property.Equals("Eurhinosaur"))
+                Eurhinosaur = GetIntValue(value);
+            else if (property.Equals("EurhinosaurHQ"))
+                EurhinosaurHQ = GetIntValue(value);
+            else if (property.Equals("GemMarimo"))
+                GemMarimo = GetIntValue(value);
+            else if (property.Equals("GemMarimoHQ"))
+                GemMarimoHQ = GetIntValue(value);
+            else if (property.Equals("Sphalerite"))
+                Sphalerite = GetIntValue(value);
+            else if (property.Equals("SphaleriteHQ"))
+                SphaleriteHQ = GetIntValue(value);
+            else if (property.Equals("WindSilk"))
+                WindSilk = GetIntValue(value);
+            else if (property.Equals("CloudCottonBoll"))
+                CloudCottonBoll = GetIntValue(value);
+            else if (property.Equals("CloudCottonBollHQ"))
+                CloudCottonBollHQ = GetIntValue(value);
+            else if (property.Equals("DinosaurLeather"))
+                DinosaurLeather = GetIntValue(value);
+            else if (property.Equals("RoyalMistletoe"))
+                RoyalMistletoe = GetIntValue(value);
+            else if (property.Equals("RoyalMistletoeHQ"))
+                RoyalMistletoeHQ = GetIntValue(value);
+
+            else if (property.Equals("GuerdonIV"))
+                GuerdonIV = GetIntValue(value);
+            else if (property.Equals("GuileIV"))
+                GuileIV = GetIntValue(value);
+            else if (property.Equals("GraspIV"))
+                GraspIV = GetIntValue(value);
 
             // Snorlax
             else if (property.Equals("DisableRotationOverride_Snorlax"))
@@ -5172,7 +5827,7 @@ namespace WpfApplication1.Model
 
         public void SaveChanges()
         {
-            if (IsCheck)
+            if (IsCheck || GlobalDataManager.Instance.IsOpeningFileBrowser)
                 return;
 
             string text = File.ReadAllText(GlobalDataManager.Instance.FilePath);
@@ -5181,14 +5836,49 @@ namespace WpfApplication1.Model
 
             foreach (var property in properties)
             {
-                if (property.Name == "CordialTime_Tangela")
-                {
-                    int i = 0;
-                }
                 SavePropertyInFile(ref text, property.Name);
             }
             File.WriteAllText(GlobalDataManager.Instance.FilePath, text);
+            SaveJobsInFile(ref text);
             IsCheck = true;
+        }
+
+        private void SaveJobsInFile(ref string text)
+        {
+            WriteJobValue("MIN");
+            WriteJobValue("BTN");
+            WriteJobValue("FSH");
+        }
+
+        public void WriteJobValue(string job)
+        {
+            string[] arr = File.ReadAllLines(GlobalDataManager.Instance.FilePath);
+            string pattern = "<CodeChunk Name=\"" + job + "\">";
+
+            var jobValue = 0;
+            if (job.Equals("MIN"))
+                jobValue = MinerJob;
+            else if (job.Equals("BTN"))
+                jobValue = BotanistJob;
+            else if (job.Equals("FSH"))
+                jobValue = FisherJob;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                string line = arr[i];
+
+                if (line.Contains(pattern))
+                {
+                    string line2 = arr[++i];
+                    var match = Regex.Match(line2, @"/gs change \d+");
+                    var value = line2.Replace(match.Value, "/gs change " + jobValue);
+
+                    arr[i] = value;
+                    File.WriteAllLines(GlobalDataManager.Instance.FilePath, arr);
+                    return;
+                }
+            }
+            return;
         }
 
         private void SavePropertyInFile(ref string text, string propertyTypeFullName)
@@ -5204,6 +5894,8 @@ namespace WpfApplication1.Model
                 if (match.Value.Contains("True") || match.Value.Contains("False"))
                 {
                     var value = GetStringValueFromBoolean(this.GetType().GetProperty(propertyTypeFullName).GetValue(this));
+                    if (string.IsNullOrWhiteSpace((string)value))
+                        return;
                     var newText = "<!ENTITY " + propertyTypeFullName + " \"" + value + "\">";
                     text = text.Replace(match.Value, newText);
                     return;
@@ -5219,6 +5911,8 @@ namespace WpfApplication1.Model
             else
             {
                 var value = this.GetType().GetProperty(propertyTypeFullName).GetValue(this);
+                if (string.IsNullOrWhiteSpace((string) value))
+                    return;
                 var newText = "<!ENTITY " + propertyTypeFullName + " \"" + value + "\">";
                 text = text.Replace(match.Value, newText);
                 return;

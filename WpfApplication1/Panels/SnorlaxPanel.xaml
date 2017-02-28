@@ -74,9 +74,9 @@
 
                 <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Text="{x:Static resx:Resources.Ui_ItemsSelection}"/>
 
-                <xctk:WatermarkTextBox Grid.Column="0" Grid.Row="1" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Watermark="{x:Static resx:Resources.Ui_Search}" Margin="20,0,0,0" HorizontalAlignment="Left" Width="150"/>
-                <Button Grid.Column="1" Grid.Row="1" Content="{Binding ShowHideButtonText}" x:Name="ShowHideButton" Click="ShowHideButton_OnClick" Margin="0,0,20,0" HorizontalAlignment="Right" Width="50"/>
-                <ListBox x:Name="ItemSelectionList" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" ItemsSource="{Binding GatherableItems, Mode=OneWay}" Height="400" MouseDoubleClick="EventSetter_OnHandler" Margin="20,0,20,0">
+                <xctk:WatermarkTextBox Grid.Column="0" Grid.Row="1" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Watermark="{x:Static resx:Resources.Ui_Search}" Margin="20,3,0,3" HorizontalAlignment="Left" Width="150"/>
+                <Button Grid.Column="1" Grid.Row="1" Content="{Binding ShowHideButtonText}" x:Name="ShowHideButton" Click="ShowHideButton_OnClick" Margin="0,3,20,3" HorizontalAlignment="Right" Width="50"/>
+                <ListBox x:Name="ItemSelectionList" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" ItemsSource="{Binding GatherableItems, Mode=OneWay}" Height="400" MouseDoubleClick="EventSetter_OnHandler" Margin="20,3,20,3">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <Grid Width="{Binding RelativeSource=
@@ -99,9 +99,9 @@
                     </ListBox.ItemTemplate>
                 </ListBox>
 
-                <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Text="{x:Static resx:Resources.Ui_SelectedItems}"/>
+                <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Text="{x:Static resx:Resources.Ui_SelectedItems}" Margin="0,3,0,3"/>
 
-                <ListBox x:Name="SelectedItemList" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" ItemsSource="{Binding SelectedGatherableItems, Mode=OneWay}" MinHeight="50" MaxHeight="400" VerticalAlignment="Stretch" Margin="20,0,20,0">
+                <ListBox x:Name="SelectedItemList" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" ItemsSource="{Binding SelectedGatherableItems, Mode=OneWay}" MinHeight="50" MaxHeight="400" VerticalAlignment="Stretch" Margin="20,3,20,3">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <Grid Width="{Binding RelativeSource=

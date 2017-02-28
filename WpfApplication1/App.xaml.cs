@@ -11,6 +11,7 @@ namespace WpfApplication1
     {
         protected override void OnStartup(StartupEventArgs e)
         {
+            GlobalDataManager.Instance.CurrentOpenTab = -1;
             base.OnStartup(e);
         }
 

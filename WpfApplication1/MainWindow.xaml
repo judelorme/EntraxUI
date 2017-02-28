@@ -4,42 +4,8 @@
         xmlns:resx="clr-namespace:WpfApplication1.Properties"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:panels="clr-namespace:WpfApplication1.Panels"
-        Title="Entrax UI" Height="900" Width="1400">
+        Title="Entrax UI" Height="900" Width="1400" Icon="Assets/Picto/moggle.ico">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <TabControl Grid.Row="0">
-            <TabItem Header="General">
-                <panels:GeneralPanel />
-            </TabItem>
-            <TabItem Header="Tangela">
-                <panels:TangelaPanel />
-            </TabItem>
-            <TabItem Header="Onix" IsEnabled="False"/>
-            <TabItem Header="Ditto" IsEnabled="False"/>
-            <TabItem Header="Magikarp" IsEnabled="False"/>
-            <TabItem Header="Psyduck">
-                <panels:PsyduckPanel />
-            </TabItem>
-            <TabItem Header="Slowpoke" IsEnabled="False"/>
-            <TabItem Header="Umbreon" IsEnabled="False"/>
-            <TabItem Header="Snorlax">
-                <panels:SnorlaxPanel />
-            </TabItem>
-            <TabItem Header="Unown">
-                <panels:UnownPanel />
-            </TabItem>
-            <TabItem Header="Unown (Blue/red scripts)">
-                <panels:UnownScriptsPanel />
-            </TabItem>
-        </TabControl>
-        <Grid Grid.Row="1" VerticalAlignment="Bottom">
-            <Button Content="{x:Static resx:Resources.Ui_SwitchLanguage}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,5,0,5" x:Name="ChangeLanguageButton" Click="ChangeLanguageButton_OnClick"/>
-            <TextBlock Text="Copyright 2017 - Khralala" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Image Source="Assets/Picto/check.png" Margin="0,5,5,5" HorizontalAlignment="Right" Height="25" Width="25" Visibility="{Binding Source={x:Static model:EntraxModel.Instance}, Path=IsCheck, Converter={StaticResource BooleanToVisibilityConverter}}" />
-            <Image Source="Assets/Picto/uncheck.png" Margin="0,5,5,5" HorizontalAlignment="Right" Height="25" Width="25" Visibility="{Binding Source={x:Static model:EntraxModel.Instance}, Path=IsCheck, Converter={StaticResource BooleanNegationToVisibilityConverter}}" />
-        </Grid>
+
     </Grid>
 </Window>

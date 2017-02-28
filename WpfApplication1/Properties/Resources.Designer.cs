@@ -277,11 +277,11 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Avoir de Rowena (récolteur/bleu) :.
+        ///   Looks up a localized string similar to Avoir de Rowena (récolteur/bleu).
         /// </summary>
-        public static string BlueGatherToken_Count {
+        public static string BlueGatherToken {
             get {
-                return ResourceManager.GetString("BlueGatherToken_Count", resourceCulture);
+                return ResourceManager.GetString("BlueGatherToken", resourceCulture);
             }
         }
         
@@ -304,11 +304,11 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sangsue bestiale :.
+        ///   Looks up a localized string similar to Sangsue bestiale.
         /// </summary>
-        public static string BruteLeech_Count {
+        public static string BruteLeech {
             get {
-                return ResourceManager.GetString("BruteLeech_Count", resourceCulture);
+                return ResourceManager.GetString("BruteLeech", resourceCulture);
             }
         }
         
@@ -475,6 +475,24 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fleur de coton des nuages.
+        /// </summary>
+        public static string CloudCottonBoll {
+            get {
+                return ResourceManager.GetString("CloudCottonBoll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fleur de coton des nuages HQ.
+        /// </summary>
+        public static string CloudCottonBollHQ {
+            get {
+                return ResourceManager.GetString("CloudCottonBollHQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mica blanc.
         /// </summary>
         public static string CloudMica {
@@ -565,6 +583,15 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Manuel commercial de survie.
+        /// </summary>
+        public static string CommercialSurvivalManual {
+            get {
+                return ResourceManager.GetString("CommercialSurvivalManual", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Échinacée.
         /// </summary>
         public static string Coneflower {
@@ -601,11 +628,29 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tipule géante :.
+        ///   Looks up a localized string similar to Tipule géante.
         /// </summary>
-        public static string CraneFly_Count {
+        public static string CraneFly {
             get {
-                return ResourceManager.GetString("CraneFly_Count", resourceCulture);
+                return ResourceManager.GetString("CraneFly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Truite couronnée.
+        /// </summary>
+        public static string CrownTrout {
+            get {
+                return ResourceManager.GetString("CrownTrout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Truite couronnée HQ.
+        /// </summary>
+        public static string CrownTroutHQ {
+            get {
+                return ResourceManager.GetString("CrownTroutHQ", resourceCulture);
             }
         }
         
@@ -687,6 +732,15 @@ namespace WpfApplication1.Properties {
         public static string DarksteelOre {
             get {
                 return ResourceManager.GetString("DarksteelOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cuir de dinosaure.
+        /// </summary>
+        public static string DinosaurLeather {
+            get {
+                return ResourceManager.GetString("DinosaurLeather", resourceCulture);
             }
         }
         
@@ -898,6 +952,24 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Eurhinosaure.
+        /// </summary>
+        public static string Eurhinosaur {
+            get {
+                return ResourceManager.GetString("Eurhinosaur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eurhinosaure HQ.
+        /// </summary>
+        public static string EurhinosaurHQ {
+            get {
+                return ResourceManager.GetString("EurhinosaurHQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Nid Du Faucon.
         /// </summary>
         public static string FalconsNest {
@@ -921,6 +993,15 @@ namespace WpfApplication1.Properties {
         public static string Ferberite {
             get {
                 return ResourceManager.GetString("Ferberite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ver violet.
+        /// </summary>
+        public static string FiendWorm {
+            get {
+                return ResourceManager.GetString("FiendWorm", resourceCulture);
             }
         }
         
@@ -1069,6 +1150,24 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Marimo gemme.
+        /// </summary>
+        public static string GemMarimo {
+            get {
+                return ResourceManager.GetString("GemMarimo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Marimo gemme HQ.
+        /// </summary>
+        public static string GemMarimoHQ {
+            get {
+                return ResourceManager.GetString("GemMarimoHQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Modules activés.
         /// </summary>
         public static string General_ActivePlugins {
@@ -1186,11 +1285,11 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dé gobelin :.
+        ///   Looks up a localized string similar to Dé gobelin.
         /// </summary>
-        public static string GoblinDice_Count {
+        public static string GoblinDice {
             get {
-                return ResourceManager.GetString("GoblinDice_Count", resourceCulture);
+                return ResourceManager.GetString("GoblinDice", resourceCulture);
             }
         }
         
@@ -1213,11 +1312,56 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Crabe orfèvre.
+        /// </summary>
+        public static string GoldsmithCrab {
+            get {
+                return ResourceManager.GetString("GoldsmithCrab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Crabe orfèvre HQ.
+        /// </summary>
+        public static string GoldsmithCrabHQ {
+            get {
+                return ResourceManager.GetString("GoldsmithCrabHQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Matéria du rendement IV.
+        /// </summary>
+        public static string GraspIV {
+            get {
+                return ResourceManager.GetString("GraspIV", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Quartz vert.
         /// </summary>
         public static string GreenQuartz {
             get {
                 return ResourceManager.GetString("GreenQuartz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Matéria de la collecte IV.
+        /// </summary>
+        public static string GuerdonIV {
+            get {
+                return ResourceManager.GetString("GuerdonIV", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Matéria du discernement IV.
+        /// </summary>
+        public static string GuileIV {
+            get {
+                return ResourceManager.GetString("GuileIV", resourceCulture);
             }
         }
         
@@ -1267,11 +1411,11 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Breuvage cordial supérieur :.
+        ///   Looks up a localized string similar to Breuvage cordial supérieur.
         /// </summary>
-        public static string HiCordial_Count {
+        public static string HiCordial {
             get {
-                return ResourceManager.GetString("HiCordial_Count", resourceCulture);
+                return ResourceManager.GetString("HiCordial", resourceCulture);
             }
         }
         
@@ -1600,6 +1744,15 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ver de magma.
+        /// </summary>
+        public static string MagmaWorm {
+            get {
+                return ResourceManager.GetString("MagmaWorm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Météorite.
         /// </summary>
         public static string Meteorite {
@@ -1614,6 +1767,15 @@ namespace WpfApplication1.Properties {
         public static string Meteortoise_Psyduck {
             get {
                 return ResourceManager.GetString("Meteortoise_Psyduck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Espace restant dans l&apos;inventaire avant d&apos;échanger les ressources :.
+        /// </summary>
+        public static string MinimumFreeSlot_TurnIn {
+            get {
+                return ResourceManager.GetString("MinimumFreeSlot_TurnIn", resourceCulture);
             }
         }
         
@@ -1960,6 +2122,24 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ptérodactyle.
+        /// </summary>
+        public static string Pterodactyl {
+            get {
+                return ResourceManager.GetString("Pterodactyl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ptérodactyle HQ.
+        /// </summary>
+        public static string PterodactylHQ {
+            get {
+                return ResourceManager.GetString("PterodactylHQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Minerai de pyrite.
         /// </summary>
         public static string Pyrite {
@@ -2140,11 +2320,20 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Avoir de Rowena (récolteur/rouge) :.
+        ///   Looks up a localized string similar to Scaraballon rouge.
         /// </summary>
-        public static string RedGatherToken_Count {
+        public static string RedBalloon {
             get {
-                return ResourceManager.GetString("RedGatherToken_Count", resourceCulture);
+                return ResourceManager.GetString("RedBalloon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Avoir de Rowena (récolteur/rouge).
+        /// </summary>
+        public static string RedGatherToken {
+            get {
+                return ResourceManager.GetString("RedGatherToken", resourceCulture);
             }
         }
         
@@ -2167,6 +2356,24 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bâton de châtiment.
+        /// </summary>
+        public static string RetributionStaff {
+            get {
+                return ResourceManager.GetString("RetributionStaff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bâton de châtiment HQ.
+        /// </summary>
+        public static string RetributionStaffHQ {
+            get {
+                return ResourceManager.GetString("RetributionStaffHQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Glas Des Revenants.
         /// </summary>
         public static string RevenantsToll {
@@ -2181,6 +2388,24 @@ namespace WpfApplication1.Properties {
         public static string Rosemary {
             get {
                 return ResourceManager.GetString("Rosemary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gui royal.
+        /// </summary>
+        public static string RoyalMistletoe {
+            get {
+                return ResourceManager.GetString("RoyalMistletoe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gui royal HQ.
+        /// </summary>
+        public static string RoyalMistletoeHQ {
+            get {
+                return ResourceManager.GetString("RoyalMistletoeHQ", resourceCulture);
             }
         }
         
@@ -2266,6 +2491,24 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Minerai de sphalérite.
+        /// </summary>
+        public static string Sphalerite {
+            get {
+                return ResourceManager.GetString("Sphalerite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Minerai de sphalérite HQ.
+        /// </summary>
+        public static string SphaleriteHQ {
+            get {
+                return ResourceManager.GetString("SphaleriteHQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Aneth.
         /// </summary>
         public static string SprigOfMistDill {
@@ -2340,9 +2583,9 @@ namespace WpfApplication1.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Rondin de teck.
         /// </summary>
-        public static string Teaklog {
+        public static string TeakLog {
             get {
-                return ResourceManager.GetString("Teaklog", resourceCulture);
+                return ResourceManager.GetString("TeakLog", resourceCulture);
             }
         }
         
@@ -2437,6 +2680,24 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Betta voleur.
+        /// </summary>
+        public static string ThiefBetta {
+            get {
+                return ResourceManager.GetString("ThiefBetta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Betta voleur HQ.
+        /// </summary>
+        public static string ThiefBettaHQ {
+            get {
+                return ResourceManager.GetString("ThiefBettaHQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Anguille foudroyante.
         /// </summary>
         public static string ThunderboltEel_Psyduck {
@@ -2464,11 +2725,47 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Echanger les assignats contre des Reçus de Livraison :.
+        ///   Looks up a localized string similar to Foulard de pionnier.
         /// </summary>
-        public static string Trade_Counterfoil {
+        public static string TrailblazersScarf {
             get {
-                return ResourceManager.GetString("Trade_Counterfoil", resourceCulture);
+                return ResourceManager.GetString("TrailblazersScarf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chaussures de pionnier.
+        /// </summary>
+        public static string TrailblazersShoes {
+            get {
+                return ResourceManager.GetString("TrailblazersShoes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trousses de pionnier.
+        /// </summary>
+        public static string TrailblazersSlops {
+            get {
+                return ResourceManager.GetString("TrailblazersSlops", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gilet de pionnier.
+        /// </summary>
+        public static string TrailblazersVest {
+            get {
+                return ResourceManager.GetString("TrailblazersVest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Garde-poignets de pionnier.
+        /// </summary>
+        public static string TrailblazersWristguards {
+            get {
+                return ResourceManager.GetString("TrailblazersWristguards", resourceCulture);
             }
         }
         
@@ -2518,6 +2815,15 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Echanger les assignats contre des Reçus de Livraison :.
+        /// </summary>
+        public static string TurnIn_Counterfoil {
+            get {
+                return ResourceManager.GetString("TurnIn_Counterfoil", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Echange les ressources contre des assignats :.
         /// </summary>
         public static string TurnInAfterLoop {
@@ -2527,20 +2833,20 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Espace restant dans l&apos;inventaire avant d&apos;échanger les ressources :.
-        /// </summary>
-        public static string TurnInAfterLoop_free_bag_slots {
-            get {
-                return ResourceManager.GetString("TurnInAfterLoop_free_bag_slots", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Assignats bleus.
         /// </summary>
         public static string Ui_BlueScrips {
             get {
                 return ResourceManager.GetString("Ui_BlueScrips", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Botaniste.
+        /// </summary>
+        public static string UI_Botanist {
+            get {
+                return ResourceManager.GetString("UI_Botanist", resourceCulture);
             }
         }
         
@@ -2590,6 +2896,33 @@ namespace WpfApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Découvrir les noeux inconnus :.
+        /// </summary>
+        public static string UI_DiscoverUnkowns {
+            get {
+                return ResourceManager.GetString("UI_DiscoverUnkowns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pêcheur.
+        /// </summary>
+        public static string UI_Fisher {
+            get {
+                return ResourceManager.GetString("UI_Fisher", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tenues.
+        /// </summary>
+        public static string UI_GearSet {
+            get {
+                return ResourceManager.GetString("UI_GearSet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Généralités.
         /// </summary>
         public static string Ui_General {
@@ -2604,6 +2937,15 @@ namespace WpfApplication1.Properties {
         public static string Ui_ItemsSelection {
             get {
                 return ResourceManager.GetString("Ui_ItemsSelection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mineur.
+        /// </summary>
+        public static string UI_Miner {
+            get {
+                return ResourceManager.GetString("UI_Miner", resourceCulture);
             }
         }
         
@@ -2892,6 +3234,15 @@ namespace WpfApplication1.Properties {
         public static string WindShard_MIN {
             get {
                 return ResourceManager.GetString("WindShard_MIN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Étoffe de soie des vents.
+        /// </summary>
+        public static string WindSilk {
+            get {
+                return ResourceManager.GetString("WindSilk", resourceCulture);
             }
         }
         

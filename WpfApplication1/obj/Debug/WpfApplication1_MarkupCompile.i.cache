@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Travail\GitHub\EntraxUI\WpfApplication1\App.xaml
-71524006188
+81516655230
 
-22-1736543000
+23674703890
 181988123205
-FileChooser.xaml;MainWindow.xaml;Panels\GeneralPanel.xaml;Panels\PsyduckPanel.xaml;Panels\SnorlaxPanel.xaml;Panels\TangelaPanel.xaml;Panels\UnownPanel.xaml;
+FileChooser.xaml;MainWindow.xaml;Panels\GeneralPanel.xaml;Panels\PsyduckPanel.xaml;Panels\SnorlaxPanel.xaml;Panels\TangelaPanel.xaml;Panels\UnownPanel.xaml;Panels\UnownScriptsPanel.xaml;
 
-True
+False
 

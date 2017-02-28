@@ -39,6 +39,9 @@ namespace WpfApplication1.Model
         public CultureInfo CurrentCulture { get; set; }
         public CultureInfo CurrentUICulture { get; set; }
 
+        public bool IsOpeningFileBrowser { get; set; }
+        public int CurrentOpenTab { get; set; }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         [NotifyPropertyChangedInvocator]

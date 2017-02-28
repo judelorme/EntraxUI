@@ -52,35 +52,28 @@
                         <RowDefinition />
                         <RowDefinition />
                         <RowDefinition />
-                        <RowDefinition />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="0" Grid.Row="0">
+                    <StackPanel Grid.Column="0" Grid.Row="0" Margin="0,3,0,3">
                         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Désactiver la rotation (lvl 50 à 60) :</TextBlock>
                         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Permet de ne pas utiliser de Points de récolte)</TextBlock>
                     </StackPanel>
                     <CheckBox Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=DisableRotationOverride_50_60}"/>
 
-                    <StackPanel Grid.Column="0" Grid.Row="1">
+                    <StackPanel Grid.Column="0" Grid.Row="1" Margin="0,3,0,3">
                         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Désactiver la rotation (1 étoile) :</TextBlock>
                         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Permet de ne pas utiliser de Points de récolte)</TextBlock>
                     </StackPanel>
                     <CheckBox Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=DisableRotationOverride_1Star}"/>
 
-                    <StackPanel Grid.Column="0" Grid.Row="2">
-                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Désactiver la rotation (2 étoiles) :</TextBlock>
-                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Permet de ne pas utiliser de Points de récolte)</TextBlock>
-                    </StackPanel>
-                    <CheckBox Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=DisableRotationOverride_1StarPlus}"/>
-
-                    <StackPanel Grid.Column="0" Grid.Row="3">
+                    <StackPanel Grid.Column="0" Grid.Row="2" Margin="0,3,0,3">
                         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Désactiver la rotation (3 étoiles) :</TextBlock>
                         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource Tips}">(Permet de ne pas utiliser de Points de récolte)</TextBlock>
                     </StackPanel>
-                    <CheckBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=DisableRotationOverride_3Star}"/>
+                    <CheckBox Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=DisableRotationOverride_3Star}"/>
                 </Grid>
 
                 <Grid Grid.Column="0" Grid.Row="2" ColumnSpan="2">
@@ -95,16 +88,16 @@
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
                     <TextBlock Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Rotation (lvl 50 à 60) :</TextBlock>
-                    <ComboBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_50_60}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300"/>
+                    <ComboBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_50_60}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300" Margin="0,3,0,3"/>
 
                     <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Rotation (1 étoile) :</TextBlock>
-                    <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_1Star}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300"/>
+                    <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_1Star}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300" Margin="0,3,0,3"/>
 
-                    <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Rotation (2 étoiles) :</TextBlock>
-                    <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_1StarPlus}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300"/>
+                    <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Rotation (3 étoiles) :</TextBlock>
+                    <ComboBox Grid.Column="1" Grid.Row="2" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_3Star}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300" Margin="0,3,0,3"/>
 
-                    <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Rotation (3 étoiles) :</TextBlock>
-                    <ComboBox Grid.Column="1" Grid.Row="3" ItemsSource="{Binding Rotations}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GatherIncrease_3Star}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300"/>
+                    <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.UI_DiscoverUnkowns}"/>
+                    <CheckBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=DiscoverUnknowns}" Margin="0,3,0,3"/>
                 </Grid>
             </Grid>
 
@@ -129,25 +122,25 @@
                 <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Réglage des noeux à agrégats</TextBlock>
 
                 <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Matière carbonique grade IV :</TextBlock>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="1" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Grade4_Carbonized_Matter}" Increment="0" Minimum="1" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="1" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Grade4_Carbonized_Matter}" Increment="0" Minimum="1" Maximum="9999" Width="60" Margin="5,3,0,3"/>
                 
                 <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de foudre :</TextBlock>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="2" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Lightning_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+                    <xctk:IntegerUpDown Grid.Column="1" Grid.Row="2" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Lightning_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,3,0,3"/>
 
                 <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de feu :</TextBlock>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="3" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Fire_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+                    <xctk:IntegerUpDown Grid.Column="1" Grid.Row="3" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Fire_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,3,0,3"/>
 
                 <TextBlock Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de vent :</TextBlock>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="4" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Wind_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+                    <xctk:IntegerUpDown Grid.Column="1" Grid.Row="4" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Wind_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,3,0,3"/>
 
                 <TextBlock Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat d'eau :</TextBlock>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="5" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Water_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+                    <xctk:IntegerUpDown Grid.Column="1" Grid.Row="5" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Water_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,3,0,3"/>
 
                 <TextBlock Grid.Column="0" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de glace :</TextBlock>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="6" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Ice_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="6" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Ice_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,3,0,3"/>
 
                 <TextBlock Grid.Column="0" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">Agrégat de terre :</TextBlock>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="7" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Earth_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,0,0,0"/>
+                    <xctk:IntegerUpDown Grid.Column="1" Grid.Row="7" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Earth_Cluster}" Increment="1" Minimum="0" Maximum="9999" Width="60" Margin="5,3,0,3"/>
 
             </Grid>
 
@@ -167,9 +160,9 @@
 
                 <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Sélection des ressources</TextBlock>
 
-                <xctk:WatermarkTextBox Grid.Column="0" Grid.Row="1" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Watermark="{x:Static resx:Resources.Ui_Search}" Margin="20,0,0,0" HorizontalAlignment="Left" Width="150"/>
-                <Button Grid.Column="1" Grid.Row="1" Content="{Binding ShowHideButtonText}" x:Name="ShowHideButton" Click="ShowHideButton_OnClick" Margin="0,0,20,0" HorizontalAlignment="Right" Width="50"/>
-                <ListBox x:Name="ItemSelectionList" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Height="400" MouseDoubleClick="EventSetter_OnHandler" Margin="20,0,20,0">
+                <xctk:WatermarkTextBox Grid.Column="0" Grid.Row="1" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Watermark="{x:Static resx:Resources.Ui_Search}" Margin="20,3,0,3" HorizontalAlignment="Left" Width="150"/>
+                <Button Grid.Column="1" Grid.Row="1" Content="{Binding ShowHideButtonText}" x:Name="ShowHideButton" Click="ShowHideButton_OnClick" Margin="0,3,20,3" HorizontalAlignment="Right" Width="50"/>
+                <ListBox x:Name="ItemSelectionList" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Height="400" MouseDoubleClick="EventSetter_OnHandler" Margin="20,3,20,3">
                     <ListBox.GroupStyle>
                         <GroupStyle>
                             <GroupStyle.HeaderTemplate>
@@ -203,9 +196,9 @@
                     </ListBox.ItemTemplate>
                 </ListBox>
 
-                <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}">Ressources sélectionnées</TextBlock>
+                    <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Margin="0,3,0,3">Ressources sélectionnées</TextBlock>
 
-                <ListBox x:Name="SelectedItemList" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" ItemsSource="{Binding SelectedGatherableItems, Mode=OneWay}" MinHeight="50" MaxHeight="400" VerticalAlignment="Stretch" Margin="20,0,20,0">
+                <ListBox x:Name="SelectedItemList" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" ItemsSource="{Binding SelectedGatherableItems, Mode=OneWay}" MinHeight="50" MaxHeight="400" VerticalAlignment="Stretch" Margin="20,3,20,3">
                     <ListBox.GroupStyle>
                         <GroupStyle />
                     </ListBox.GroupStyle>

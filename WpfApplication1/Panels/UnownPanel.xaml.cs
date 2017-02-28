@@ -176,7 +176,7 @@ namespace WpfApplication1.Panels
 
             GatherableItems.Add(new GatherableItem { Name = "Rubis brut", Job = Job.Miner, FirstStartTime = 18, PropertyName = "RawRuby" });
             GatherableItems.Add(new GatherableItem { Name = "Saphir brut", Job = Job.Miner, FirstStartTime = 18, PropertyName = "RawSapphire" });
-            GatherableItems.Add(new GatherableItem { Name = "Rondin de teck", Job = Job.Botanist, FirstStartTime = 18, PropertyName = "Teaklog" });
+            GatherableItems.Add(new GatherableItem { Name = "Rondin de teck", Job = Job.Botanist, FirstStartTime = 18, PropertyName = "TeakLog" });
 
             /* 7 - 19 */
             GatherableItems.Add(new GatherableItem { Name = "Roche ombrale", Job = Job.Miner, FirstStartTime = 7, PropertyName = "UmbralRock" });

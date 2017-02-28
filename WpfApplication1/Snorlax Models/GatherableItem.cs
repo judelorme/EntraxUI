@@ -45,7 +45,7 @@ namespace WpfApplication1.Snorlax_Models
             set
             {
                 _quantity = value;
-                if (PropertyName != null && _quantity != 0 && (int)EntraxModel.Instance.GetType().GetProperty(this.PropertyName).GetValue(EntraxModel.Instance) != _quantity)
+                if (PropertyName != null && (int)EntraxModel.Instance.GetType().GetProperty(this.PropertyName).GetValue(EntraxModel.Instance) != _quantity)
                 {
                     EntraxModel.Instance.GetType().GetProperty(this.PropertyName).SetValue(EntraxModel.Instance, _quantity);
                 }

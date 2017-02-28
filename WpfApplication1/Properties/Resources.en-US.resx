@@ -852,7 +852,7 @@
   <data name="Tailfeather" xml:space="preserve">
     <value>Tailfeather</value>
   </data>
-  <data name="Teaklog" xml:space="preserve">
+  <data name="TeakLog" xml:space="preserve">
     <value>Teak Log</value>
   </data>
   <data name="ThaliakCaiman_Psyduck" xml:space="preserve">
@@ -1032,37 +1032,37 @@
   <data name="ZeoliteOre" xml:space="preserve">
     <value>Zeolite Ore</value>
   </data>
-  <data name="BlueGatherToken_Count" xml:space="preserve">
-    <value>Rowena's Token (Blue Gatherers' Scrip) :</value>
+  <data name="BlueGatherToken" xml:space="preserve">
+    <value>Rowena's Token (Blue Gatherers' Scrip)</value>
   </data>
-  <data name="BruteLeech_Count" xml:space="preserve">
-    <value>Brute Leech :</value>
+  <data name="BruteLeech" xml:space="preserve">
+    <value>Brute Leech</value>
   </data>
   <data name="Cap_Amount" xml:space="preserve">
     <value>Max red scrips amount to trade :</value>
   </data>
-  <data name="CraneFly_Count" xml:space="preserve">
-    <value>Giant Crane Fly :</value>
+  <data name="CraneFly" xml:space="preserve">
+    <value>Giant Crane Fly</value>
   </data>
-  <data name="GoblinDice_Count" xml:space="preserve">
-    <value>Goblin Dice :</value>
+  <data name="GoblinDice" xml:space="preserve">
+    <value>Goblin Dice</value>
   </data>
-  <data name="HiCordial_Count" xml:space="preserve">
-    <value>Hi-Cordial :</value>
+  <data name="HiCordial" xml:space="preserve">
+    <value>Hi-Cordial</value>
   </data>
   <data name="MorDhona" xml:space="preserve">
     <value>Mor Dhona</value>
   </data>
-  <data name="RedGatherToken_Count" xml:space="preserve">
-    <value>Rowena's Token (Red Gatherers' Scrip) :</value>
+  <data name="RedGatherToken" xml:space="preserve">
+    <value>Rowena's Token (Red Gatherers' Scrip)</value>
   </data>
-  <data name="Trade_Counterfoil" xml:space="preserve">
+  <data name="TurnIn_Counterfoil" xml:space="preserve">
     <value>Trade scrips for counterfoils :</value>
   </data>
   <data name="TurnInAfterLoop" xml:space="preserve">
     <value>Turn items in for scrips :</value>
   </data>
-  <data name="TurnInAfterLoop_free_bag_slots" xml:space="preserve">
+  <data name="MinimumFreeSlot_TurnIn" xml:space="preserve">
     <value>Space left in the inventory before turning in :</value>
   </data>
   <data name="TurnIn_City" xml:space="preserve">
@@ -1079,5 +1079,122 @@
   </data>
   <data name="Ui_Search" xml:space="preserve">
     <value>Search...</value>
+  </data>
+  <data name="UI_Botanist" xml:space="preserve">
+    <value>Botanist</value>
+  </data>
+  <data name="UI_Fisher" xml:space="preserve">
+    <value>Fisher</value>
+  </data>
+  <data name="UI_GearSet" xml:space="preserve">
+    <value>Gearsets</value>
+  </data>
+  <data name="UI_Miner" xml:space="preserve">
+    <value>Miner</value>
+  </data>
+  <data name="UI_DiscoverUnkowns" xml:space="preserve">
+    <value>Discover unknown nodes :</value>
+  </data>
+  <data name="CloudCottonBoll" xml:space="preserve">
+    <value>Cloud Cotton Boll</value>
+  </data>
+  <data name="CloudCottonBollHQ" xml:space="preserve">
+    <value>Cloud Cotton Boll HQ</value>
+  </data>
+  <data name="CommercialSurvivalManual" xml:space="preserve">
+    <value>Commercial Survival Manual</value>
+  </data>
+  <data name="CrownTrout" xml:space="preserve">
+    <value>Crown Trout</value>
+  </data>
+  <data name="CrownTroutHQ" xml:space="preserve">
+    <value>Crown Trout HQ</value>
+  </data>
+  <data name="DinosaurLeather" xml:space="preserve">
+    <value>Dinosaur Leather</value>
+  </data>
+  <data name="Eurhinosaur" xml:space="preserve">
+    <value>Eurhinosaur</value>
+  </data>
+  <data name="EurhinosaurHQ" xml:space="preserve">
+    <value>Eurhinosaur HQ</value>
+  </data>
+  <data name="FiendWorm" xml:space="preserve">
+    <value>Fiend Worm</value>
+  </data>
+  <data name="GemMarimo" xml:space="preserve">
+    <value>Gem Marimo</value>
+  </data>
+  <data name="GemMarimoHQ" xml:space="preserve">
+    <value>Gem Marimo HQ</value>
+  </data>
+  <data name="GoldsmithCrab" xml:space="preserve">
+    <value>Goldsmith Crab</value>
+  </data>
+  <data name="GoldsmithCrabHQ" xml:space="preserve">
+    <value>Goldsmith Crab HQ</value>
+  </data>
+  <data name="MagmaWorm" xml:space="preserve">
+    <value>Magma Worm</value>
+  </data>
+  <data name="Pterodactyl" xml:space="preserve">
+    <value>Pterodactyl</value>
+  </data>
+  <data name="PterodactylHQ" xml:space="preserve">
+    <value>Pterodactyl HQ</value>
+  </data>
+  <data name="RedBalloon" xml:space="preserve">
+    <value>Red Balloon</value>
+  </data>
+  <data name="RetributionStaff" xml:space="preserve">
+    <value>Retribution Staff</value>
+  </data>
+  <data name="RetributionStaffHQ" xml:space="preserve">
+    <value>Retribution Staff HQ</value>
+  </data>
+  <data name="RoyalMistletoe" xml:space="preserve">
+    <value>Royal Mistletoe</value>
+  </data>
+  <data name="RoyalMistletoeHQ" xml:space="preserve">
+    <value>Royal Mistletoe HQ</value>
+  </data>
+  <data name="Sphalerite" xml:space="preserve">
+    <value>Sphalerite</value>
+  </data>
+  <data name="SphaleriteHQ" xml:space="preserve">
+    <value>Sphalerite HQ</value>
+  </data>
+  <data name="ThiefBetta" xml:space="preserve">
+    <value>Thief Betta</value>
+  </data>
+  <data name="ThiefBettaHQ" xml:space="preserve">
+    <value>Thief Betta HQ</value>
+  </data>
+  <data name="TrailblazersScarf" xml:space="preserve">
+    <value>Trailblazer's Scarf</value>
+  </data>
+  <data name="TrailblazersShoes" xml:space="preserve">
+    <value>Trailblazer's Shoes</value>
+  </data>
+  <data name="TrailblazersSlops" xml:space="preserve">
+    <value>Trailblazer's Slops</value>
+  </data>
+  <data name="TrailblazersVest" xml:space="preserve">
+    <value>Trailblazer's Vest</value>
+  </data>
+  <data name="TrailblazersWristguards" xml:space="preserve">
+    <value>Trailblazer's Wristguards</value>
+  </data>
+  <data name="WindSilk" xml:space="preserve">
+    <value>Wind Silk</value>
+  </data>
+  <data name="GraspIV" xml:space="preserve">
+    <value>Gatherer's Grasp Materia IV</value>
+  </data>
+  <data name="GuerdonIV" xml:space="preserve">
+    <value>Gatherer's Guerdon Materia IV</value>
+  </data>
+  <data name="GuileIV" xml:space="preserve">
+    <value>Gatherer's Guile Materia IV</value>
   </data>
 </root>

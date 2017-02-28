@@ -32,19 +32,19 @@
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.TurnInAfterLoop}"/>
-                <CheckBox Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TurnInAfterLoop}"/>
+                <CheckBox Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TurnInAfterLoop}" Margin="0,3,0,3"/>
 
                 <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.TurnIn_City}"/>
-                <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding TurnInCity}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TurnIn_City}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300"/>
+                <ComboBox Grid.Column="1" Grid.Row="1" ItemsSource="{Binding TurnInCity}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TurnIn_City}" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="300" Margin="0,3,0,3"/>
 
-                <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.TurnInAfterLoop_free_bag_slots}"/>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="2" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TurnInAfterLoop_free_bag_slots}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+                <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.MinimumFreeSlot_TurnIn}"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="2" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=MinimumFreeSlot_TurnIn}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,3,0,3"/>
 
-                <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.Trade_Counterfoil}"/>
-                <CheckBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Trade_Counterfoil}"/>
+                <TextBlock Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.TurnIn_Counterfoil}"/>
+                <CheckBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Source={x:Static model:EntraxModel.Instance}, Path=TurnIn_Counterfoil}"/>
 
                 <TextBlock Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.Cap_Amount}"/>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="4" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Cap_Amount}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="4" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=Cap_Amount}" Increment="1" Minimum="0" Maximum="450" Width="60" Margin="5,3,0,3"/>
             </Grid>
 
             <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource HeaderStyle}" Text="{x:Static resx:Resources.Ui_Shop}"/>
@@ -63,30 +63,85 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <TextBlock Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}" Text="{x:Static resx:Resources.Ui_RedScrips}"/>
-                
-                <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.RedGatherToken_Count}"/>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="1" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=RedGatherToken_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}" Text="{x:Static resx:Resources.Ui_RedScrips}"/>
 
-                <TextBlock Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.GoblinDice_Count}"/>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="2" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=GoblinDice_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+                <xctk:WatermarkTextBox Grid.Column="0" Grid.Row="1" Text="{Binding RedSearchText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Watermark="{x:Static resx:Resources.Ui_Search}" Margin="20,3,0,3" HorizontalAlignment="Left" Width="150"/>
+                <ListBox x:Name="RedItemSelectionList" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Height="200" Margin="20,3,20,3">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Width="{Binding RelativeSource=
+                                       {RelativeSource FindAncestor, 
+                                       AncestorType={x:Type ListBox}}, 
+                                       Path=ActualWidth}" Background="{Binding BackgroundColor, Mode=OneWay}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Horizontal">
+                                    <Image Source="{Binding ImagePath}" Height="40" Width="40" Margin="0,0,5,0"/>
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Name}" FontWeight="Bold" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                </StackPanel>
 
-                <TextBlock Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}" Text="{x:Static resx:Resources.Ui_BlueScrips}"/>
-                
-                <TextBlock Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.BlueGatherToken_Count}"/>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="4" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=BlueGatherToken_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+                                <Grid Grid.Column="1" Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="Quantité voulue :" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                    <xctk:IntegerUpDown Grid.Column="1" Value="{Binding Quantity}" Increment="1" Minimum="0" Maximum="999" Width="60" Margin="5,0,0,0"/>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
 
-                <TextBlock Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.HiCordial_Count}"/>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="5" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=HiCordial_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
+                <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource SubHeaderStyle}" Text="{x:Static resx:Resources.Ui_BlueScrips}"/>
 
-                <TextBlock Grid.Column="0" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.BruteLeech_Count}"/>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="6" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=BruteLeech_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
-
-                <TextBlock Grid.Column="0" Grid.Row="7" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="{x:Static resx:Resources.CraneFly_Count}"/>
-                <xctk:IntegerUpDown Grid.Column="1" Grid.Row="7" Value="{Binding Source={x:Static model:EntraxModel.Instance}, Path=CraneFly_Count}" Increment="1" Minimum="0" Maximum="100" Width="60" Margin="5,0,0,0"/>
-
+                <xctk:WatermarkTextBox Grid.Column="0" Grid.Row="8" Text="{Binding BlueSearchText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Watermark="{x:Static resx:Resources.Ui_Search}" Margin="20,3,0,3" HorizontalAlignment="Left" Width="150"/>
+                <ListBox x:Name="BlueItemSelectionList" Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="2" Height="400" Margin="20,0,20,0">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Width="{Binding RelativeSource=
+                                       {RelativeSource FindAncestor, 
+                                       AncestorType={x:Type ListBox}}, 
+                                       Path=ActualWidth}" Background="{Binding BackgroundColor, Mode=OneWay}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Horizontal">
+                                    <Image Source="{Binding ImagePath}" Height="40" Width="40" Margin="0,0,5,0"/>
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Name}" FontWeight="Bold" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                
+                                <Grid Grid.Column="1" Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="Quantité voulue :" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                    <xctk:IntegerUpDown Grid.Column="1" Value="{Binding Quantity}" Increment="1" Minimum="0" Maximum="999" Width="60" Margin="5,0,0,0"/>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
             </Grid>
         </Grid>
     </ScrollViewer>
